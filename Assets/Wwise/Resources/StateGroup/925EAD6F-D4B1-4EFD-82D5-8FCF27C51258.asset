@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc97b837eda388e4f93aa6d25a7656a0, type: 3}
+  m_Name: 925EAD6F-D4B1-4EFD-82D5-8FCF27C51258
+  m_EditorClassIdentifier: 
+  objectName: Green_Fog
+  id: 2230587343
+  guid: 925EAD6F-D4B1-4EFD-82D5-8FCF27C51258

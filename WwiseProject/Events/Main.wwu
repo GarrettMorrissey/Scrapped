@@ -1,0 +1,1347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7F3B352B-5E5D-4579-ACC1-73B47CD58C00}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Main" ID="{7F3B352B-5E5D-4579-ACC1-73B47CD58C00}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Environments" ID="{28AECF45-9317-47E0-8D79-938A524CF8A7}" ShortID="564478961">
+					<ChildrenList>
+						<Event Name="Amb_Pause" ID="{2C852615-1E58-4E9C-86D7-2812967E2C16}">
+							<ChildrenList>
+								<Action Name="" ID="{70ECD7A8-BD38-4352-B825-2382F4AE6537}" ShortID="383975501">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Environments" ID="{0AE98D93-6350-4A4F-AA58-B2E6E6709B11}" WorkUnitID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Resume" ID="{483460B7-96BD-4861-9D0C-B64CEC250282}">
+							<ChildrenList>
+								<Action Name="" ID="{563F591B-A656-462A-94CB-41B26F7D781D}" ShortID="723716028">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Environments" ID="{0AE98D93-6350-4A4F-AA58-B2E6E6709B11}" WorkUnitID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Play" ID="{28521870-5B09-400C-96BD-8F735819CD37}">
+							<ChildrenList>
+								<Action Name="" ID="{715206FF-6BEB-4D85-A19F-31D344A532BC}" ShortID="638438100">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Environments" ID="{0AE98D93-6350-4A4F-AA58-B2E6E6709B11}" WorkUnitID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amb_Stop" ID="{BC8E6F60-758C-4F96-A312-29C015530199}">
+							<ChildrenList>
+								<Action Name="" ID="{BAF0A73D-CF89-4D12-9824-9C5B1A0EE7BC}" ShortID="755550458">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Environments" ID="{0AE98D93-6350-4A4F-AA58-B2E6E6709B11}" WorkUnitID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Green_Fog_Play" ID="{172AC958-9035-4474-BBE6-0CC9D899071B}">
+							<ChildrenList>
+								<Action Name="" ID="{F53826E2-C90E-446A-AE08-52D051D28FB4}" ShortID="605471704">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Green_Fog_Loop" ID="{C7274A5A-D8F2-4910-BD45-FDDF602939AC}" WorkUnitID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Green_Fog_Stop" ID="{70AE6A4E-38B8-46E5-AC49-CA8D54DB2DF9}">
+							<ChildrenList>
+								<Action Name="" ID="{CB0401F7-7377-43C4-B489-8CF0A0DD7FA3}" ShortID="684692982">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Green_Fog_Loop" ID="{C7274A5A-D8F2-4910-BD45-FDDF602939AC}" WorkUnitID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Green_Fog_In" ID="{933F7DE8-B99E-40A9-A963-858A453DFEBC}">
+							<ChildrenList>
+								<Action Name="" ID="{4BD63AAD-3486-44F7-B4AE-60E1FA614A9C}" ShortID="872348955">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Green_Fog_Inside" ID="{66442615-184C-411B-B40C-7C2EB9E3959E}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E4737FD8-468F-4BF3-B4CA-29FD04F32183}" ShortID="749838862">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B2161299-75BC-4718-ABE4-EC36F7A824F3}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="0.2"/>
+															<Property Name="Min" Type="Real64" Value="-0.1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Damage" ID="{1782B4ED-9493-4FAC-B5C3-FF588BA8FEF8}" WorkUnitID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Green_Fog_Out" ID="{2AC03111-33B9-443C-AA58-6968A1DAB091}">
+							<ChildrenList>
+								<Action Name="" ID="{A83F0ECE-076A-48E8-AD49-9058064A860D}" ShortID="719146980">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Green_Fog_Outside" ID="{CCDA22C2-8253-4E86-B189-E291D51C426B}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AF26E19F-4B52-4DDB-A190-798F8321B2EA}" ShortID="55030950">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Damage" ID="{1782B4ED-9493-4FAC-B5C3-FF588BA8FEF8}" WorkUnitID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Checkpoint_Activate" ID="{63E4632C-5D66-4BFC-9A0B-8E22868ED608}">
+							<ChildrenList>
+								<Action Name="" ID="{6331CB84-DA88-4651-B9F9-D8AA3328EAE5}" ShortID="185039196">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Checkpoint_Activate" ID="{295EF4AD-A837-45DF-BF7C-0CA1B091AD4B}" WorkUnitID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D9070613-FAC0-4BAA-A411-FD990B200206}" ShortID="672850086">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+										<Property Name="Delay" Type="Real64" Value="1.8"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sfx_Checkpoint_Loop_Start" ID="{85BAEC34-AC0F-4232-8FD1-C044E75352FA}" WorkUnitID="{7F3B352B-5E5D-4579-ACC1-73B47CD58C00}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Enemy_Portal" ID="{E7AA0BAF-E64D-4908-BD38-E6D6E2BCBE33}">
+							<ChildrenList>
+								<Action Name="" ID="{6699796E-217F-407E-9BEB-5FD385F5915C}" ShortID="772552884">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spawn_Portal" ID="{BBF02B18-D58B-427F-AD2E-1D85C5F57E3F}" WorkUnitID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Spaceship_Fire_Loop_Start" ID="{5DE9AFA6-122E-4351-A46F-B7C8A9C14C80}">
+							<ChildrenList>
+								<Action Name="" ID="{7BDDEB0A-8FD9-4B72-AF1B-10122014397A}" ShortID="220051143">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spaceship_Fire" ID="{92630A8D-BF38-47C5-83A1-6D78BA27CF3E}" WorkUnitID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Spaceship_Fire_Loop_Stop" ID="{C4DF8943-F616-4214-A91E-D1888A886CB7}">
+							<ChildrenList>
+								<Action Name="" ID="{28713B15-547C-4F14-937A-D42DFB3650A4}" ShortID="670637799">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spaceship_Fire" ID="{92630A8D-BF38-47C5-83A1-6D78BA27CF3E}" WorkUnitID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Checkpoint_Loop_Start" ID="{85BAEC34-AC0F-4232-8FD1-C044E75352FA}">
+							<ChildrenList>
+								<Action Name="" ID="{F03AB286-4F32-4EDE-B6D5-05A37BB442F2}" ShortID="458996149">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Checkpoint_Loop" ID="{7B0660F5-5F0E-4D63-AC03-884E501BE76A}" WorkUnitID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Checkpoint_Loop_Stop" ID="{60EB0E5D-752F-4A1D-824D-479D5C5D9EAD}">
+							<ChildrenList>
+								<Action Name="" ID="{3C51294F-A79E-4EB3-A04A-D85C67B4CDE9}" ShortID="936027736">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Checkpoint_Loop" ID="{7B0660F5-5F0E-4D63-AC03-884E501BE76A}" WorkUnitID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Wall_Smash" ID="{F6B04EC6-1CEA-40BA-86ED-B248ABBB6B67}">
+							<ChildrenList>
+								<Action Name="" ID="{6518F77D-0A65-40D9-94C3-62005FF1C90F}" ShortID="878032532">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Rock_Impact" ID="{50E7CB69-9738-4912-A6FC-AD7CEA985B74}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Moving_Platform_Loop_Start" ID="{E96FCA37-8FF2-4DC3-A5B6-FFADCFCF371E}">
+							<ChildrenList>
+								<Action Name="" ID="{C9125898-BD55-49FD-A6C3-3A30D7B3539F}" ShortID="1052838362">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Moving_Platform_Loop" ID="{31195DD9-B773-4F78-A331-354D3F28D433}" WorkUnitID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D391127D-4CD3-4342-A9CE-30F04B5F1A7F}" ShortID="176076174">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Moving_Platform_Hit" ID="{3DC95144-FA33-452A-A08D-CBE35879EE68}" WorkUnitID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6E087435-75B9-434B-A7F0-6ECF2215BFB3}" ShortID="71018827">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Moving_Platform_Loop" ID="{31195DD9-B773-4F78-A331-354D3F28D433}" WorkUnitID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Moving_Platform_Loop_Stop" ID="{28D0A78E-6CF9-42C6-94B8-E8E4D3E4FBF5}">
+							<ChildrenList>
+								<Action Name="" ID="{8342674A-CB10-4E1A-BE74-CB32D88D0E5E}" ShortID="263587435">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Moving_Platform_Loop" ID="{31195DD9-B773-4F78-A331-354D3F28D433}" WorkUnitID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Dexter" ID="{AF60362E-F204-450E-84E3-C321617EB8DE}" ShortID="833982461">
+					<ChildrenList>
+						<Event Name="Sfx_Dexter_Footsteps" ID="{07569A2A-1921-4C81-AD1E-31F3745D61F7}">
+							<ChildrenList>
+								<Action Name="" ID="{9AEA7AF5-384C-4E2C-8D47-C3DD714C6625}" ShortID="579023715">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Footsteps" ID="{73B08DB5-1597-4672-BDB2-D2E82DDD4FE9}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A1B646D3-3E69-430D-8C2B-6BE128443A45}" ShortID="978822117">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps_Servo" ID="{C1CC44B7-A2E8-4EE2-8419-B7FCCD20CEA0}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2E802234-22B5-4C6B-8573-BD5AA3FA1E89}" ShortID="3209196">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GAK" ID="{54FE3EB5-62CC-40E7-BF8F-F3116197DD43}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Dexter_Jump" ID="{0A4810FB-FB5A-487E-B530-40C29E5242F6}">
+							<ChildrenList>
+								<Action Name="" ID="{4AC48708-4B18-4E37-9AE7-9439A1078304}" ShortID="195377615">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Jump" ID="{180DB460-F3D2-412B-A055-E6B2AA0E5C18}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F24D740F-8F9E-4509-8AC1-512CC2982810}" ShortID="185173823">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Whooshes" ID="{A587B1F8-1660-4550-8C0C-4E009DA139A4}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Dexter_Landing" ID="{BBA79BED-777F-4305-9A96-36D96C007665}">
+							<ChildrenList>
+								<Action Name="" ID="{E55E0ED2-5BB2-411F-B55D-7BC5F20ED2D1}" ShortID="1064991582">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Landing" ID="{AF07AFC7-B74D-490F-B8AA-9BE243D7C19B}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{84364DA1-4378-4077-880A-FBE806ABE9F8}" ShortID="914289523">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Landing_Impact" ID="{7D5A8C23-BB02-4893-9694-4EF534C959D6}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FA3B28FB-F6DE-49C4-83B6-C03D6D9D5FA1}" ShortID="397441207">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GAK" ID="{54FE3EB5-62CC-40E7-BF8F-F3116197DD43}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AFC417F4-C48D-4888-9F74-129BFC6BBBA8}" ShortID="552081689">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Pneumatic" ID="{84638EB2-CF4E-4801-B7D5-3C3F46101CDE}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Dexter_Bash" ID="{C1626532-0DC0-43EA-994F-9B8EECCEEA70}">
+							<ChildrenList>
+								<Action Name="" ID="{1518B09B-3D85-43BB-B71C-7CBB0AF89E01}" ShortID="821568328">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Bash" ID="{BC17520C-D343-4CED-914C-76F10EB83E57}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Dexter_Gunshot" ID="{7A7B3C10-9E7F-4A35-8032-807D95FA4345}">
+							<ChildrenList>
+								<Action Name="" ID="{A69E8A2C-E975-405D-AD30-C2FAB80D0B58}" ShortID="698191113">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{AECB458C-637C-4A17-9D4D-5647D9FF4126}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="0.5"/>
+															<Property Name="Min" Type="Real64" Value="-0.5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Gunshot" ID="{FF97FFBB-BF79-48F2-B1EB-D2CABAE23F9C}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Grapple_Laser_Play" ID="{B6D5F869-83E1-4999-BD92-B06B5431BB25}">
+							<ChildrenList>
+								<Action Name="" ID="{5BA162B4-FE43-41CD-A5EB-D468030E6326}" ShortID="5611909">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Grapple_Laser" ID="{A6676D89-E00D-4A83-9EE7-61A571EEADA4}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{512CF905-1940-43AD-8F54-CA6910FDA79D}" ShortID="462916016">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sfx_Grapple_Laser_Start_01" ID="{390EAFC7-EE31-41B5-84A9-9EA17C927743}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Grapple_Laser_Stop" ID="{E27D8BB4-2AB8-4318-ABB8-247442BB90F2}">
+							<ChildrenList>
+								<Action Name="" ID="{EA47C23D-7374-442B-A96F-1B65FDB60D7E}" ShortID="495943658">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Grapple_Laser" ID="{A6676D89-E00D-4A83-9EE7-61A571EEADA4}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{29242C09-7A02-4DD4-910F-3F43432DE79B}" ShortID="139290842">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sfx_Grapple_Laser_End" ID="{77F7B392-0A0D-498E-97B2-0BE3E595DE8E}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Dexter_Pickup" ID="{66ED955E-EFBC-4CB5-8F67-D26B5505AFF7}">
+							<ChildrenList>
+								<Action Name="" ID="{3B69B431-EB9B-4FF1-A916-0C125EF61118}" ShortID="988611329">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Pickup" ID="{BF686A77-3806-4BD3-ADA6-1EC6408410B5}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Dexter_Death" ID="{B20CB66B-6BB6-4E87-9823-158BADB77599}">
+							<ChildrenList>
+								<Action Name="" ID="{2511BB2F-EFCB-439E-A809-6B13B30EB574}" ShortID="6769008">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Death" ID="{D04190A0-0730-4348-B942-A3504DBA72E6}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{93CE2118-1FD8-4E46-BCFA-A45B7AFCEE3D}" ShortID="744594856">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Spawn" ID="{CD48E51D-679A-4C53-B7D8-A93C4F8AE35B}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Grapple_Whoosh" ID="{FB58642B-0E7F-43B1-B966-30EE51F35793}">
+							<ChildrenList>
+								<Action Name="" ID="{9837154E-8FE3-4993-B5B1-E4B0B70F2931}" ShortID="232625048">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Grapple_Whoosh" ID="{2AD80706-813C-4FD9-AB7D-B611DE89B987}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{796B0E56-B4C3-4AEC-98DC-D314D47DFC53}" ShortID="179604854">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Joy" ID="{990FCB0A-1329-4E31-85AC-B911D79A98DD}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Dexter_Bash_Impact" ID="{A246B709-B3CE-45E9-A678-6B8BA7E73181}">
+							<ChildrenList>
+								<Action Name="" ID="{308517A5-99B3-41D1-B2F7-88918245CDEC}" ShortID="241555136">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Bash_Impact" ID="{AC3952B0-ACFB-4AF5-9C3B-0FCECBF6FFD5}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0F195F93-527A-4070-BD53-25144E1EC2A0}" ShortID="55937616">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GAK" ID="{434AC7CC-27DB-42A7-97C8-02FCEC8444CB}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Dexter_VO_Hurt" ID="{616EF17D-567D-4C90-BC01-541ABC935440}">
+							<ChildrenList>
+								<Action Name="" ID="{589B55F9-69A2-4E84-8980-568DD86A0FDA}" ShortID="338459405">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Hurt" ID="{038E0728-9B83-4541-A9D9-76E1318AB0BD}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Dexter_VO_Grapple" ID="{4BB83827-C825-40E9-99A2-159E897B0498}">
+							<ChildrenList>
+								<Action Name="" ID="{7B6005DA-A145-4CA5-B884-3343609F14F2}" ShortID="760930550">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_VO_Grapple" ID="{C60B4832-416C-43E9-8B2D-ACAA5355A242}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{59E87C2D-6A73-4B2C-ADD3-40B1F219976F}" ShortID="51627227">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.3"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Upgrade_Grapple" ID="{659E87C6-481A-4DD8-BF41-86F6343A6672}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Dexter_VO_Bash" ID="{89091978-0FBD-4676-885A-EDE6FEAA867E}">
+							<ChildrenList>
+								<Action Name="" ID="{7894E229-0EEF-4BA9-8CDD-27FD14ABC3E2}" ShortID="463245990">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_VO_Bash" ID="{337482CA-733D-43D2-A555-D18CD33A6615}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DED22A1C-F307-432F-9EEB-12977C730C11}" ShortID="891978925">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Upgrade_Bash" ID="{66F4DFF4-87DF-4A7E-8F65-8A8AE908F708}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Dexter_Gunshot_Hit" ID="{2A991F02-531B-4410-8018-2FB41DAED928}">
+							<ChildrenList>
+								<Action Name="" ID="{F8D982FA-1C07-41F4-99C4-EE1F041713BB}" ShortID="320158676">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Gunshot_Hit" ID="{AD90B633-735D-4E40-9DCD-BFD7AE33E8AB}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Bomber" ID="{306996FA-650B-4CE4-80E7-C4DC52D00904}" ShortID="1044511007">
+					<ChildrenList>
+						<Event Name="Sfx_Bomber_Attack" ID="{7FE5CD11-266A-4DD6-AFEF-BA1523B84FF6}">
+							<ChildrenList>
+								<Action Name="" ID="{AF1F1EB5-3FB1-4FC6-9E43-53132180A0C4}" ShortID="872387648">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="50"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bomber_VO_Grunt" ID="{E03EA84F-23FB-45F2-BE40-51D7373040DC}" WorkUnitID="{66AFC0B8-0C6D-47B6-BC65-D9A84984FC5E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9DA9D85D-671D-4D91-B187-CD68FEA44E8C}" ShortID="563597352">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bomber_Bomb_Whoosh" ID="{302830F6-FEDE-401C-95FE-A25420114C4F}" WorkUnitID="{66AFC0B8-0C6D-47B6-BC65-D9A84984FC5E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7EA2401F-AE31-471B-8850-00A5BBE023C4}" ShortID="966924002">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.8"/>
+										<Property Name="Probability" Type="Real64" Value="25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bomber_VO_Taunt" ID="{CA712B96-3CAB-4DF1-B66D-B3E99FDEA0EB}" WorkUnitID="{66AFC0B8-0C6D-47B6-BC65-D9A84984FC5E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Bomb_Explosion" ID="{3064A7AE-6AA5-413C-B8D3-231A6EC0D031}">
+							<ChildrenList>
+								<Action Name="" ID="{AB63DA69-468E-42A5-884D-D52DFA58D08A}" ShortID="433832346">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bomber_Bomb_Explosion" ID="{0C89B976-2E79-4A16-A1E6-BB1F91DA4401}" WorkUnitID="{66AFC0B8-0C6D-47B6-BC65-D9A84984FC5E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Bomber_Footsteps" ID="{9215826A-C0AA-44FA-945D-8FD44C88F4F7}">
+							<ChildrenList>
+								<Action Name="" ID="{1F044D89-269D-4438-B531-DCDA79F832D6}" ShortID="547406641">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bomber_Footsteps" ID="{98BC49F8-D32D-4EEE-BCD7-BA1781DEA29E}" WorkUnitID="{66AFC0B8-0C6D-47B6-BC65-D9A84984FC5E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Bomber_Hurt" ID="{15B24BFB-4F08-4831-96FD-347EF2DDFF8D}">
+							<ChildrenList>
+								<Action Name="" ID="{075BE349-C215-4964-86CB-813E858AE91A}" ShortID="482816232">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bomber_VO_Hurt" ID="{D9F3AF8C-D50E-4BB2-BD85-60693C3441D6}" WorkUnitID="{66AFC0B8-0C6D-47B6-BC65-D9A84984FC5E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Bomber_Death" ID="{D0B24FDE-DEBD-4784-81D2-35E0C2861705}">
+							<ChildrenList>
+								<Action Name="" ID="{2180AA31-9758-49B9-BB3F-470B6ABC75CA}" ShortID="916393142">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bomber_VO_Hurt" ID="{D9F3AF8C-D50E-4BB2-BD85-60693C3441D6}" WorkUnitID="{66AFC0B8-0C6D-47B6-BC65-D9A84984FC5E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Menu" ID="{C9D669D7-7614-4AD8-932D-3689147ED784}" ShortID="86509792">
+					<ChildrenList>
+						<Event Name="Menu_Button_Click" ID="{986984C7-7C21-41E4-B661-797DDD59BF12}">
+							<ChildrenList>
+								<Action Name="" ID="{8EA6E0E3-F125-4F64-9867-EB5D4503684D}" ShortID="537460581">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Menu_Button_Click" ID="{0A5B2E4B-1EA4-4635-9CAA-2336B8314402}" WorkUnitID="{535208EE-2655-495A-910F-ACFEC7DAA4AD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Menu_Button_Highlight" ID="{4FD27DE5-7BE8-48D8-9314-EE3056F7EC9F}">
+							<ChildrenList>
+								<Action Name="" ID="{9813500F-51A9-408A-930C-55BA933B5178}" ShortID="915386949">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Menu_Button_Highlight" ID="{7C0FFC19-99AB-4DA6-954F-F364612C9AE0}" WorkUnitID="{535208EE-2655-495A-910F-ACFEC7DAA4AD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Cinematics_Start_Play" ID="{D406CCE5-0425-46E4-A8A9-F9392DB967F8}">
+							<ChildrenList>
+								<Action Name="" ID="{E6E57E5A-23E7-4EC2-88A8-DD954770D159}" ShortID="677536381">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cinematics_Start" ID="{B67D6117-9939-4494-900F-0D659401D740}" WorkUnitID="{535208EE-2655-495A-910F-ACFEC7DAA4AD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{12AAE1A3-D90D-4493-8690-5546D7A1AEEF}" ShortID="578740304">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level_01" ID="{E8E05314-C4A8-4AF6-8787-A550615C6EF9}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Cinematics_Start_Stop" ID="{C276B0A9-9AA5-48D6-810B-F1F096269B2E}">
+							<ChildrenList>
+								<Action Name="" ID="{76D18CB7-E9E2-4E8C-8884-712250C76D7E}" ShortID="1014390661">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cinematics_Start" ID="{B67D6117-9939-4494-900F-0D659401D740}" WorkUnitID="{535208EE-2655-495A-910F-ACFEC7DAA4AD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{555E703D-DDC5-467A-AB90-E2A6C83F9FA8}" ShortID="490721660">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gameplay" ID="{C837B90F-1F2A-4229-97C3-A064313B1BAC}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D34F1C8B-2931-4306-A942-994658BD7803}" ShortID="886462622">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level_01" ID="{E8E05314-C4A8-4AF6-8787-A550615C6EF9}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Cinematics_End_Play" ID="{784E7E1B-86DF-43EA-99D3-7450E6B1C99F}">
+							<ChildrenList>
+								<Action Name="" ID="{15681684-3C83-4FB3-9306-A39AABF0DA39}" ShortID="623904214">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cinematics_End" ID="{B8566762-B13A-422A-8E89-CC958EA9A10E}" WorkUnitID="{535208EE-2655-495A-910F-ACFEC7DAA4AD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Cinematics_End_Stop" ID="{CD4F2814-9D56-44C7-B8BC-221DB76A3F6C}">
+							<ChildrenList>
+								<Action Name="" ID="{1BFAE2A9-9243-42DE-913B-7F8BFF0BB45F}" ShortID="1013432909">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cinematics_End" ID="{B8566762-B13A-422A-8E89-CC958EA9A10E}" WorkUnitID="{535208EE-2655-495A-910F-ACFEC7DAA4AD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Amateur_Hour_Logo_Play" ID="{89F61409-E884-4883-91E1-F47AF38E4BBF}">
+							<ChildrenList>
+								<Action Name="" ID="{1BEC7CF8-CEA0-41C7-8281-ED4ED69BB5E0}" ShortID="471239973">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amateur_Hour_Logo" ID="{905C9B86-DCCA-40A0-83F8-CB7555456415}" WorkUnitID="{535208EE-2655-495A-910F-ACFEC7DAA4AD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{9F6633FF-7643-47E9-8EFC-916B947BAFDE}" ShortID="220388661">
+					<ChildrenList>
+						<Event Name="Mus_Play" ID="{B6D55C8A-58F9-4874-B3A3-C08BC692043F}">
+							<ChildrenList>
+								<Action Name="" ID="{79E9E213-C216-4EFC-8DD0-5F88493FEA0F}" ShortID="166681291">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Calm" ID="{1DC7901D-D8E6-4831-9BD5-833186329851}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{420CFE0A-40E5-4F89-8D6D-6E0B228DB04A}" ShortID="604027641">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Scrapped" ID="{41AE9A27-D22E-4E10-8E03-B4052604E44A}" WorkUnitID="{E4F27046-23A2-4EA0-A10E-D6E5BA261C2F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mus_Stop" ID="{EC244602-8C0E-4C9C-8F87-91F204F418A5}">
+							<ChildrenList>
+								<Action Name="" ID="{2A8A1B5C-14BF-4C57-B814-FF16047AB0C9}" ShortID="162210897">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Scrapped" ID="{41AE9A27-D22E-4E10-8E03-B4052604E44A}" WorkUnitID="{E4F27046-23A2-4EA0-A10E-D6E5BA261C2F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mus_Pause" ID="{A334C50A-1167-40B1-97FD-93F615686AA2}">
+							<ChildrenList>
+								<Action Name="" ID="{3C3276C1-7199-412A-B47E-9276A23285AA}" ShortID="777526769">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Scrapped" ID="{41AE9A27-D22E-4E10-8E03-B4052604E44A}" WorkUnitID="{E4F27046-23A2-4EA0-A10E-D6E5BA261C2F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mus_Resume" ID="{472D71E5-20E1-471B-9859-0C65929D2ED6}">
+							<ChildrenList>
+								<Action Name="" ID="{E897CC3B-35BA-471A-B38A-2C8EC21C2596}" ShortID="256631596">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="9"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Scrapped" ID="{41AE9A27-D22E-4E10-8E03-B4052604E44A}" WorkUnitID="{E4F27046-23A2-4EA0-A10E-D6E5BA261C2F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Events_Global_Game_Flow" ID="{AA5C9E05-E81D-47E9-A1A9-24033BE8689C}" ShortID="417204681">
+					<ChildrenList>
+						<Event Name="Game_Over" ID="{C383ADF2-64BC-484B-83FC-CFD518BB9B57}">
+							<ChildrenList>
+								<Action Name="" ID="{9DD01FF2-AD23-4A4C-B982-8067DD13E094}" ShortID="955063437">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Game_Over" ID="{B5F7B2D8-2210-4BB6-BF62-2474A02CCE17}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Gameplay" ID="{FCB2A34F-99B6-4E92-B737-CE1B480683B1}">
+							<ChildrenList>
+								<Action Name="" ID="{3F7CBD72-D35E-45BE-B5A1-E92EAC37126C}" ShortID="316693210">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gameplay" ID="{C837B90F-1F2A-4229-97C3-A064313B1BAC}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Pause" ID="{2B14ED3E-D874-47EE-A417-855008EB056A}">
+							<ChildrenList>
+								<Action Name="" ID="{83480CAA-69C6-4E42-9113-892C3112E62A}" ShortID="563643350">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pause" ID="{121A6648-504E-48E1-98D6-FA43339EEF45}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Resume" ID="{9A21F38A-B731-4C85-B2AA-2691E06B9E7F}">
+							<ChildrenList>
+								<Action Name="" ID="{64C791BA-4207-4159-80CF-544DC542C531}" ShortID="751306569">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Resume" ID="{72F44BFC-3708-4126-A9CC-C35B139A990C}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Menu" ID="{75B3CC86-CF21-4A75-B2A0-8C6485535755}">
+							<ChildrenList>
+								<Action Name="" ID="{7BC6C10C-F8E9-4110-83EB-4DC4704F4FAB}" ShortID="143578901">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Menu" ID="{B2441681-A1B0-4F23-ACBD-13B9EF0DE955}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{831F0A3C-810D-4EE5-BD45-DA0B243FDFD8}" ShortID="57605859">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level_01" ID="{E8E05314-C4A8-4AF6-8787-A550615C6EF9}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Level_01" ID="{7B687C31-678C-40D5-B93E-04DEC100E4EB}">
+							<ChildrenList>
+								<Action Name="" ID="{6BB50B3A-E761-49E5-B61F-1B41C8EA35BD}" ShortID="470648551">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gameplay" ID="{C837B90F-1F2A-4229-97C3-A064313B1BAC}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D6A9C1A1-3C57-42FA-818F-503FCF16C1E9}" ShortID="526222987">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level_01" ID="{E8E05314-C4A8-4AF6-8787-A550615C6EF9}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{696A7E10-0EEE-4461-BA4A-A4FF8F5D5ADE}" ShortID="1023271082">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Calm" ID="{1DC7901D-D8E6-4831-9BD5-833186329851}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Level_02" ID="{021DA0A9-2869-4F1B-9397-251F1733D838}">
+							<ChildrenList>
+								<Action Name="" ID="{A5502D98-42E5-4052-8202-E7A55A26DF56}" ShortID="774358724">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gameplay" ID="{C837B90F-1F2A-4229-97C3-A064313B1BAC}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{34C6CA55-A7B0-489F-A940-F2A3E5D51A18}" ShortID="947068793">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level_02" ID="{7CB52745-D5F0-44B6-A06B-7479A0ADBA3C}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D794EAE3-EAE3-4B6E-B913-7C774BD1AAB2}" ShortID="264346064">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Calm" ID="{1DC7901D-D8E6-4831-9BD5-833186329851}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Level_03" ID="{CFA72A96-F673-4270-AB7E-C43422B7DE88}">
+							<ChildrenList>
+								<Action Name="" ID="{2C2151CB-F89C-4DA9-85F9-95FE4B228878}" ShortID="531733444">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gameplay" ID="{C837B90F-1F2A-4229-97C3-A064313B1BAC}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FFC29929-E6A2-46CE-A1AF-44918C8A569F}" ShortID="380750985">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level_03" ID="{F22563C0-FDF1-479F-8781-98B34E12FD83}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{03A63DC2-914E-4DBB-A1A5-6E8815844BDB}" ShortID="607041104">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Calm" ID="{1DC7901D-D8E6-4831-9BD5-833186329851}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Boss" ID="{F3C9DCF2-AE17-4F68-BDCC-4260C944451D}" ShortID="260509432">
+					<ChildrenList>
+						<Event Name="Sfx_Hoverboard_Movement_Start" ID="{D36920CF-9B6F-4380-96B2-7F356FCA6F2D}">
+							<ChildrenList>
+								<Action Name="" ID="{E242F13B-FC3B-42AA-8744-F8B758282B77}" ShortID="103067585">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hoverboard_Movement" ID="{FB21C77F-08E9-46BA-B191-649EC66E2B0F}" WorkUnitID="{97D48AD2-3574-4A4B-8DC7-16D3FB910336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Hoverboard_Movement_Stop" ID="{656E8546-757A-491D-A389-EB714A7321D0}">
+							<ChildrenList>
+								<Action Name="" ID="{DA9A56F1-A1C1-46D4-9A9F-CD80C4CB34C0}" ShortID="892808768">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hoverboard_Movement" ID="{FB21C77F-08E9-46BA-B191-649EC66E2B0F}" WorkUnitID="{97D48AD2-3574-4A4B-8DC7-16D3FB910336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Boss_Laugh" ID="{0E00EA49-8D7F-40E3-81BA-AD0416E8A85A}">
+							<ChildrenList>
+								<Action Name="" ID="{8C0AB35B-E292-4381-A889-215EB64179F6}" ShortID="394127495">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_VO_Laugh" ID="{10A0D6F6-3236-47C4-85E9-94D8EE6236C4}" WorkUnitID="{97D48AD2-3574-4A4B-8DC7-16D3FB910336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Boss_Hurt" ID="{A1EBDC4C-BC12-49E6-84B0-B9F770BAA35A}">
+							<ChildrenList>
+								<Action Name="" ID="{0A86603D-A10F-4A5F-B72E-75ED71EB6A47}" ShortID="341768528">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_VO_Hurt" ID="{46EF7AEB-8571-41A7-8110-18C09CF90795}" WorkUnitID="{97D48AD2-3574-4A4B-8DC7-16D3FB910336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Boss_Attack" ID="{85263E59-547C-4CA0-820D-EF4EFF672A58}">
+							<ChildrenList>
+								<Action Name="" ID="{4790BDD0-5483-4779-B158-F788A3471E3C}" ShortID="781815756">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="50"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_VO_Grunt" ID="{CC93D2D5-E92E-4903-9079-E749F04152F0}" WorkUnitID="{97D48AD2-3574-4A4B-8DC7-16D3FB910336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3FC6EA94-20F1-4997-ABB2-E0D2498CF2A4}" ShortID="323115362">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bomber_Bomb_Whoosh" ID="{302830F6-FEDE-401C-95FE-A25420114C4F}" WorkUnitID="{66AFC0B8-0C6D-47B6-BC65-D9A84984FC5E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3578E5D6-4414-4282-9DD6-0E6D47DC625B}" ShortID="523959546">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.8"/>
+										<Property Name="Probability" Type="Real64" Value="25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_VO_Laugh" ID="{10A0D6F6-3236-47C4-85E9-94D8EE6236C4}" WorkUnitID="{97D48AD2-3574-4A4B-8DC7-16D3FB910336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Boss_Explosion" ID="{F3B644B9-2BB5-41AF-9E0E-3E98F2F38D8B}">
+							<ChildrenList>
+								<Action Name="" ID="{0A6EE99A-C5CF-4E1D-8EE6-ADDF5C2323D6}" ShortID="403828149">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Explosion" ID="{0ACDDBA3-C15C-45FF-A42B-5FDB097FC5B1}" WorkUnitID="{97D48AD2-3574-4A4B-8DC7-16D3FB910336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{558A2ECC-3F79-4CF7-B5EB-FC8A286A066C}" ShortID="419309848">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Explosion" ID="{0ACDDBA3-C15C-45FF-A42B-5FDB097FC5B1}" WorkUnitID="{97D48AD2-3574-4A4B-8DC7-16D3FB910336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{17094734-AB4D-4A63-8ED5-23748184A937}" ShortID="487523570">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Explosion" ID="{0ACDDBA3-C15C-45FF-A42B-5FDB097FC5B1}" WorkUnitID="{97D48AD2-3574-4A4B-8DC7-16D3FB910336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Boss_Death" ID="{FF96C48D-EDFD-40D1-9699-AF9060CF5403}">
+							<ChildrenList>
+								<Action Name="" ID="{87740CFD-25DA-4913-A25D-7A91483D210B}" ShortID="346261188">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_VO_Death" ID="{3BFC76F3-4709-4BC3-A7BE-BF3E00732730}" WorkUnitID="{97D48AD2-3574-4A4B-8DC7-16D3FB910336}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Boss_Portal" ID="{FE8633D3-65AD-413D-8857-8C340CB75C04}">
+							<ChildrenList>
+								<Action Name="" ID="{BCD8AC8E-C9C8-497F-9DD4-4717E1464ED3}" ShortID="116964114">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss_Portal" ID="{D35E3EC6-1C09-4215-8654-44B4397085F7}" WorkUnitID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Dagger" ID="{8E3A272E-E554-4D40-AFC9-BC25D15D4312}" ShortID="863163522">
+					<ChildrenList>
+						<Event Name="Sfx_Dagger_Attack" ID="{FF563BD5-59AB-4973-8B0E-9B7695DF49DD}">
+							<ChildrenList>
+								<Action Name="" ID="{AB798411-CE05-41F5-B406-F1803DD6CE64}" ShortID="68617098">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="50"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dagger_VO_Grunt" ID="{AACBA8B5-651E-48C0-8A70-03DDEED9BE93}" WorkUnitID="{BFE098DE-3399-413C-8F93-2DECC896EB20}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4EDC7178-B582-42F0-9A50-19B56A33A832}" ShortID="524053790">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dagger_Attack_Whoosh" ID="{18C8BAEC-18CF-43FE-8A33-F790203B8D6A}" WorkUnitID="{BFE098DE-3399-413C-8F93-2DECC896EB20}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9316E3C1-F5F6-4B80-980D-967828222073}" ShortID="393998371">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.3"/>
+										<Property Name="Probability" Type="Real64" Value="75"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dagger_Attack_Shing" ID="{2BA746E7-FAF5-4F18-A436-DFD73F991554}" WorkUnitID="{BFE098DE-3399-413C-8F93-2DECC896EB20}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0073A16D-B75E-4C60-81B4-392CFA8F9EFE}" ShortID="705063594">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.8"/>
+										<Property Name="Probability" Type="Real64" Value="25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dagger_VO_Taunt" ID="{2B36C51C-8302-4CED-90E4-26A8DC36A865}" WorkUnitID="{BFE098DE-3399-413C-8F93-2DECC896EB20}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Dagger_Footsteps" ID="{35BCA79D-6D93-4C3F-BF40-715414799EF2}">
+							<ChildrenList>
+								<Action Name="" ID="{53CC833B-C546-455D-8A24-108AE5FCE6F2}" ShortID="607363844">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dagger_Footsteps" ID="{23DF67A1-414E-40B4-B722-3873D3F1C7F0}" WorkUnitID="{BFE098DE-3399-413C-8F93-2DECC896EB20}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Dagger_Grunt" ID="{83EAA5DA-991A-4D66-9C4E-E6DE9374F0A0}">
+							<ChildrenList>
+								<Action Name="" ID="{D0F53D7D-8E8F-411D-B6AF-567C2A8AD582}" ShortID="697366113">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dagger_VO_Grunt" ID="{AACBA8B5-651E-48C0-8A70-03DDEED9BE93}" WorkUnitID="{BFE098DE-3399-413C-8F93-2DECC896EB20}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Dagger_Hurt" ID="{5FE6459B-6F55-4EC0-A882-86BD2886A23D}">
+							<ChildrenList>
+								<Action Name="" ID="{38BA18DB-B10F-4EFE-A724-89F36C3470FB}" ShortID="85108001">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dagger_VO_Hurt" ID="{8B5329A8-C3F1-4F0E-A4C2-1F8C876EEFA6}" WorkUnitID="{BFE098DE-3399-413C-8F93-2DECC896EB20}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sfx_Dagger_Death" ID="{3B5DB634-9086-48EC-914C-ABC11BA183F9}">
+							<ChildrenList>
+								<Action Name="" ID="{D57C6023-3E9E-4052-B757-7EA62A03BE56}" ShortID="736807292">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dagger_VO_Death" ID="{3AC622F9-EE1A-49BF-9685-F85395C7637D}" WorkUnitID="{BFE098DE-3399-413C-8F93-2DECC896EB20}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Gameplay" ID="{2A85EE51-4028-43D2-903D-B936E4E3EC61}" ShortID="873519950">
+					<ChildrenList>
+						<Event Name="Gameplay_Intense" ID="{CB48478C-ECD4-43E9-9E24-7896ED59260E}">
+							<ChildrenList>
+								<Action Name="" ID="{96B3CFEA-34C7-48B3-A96F-AFD78307CD02}" ShortID="991306076">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Intense" ID="{2E35B00C-8914-44D0-BC51-4B7D96CA24F5}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E248312D-DE8E-475A-BF43-107881CE0EDD}" ShortID="1036531820">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="35"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Drum_Fills" ID="{45980C99-E489-45F1-B4ED-6749FDB5F144}" WorkUnitID="{6B59DA09-0CCD-4E51-980F-46D5EE00F149}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8DD62DE6-BEF3-4327-9A35-EB7BC4B994FB}" ShortID="571135000">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dexter_Fear" ID="{A4CAD6FE-B9A4-4740-8A7A-7AFF78B361EA}" WorkUnitID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Gameplay_Calm" ID="{E3416B15-75C5-4356-8854-951B2C69290A}">
+							<ChildrenList>
+								<Action Name="" ID="{803410E6-BEA5-4255-9A91-E3E97899B106}" ShortID="903859623">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Calm" ID="{1DC7901D-D8E6-4831-9BD5-833186329851}" WorkUnitID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

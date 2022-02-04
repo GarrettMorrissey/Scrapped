@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Prefabs/Gyms/GYM_test.unity
+    guid: fa7b7a2b3ef695a48a2a6531bf91b437
+  - enabled: 1
+    path: Assets/Scenes/Shipping/VFS_Splash.unity
+    guid: 67eea3f63e07d0548a1574b100559c53
+  - enabled: 1
+    path: Assets/Scenes/Shipping/Logo_Splash.unity
+    guid: 62398daac14f7ed498dc8af7c4020f8a
+  - enabled: 1
+    path: Assets/Scenes/Shipping/LandingPage.unity
+    guid: 7249cdcefc3302b4d873498912dd6675
+  - enabled: 1
+    path: Assets/Scenes/Shipping/Intro_video.unity
+    guid: 79d1c7d1ccf81994798074b1321d8314
+  - enabled: 1
+    path: Assets/Scenes/Shipping/Game_Scrapped.unity
+    guid: c2bbfd91763747242b4f0656289bc5ff
+  - enabled: 1
+    path: Assets/Scenes/Shipping/Outro_video.unity
+    guid: 46065e8ef7008b84d818394b48cd095c
+  - enabled: 1
+    path: Assets/Scenes/Shipping/VFS_Copyright.unity
+    guid: 5109a574a7bf073458810b628d873198
+  - enabled: 1
+    path: Assets/Scenes/Shipping/Credits.unity
+    guid: f5f2fce9ab7ba384fbcc480dc3cfe954
+  - enabled: 1
+    path: Assets/Scenes/Shipping/Controls.unity
+    guid: f5d32fa56837318418b10067a7971ad4
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 354fa236fc0ac4e4b8075620cf2addd0,
+      type: 2}

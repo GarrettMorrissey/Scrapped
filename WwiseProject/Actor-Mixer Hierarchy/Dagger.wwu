@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BFE098DE-3399-413C-8F93-2DECC896EB20}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Dagger" ID="{BFE098DE-3399-413C-8F93-2DECC896EB20}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Dagger" ID="{2A4F0498-3C56-40A2-B3B4-2B0071836BA1}" ShortID="1044521241">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom CreatedFrom="{B370B3CA-21C9-45DC-B015-C0EFB6C0563A}">
+								<Attenuation Name="Close_Perspective (Custom)" ID="{20369707-DDFE-4499-867C-53654B7565F4}" ShortID="635182650">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="20"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{88B159DC-3A56-4D12-99C2-6847264D99E3}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Log1</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>13.91214</XPos>
+															<YPos>-43.28706</YPos>
+															<Flags>0</Flags>
+															<SegmentShape>Exp1</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>20</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Dagger_Feet" ID="{2C6C921B-A6F9-44EF-9A0C-44AD952601CE}" ShortID="1051578962">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="Dagger_Footsteps" ID="{23DF67A1-414E-40B4-B722-3873D3F1C7F0}" ShortID="294210601">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0938487C-6CAC-4AA7-940C-DD507F8A1AE7}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Close_Perspective" ID="{B370B3CA-21C9-45DC-B015-C0EFB6C0563A}" WorkUnitID="{1327BD81-4C17-45BA-BA6C-F46D0E1B5B80}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Gravel" ID="{E2709B29-15DB-4DBD-AC91-961241344952}" WorkUnitID="{3C923719-046A-4B4D-8C7B-54C0F3761587}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Surfaces" ID="{A097D961-6588-44EC-BA84-D15836E73D0F}" WorkUnitID="{3C923719-046A-4B4D-8C7B-54C0F3761587}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Dagger_Footsteps_Gravel" ID="{D5C7134F-D2CC-4622-8C96-9E509E471488}" ShortID="516457294">
+											<PropertyList>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Sfx_Enemy_Footsteps_Gravel_05" ID="{ADC535E5-B3EE-4F0D-9C4C-46BDD1E8E7DB}" ShortID="755287373">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_05" ID="{5C4934C4-EE05-4676-804E-2840B170EFE9}" ShortID="506608481">
+															<Language>SFX</Language>
+															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_05.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="379638085"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sfx_Enemy_Footsteps_Gravel_05" ID="{5C4934C4-EE05-4676-804E-2840B170EFE9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Sfx_Enemy_Footsteps_Gravel_06" ID="{5BF0B3B9-C602-425F-8F2D-841F712A2D6F}" ShortID="809438477">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_06" ID="{53ED97AC-1535-425A-854A-1CA62B4EAD07}" ShortID="175076107">
+															<Language>SFX</Language>
+															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_06.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="580856853"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sfx_Enemy_Footsteps_Gravel_06" ID="{53ED97AC-1535-425A-854A-1CA62B4EAD07}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Sfx_Enemy_Footsteps_Gravel_07" ID="{71F5A6AA-3FA9-4DB5-B963-5CFB1DBE04D0}" ShortID="896424541">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_07" ID="{56D48933-CE9D-459E-916A-78EFAEB5BF38}" ShortID="839244758">
+															<Language>SFX</Language>
+															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_07.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="810173109"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sfx_Enemy_Footsteps_Gravel_07" ID="{56D48933-CE9D-459E-916A-78EFAEB5BF38}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Sfx_Enemy_Footsteps_Gravel_08" ID="{187C701B-87DC-4AF2-A141-1D8B2D7BFE39}" ShortID="409997278">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_08" ID="{387F93FB-2BEC-4B54-99BE-5DD1C545D7C7}" ShortID="380706001">
+															<Language>SFX</Language>
+															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_08.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="922922173"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sfx_Enemy_Footsteps_Gravel_08" ID="{387F93FB-2BEC-4B54-99BE-5DD1C545D7C7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Sfx_Enemy_Footsteps_Gravel_09" ID="{B96895B8-1B4D-48FC-AA5A-8287054ED9AA}" ShortID="1010748117">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_09" ID="{5F9B5F0C-6C57-44F6-A1D4-CCBA77FB97E2}" ShortID="454184513">
+															<Language>SFX</Language>
+															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_09.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="128680005"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sfx_Enemy_Footsteps_Gravel_09" ID="{5F9B5F0C-6C57-44F6-A1D4-CCBA77FB97E2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Sfx_Enemy_Footsteps_Gravel_01" ID="{A8B49A31-D719-4871-8AE9-C4623543BC07}" ShortID="229843733">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_01" ID="{4A702955-B16C-4ACB-8394-1A891B0E5190}" ShortID="243410037">
+															<Language>SFX</Language>
+															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_01.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="679519467"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sfx_Enemy_Footsteps_Gravel_01" ID="{4A702955-B16C-4ACB-8394-1A891B0E5190}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Sfx_Enemy_Footsteps_Gravel_02" ID="{2C29A8EE-456E-454C-A815-0C325DC38434}" ShortID="129796610">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_02" ID="{0CAA8F75-EB6A-427C-A47D-022D97264EDA}" ShortID="1067659142">
+															<Language>SFX</Language>
+															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_02.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="130130561"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sfx_Enemy_Footsteps_Gravel_02" ID="{0CAA8F75-EB6A-427C-A47D-022D97264EDA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Sfx_Enemy_Footsteps_Gravel_03" ID="{61D4EC3E-0398-473B-B28B-A8895262E20E}" ShortID="472750715">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_03" ID="{DCB5F3AD-9E7C-46ED-99A6-E059921759BF}" ShortID="1066773456">
+															<Language>SFX</Language>
+															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_03.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="934448696"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sfx_Enemy_Footsteps_Gravel_03" ID="{DCB5F3AD-9E7C-46ED-99A6-E059921759BF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Sfx_Enemy_Footsteps_Gravel_04" ID="{33DEFE8E-27A4-4881-8C2A-770ED8DF770F}" ShortID="502104656">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_04" ID="{42CDC495-5D2A-4E01-8808-37E0EB3C421A}" ShortID="1002372291">
+															<Language>SFX</Language>
+															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_04.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="875129596"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sfx_Enemy_Footsteps_Gravel_04" ID="{42CDC495-5D2A-4E01-8808-37E0EB3C421A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Dagger_Footsteps_Gravel" ID="{D5C7134F-D2CC-4622-8C96-9E509E471488}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Gravel" ID="{E2709B29-15DB-4DBD-AC91-961241344952}"/>
+												<ItemList>
+													<ItemRef Name="Dagger_Footsteps_Gravel" ID="{D5C7134F-D2CC-4622-8C96-9E509E471488}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Dagger_VO" ID="{9E2BBCC9-0565-480E-932F-EFAE3BB7F2E4}" ShortID="372755713">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Dagger_VO_Grunt" ID="{AACBA8B5-651E-48C0-8A70-03DDEED9BE93}" ShortID="637747469">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9DF3AEE3-C87B-4955-8822-69395EF2D55F}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Dagger_VO_Grunt_01" ID="{CF7230DA-C2B1-40B4-8028-5F74FEDB606C}" ShortID="490842763">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Grunt_01" ID="{C970BC52-66BC-4326-8A84-68FD761775E0}" ShortID="586672562">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Grunt\Dagger_VO_Grunt_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Grunt_01" ID="{C970BC52-66BC-4326-8A84-68FD761775E0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dagger_VO_Grunt_03" ID="{E2DC839F-F877-429E-B1B0-1AEF5A242060}" ShortID="366718223">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Grunt_03" ID="{A1365A7F-CB94-4F35-A6D4-F2E240825000}" ShortID="151946738">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Grunt\Dagger_VO_Grunt_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Grunt_03" ID="{A1365A7F-CB94-4F35-A6D4-F2E240825000}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dagger_VO_Grunt_05" ID="{14A8C14B-3CFF-4EE3-9D64-1BBEF8A288B5}" ShortID="587714886">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Grunt_05" ID="{FE196C8C-E351-43A0-AE1A-762406B13079}" ShortID="111058783">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Grunt\Dagger_VO_Grunt_05.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Grunt_05" ID="{FE196C8C-E351-43A0-AE1A-762406B13079}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dagger_VO_Grunt_04" ID="{63D24D42-45D3-4BE9-865A-CD7A1615A90B}" ShortID="998247540">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Grunt_04" ID="{4472957C-B1BC-4BAC-A5E0-D56928D3E6A2}" ShortID="1023878935">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Grunt\Dagger_VO_Grunt_04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Grunt_04" ID="{4472957C-B1BC-4BAC-A5E0-D56928D3E6A2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dagger_VO_Grunt_02" ID="{F21A6E59-8D34-4117-9309-1F63AA874808}" ShortID="649379381">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Grunt_02" ID="{28C49667-C04C-4B1A-B6D5-FBD4D970EDBD}" ShortID="288285887">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Grunt\Dagger_VO_Grunt_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Grunt_02" ID="{28C49667-C04C-4B1A-B6D5-FBD4D970EDBD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Dagger_VO_Hurt" ID="{8B5329A8-C3F1-4F0E-A4C2-1F8C876EEFA6}" ShortID="829449511">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D0D6F1AA-3847-486C-A5EC-FB6DB619DA4E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Dagger_VO_Hurt_02" ID="{88DCF5B1-5794-402F-8106-9FCBF3A4FCB1}" ShortID="146797404">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Hurt_02" ID="{AA41E3BE-3FC1-4223-B999-1056889EDC6C}" ShortID="319305903">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Hurt\Dagger_VO_Hurt_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Hurt_02" ID="{AA41E3BE-3FC1-4223-B999-1056889EDC6C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dagger_VO_Hurt_03" ID="{67BB3BC5-4442-4C8E-B8DC-ECA001E4A19B}" ShortID="764525585">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Hurt_03" ID="{97BFF528-E6FC-4E9A-B7BD-2BD169695CB3}" ShortID="803906612">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Hurt\Dagger_VO_Hurt_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Hurt_03" ID="{97BFF528-E6FC-4E9A-B7BD-2BD169695CB3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dagger_VO_Hurt_06" ID="{B0632F18-97D6-4F79-849A-1992BDF34886}" ShortID="482444127">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Hurt_06" ID="{789FAB79-2FF6-4D48-8B19-A88F1FB7B664}" ShortID="240833438">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Hurt\Dagger_VO_Hurt_06.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Hurt_06" ID="{789FAB79-2FF6-4D48-8B19-A88F1FB7B664}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dagger_VO_Hurt_01" ID="{84F00EE8-1639-4DE9-A57F-AB84631A21FD}" ShortID="806367950">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Hurt_01" ID="{73FC4514-2D9F-45AA-B91A-F78BDF981BE2}" ShortID="550773256">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Hurt\Dagger_VO_Hurt_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Hurt_01" ID="{73FC4514-2D9F-45AA-B91A-F78BDF981BE2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dagger_VO_Hurt_04" ID="{ACCE939E-A1F4-45C1-8FA8-EB8EC9BA8A80}" ShortID="810444969">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Hurt_04" ID="{0530F87F-1316-496F-B83E-92CE505971A8}" ShortID="188327803">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Hurt\Dagger_VO_Hurt_04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Hurt_04" ID="{0530F87F-1316-496F-B83E-92CE505971A8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dagger_VO_Hurt_05" ID="{C27516D5-A738-4C23-8B33-38FAB9062BD2}" ShortID="308469678">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Hurt_05" ID="{9BA3F613-1FD7-4B5C-A60F-E3F1A8197B44}" ShortID="793933020">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Hurt\Dagger_VO_Hurt_05.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Hurt_05" ID="{9BA3F613-1FD7-4B5C-A60F-E3F1A8197B44}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Dagger_VO_Death" ID="{3AC622F9-EE1A-49BF-9685-F85395C7637D}" ShortID="801189277">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Dagger_VO_Death_01" ID="{1BE77542-D801-4E10-A42A-112BE8D0312B}" ShortID="979264792">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Death_01" ID="{3B9605C8-4348-40EB-A455-591FDC1FD8E6}" ShortID="1036514416">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Death\Dagger_VO_Death_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Death_01" ID="{3B9605C8-4348-40EB-A455-591FDC1FD8E6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dagger_VO_Death_02" ID="{81552AD3-1C82-4686-91D4-CA161F072EA4}" ShortID="167926013">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Death_02" ID="{325569A1-F6DC-4EC3-9DEE-AFBD28ED58CB}" ShortID="993321666">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Death\Dagger_VO_Death_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Death_02" ID="{325569A1-F6DC-4EC3-9DEE-AFBD28ED58CB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dagger_VO_Death_03" ID="{50455D6E-5E48-45DA-9FB5-741D3B3E8F0A}" ShortID="172878145">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Death_03" ID="{764F6E3D-5E11-42F8-BCD6-075771CE707B}" ShortID="170836349">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Death\Dagger_VO_Death_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Death_03" ID="{764F6E3D-5E11-42F8-BCD6-075771CE707B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dagger_VO_Death_04" ID="{3489D755-7D33-4233-8A1D-918E7038DA2B}" ShortID="502681794">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Death_04" ID="{F96599F3-84D3-47C7-92DC-7CFA5153E45B}" ShortID="1046992760">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Death\Dagger_VO_Death_04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Death_04" ID="{F96599F3-84D3-47C7-92DC-7CFA5153E45B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dagger_VO_Death_05" ID="{8A15D30C-6C2E-4C67-9D18-5FCF397659AB}" ShortID="517668147">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Death_05" ID="{277AFEB5-48CC-4F50-A2FB-16F5EE4E18C6}" ShortID="817229764">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Death\Dagger_VO_Death_05.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Death_05" ID="{277AFEB5-48CC-4F50-A2FB-16F5EE4E18C6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Dagger_VO_Taunt" ID="{2B36C51C-8302-4CED-90E4-26A8DC36A865}" ShortID="562304320">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Dagger_VO_Taunt_01" ID="{C467F66B-F3C1-4BE6-93A1-9BA954CCFDFE}" ShortID="959708847">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Taunt_01" ID="{2BB89E57-6285-4114-9AF6-20A8FCA36FDD}" ShortID="130606628">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Taunt\Dagger_VO_Taunt_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Taunt_01" ID="{2BB89E57-6285-4114-9AF6-20A8FCA36FDD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dagger_VO_Taunt_02" ID="{E6BEF7FB-5B85-4CCC-BD13-A7110BF7A5C3}" ShortID="552782306">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Taunt_02" ID="{29ECD52D-EA33-4FEB-99C5-B50D4AD9799E}" ShortID="619024018">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Taunt\Dagger_VO_Taunt_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Taunt_02" ID="{29ECD52D-EA33-4FEB-99C5-B50D4AD9799E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dagger_VO_Taunt_03" ID="{D590DBEC-171A-4D32-B631-9DE75A5A8326}" ShortID="266008389">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Taunt_03" ID="{BDF1977F-AA16-46F4-B6A3-86E7847D87F5}" ShortID="275371594">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Taunt\Dagger_VO_Taunt_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Taunt_03" ID="{BDF1977F-AA16-46F4-B6A3-86E7847D87F5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dagger_VO_Taunt_04" ID="{70F8BE97-CD8C-402F-8384-B9A682970FEE}" ShortID="904410580">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Taunt_04" ID="{CBE4AB37-AAE5-4AEC-8291-8C6A75A4637E}" ShortID="937426561">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Taunt\Dagger_VO_Taunt_04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Taunt_04" ID="{CBE4AB37-AAE5-4AEC-8291-8C6A75A4637E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dagger_VO_Taunt_05" ID="{4374ADC1-6DF3-4116-996C-0968CD56714E}" ShortID="942614753">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Taunt_05" ID="{40F6E6A5-0E15-4E6F-B0C4-0BFA3D1DE655}" ShortID="282016076">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Taunt\Dagger_VO_Taunt_05.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Taunt_05" ID="{40F6E6A5-0E15-4E6F-B0C4-0BFA3D1DE655}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dagger_VO_Taunt_06" ID="{EC2A6684-5E33-47B6-94A0-50F5868BC53B}" ShortID="467002269">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Taunt_06" ID="{30FD687C-65B6-48EB-9F53-586B321B9A7F}" ShortID="859479609">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Taunt\Dagger_VO_Taunt_06.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Taunt_06" ID="{30FD687C-65B6-48EB-9F53-586B321B9A7F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dagger_VO_Taunt_07" ID="{6DA8BAAE-3FD1-4178-8BDF-FBF1257C3FB0}" ShortID="4123069">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Enemies" ID="{5659D37C-0D66-46E7-A137-7E270139E51D}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dagger_VO_Taunt_07" ID="{9CF64E12-9F66-4B62-AA9A-ACC093E5AEDD}" ShortID="217633968">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Dagger_VO_Taunt\Dagger_VO_Taunt_07.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dagger_VO_Taunt_07" ID="{9CF64E12-9F66-4B62-AA9A-ACC093E5AEDD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Dagger_Weapon" ID="{493E14E2-F523-4ED9-8C09-91077025C4C2}" ShortID="495450740">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Dagger_Attack_Shing" ID="{2BA746E7-FAF5-4F18-A436-DFD73F991554}" ShortID="7863266">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Sfx_Dagger_Shing_05" ID="{4130CB6A-02F0-4920-BF98-8C580C7D33DA}" ShortID="275725190">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sfx_Dagger_Shing_05" ID="{8379F41D-AF05-458B-9491-A8024FB806F2}" ShortID="89574443">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Shing\Sfx_Dagger_Shing_05.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sfx_Dagger_Shing_05" ID="{8379F41D-AF05-458B-9491-A8024FB806F2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sfx_Dagger_Shing_04" ID="{2A90162C-2C96-406C-BC63-748C640329DE}" ShortID="471912125">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sfx_Dagger_Shing_04" ID="{A1B8EFC9-BEC1-4F2D-8E9C-8C60E89B7600}" ShortID="705288680">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Shing\Sfx_Dagger_Shing_04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sfx_Dagger_Shing_04" ID="{A1B8EFC9-BEC1-4F2D-8E9C-8C60E89B7600}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sfx_Dagger_Shing_01" ID="{8A794FB5-6808-4277-9942-D8AB75D28D81}" ShortID="541791173">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sfx_Dagger_Shing_01" ID="{6A88EB6F-DFAD-4086-B79B-D0EF608BF018}" ShortID="604815814">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Shing\Sfx_Dagger_Shing_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sfx_Dagger_Shing_01" ID="{6A88EB6F-DFAD-4086-B79B-D0EF608BF018}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sfx_Dagger_Shing_02" ID="{CB546229-6115-4886-94BB-25B1F370BC4E}" ShortID="667357875">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sfx_Dagger_Shing_02" ID="{C49CCE90-C2B5-4CF0-BD49-359F90A96249}" ShortID="839675352">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Shing\Sfx_Dagger_Shing_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sfx_Dagger_Shing_02" ID="{C49CCE90-C2B5-4CF0-BD49-359F90A96249}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sfx_Dagger_Shing_03" ID="{5A3E6BB3-2073-4EE6-A4B1-4BE7420A5679}" ShortID="392368459">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sfx_Dagger_Shing_03" ID="{3B362C37-C5AC-492A-BB35-90925A152141}" ShortID="694603896">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Shing\Sfx_Dagger_Shing_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sfx_Dagger_Shing_03" ID="{3B362C37-C5AC-492A-BB35-90925A152141}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Dagger_Attack_Whoosh" ID="{18C8BAEC-18CF-43FE-8A33-F790203B8D6A}" ShortID="793988637">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Sfx_Enemy_Whoosh_03" ID="{55F9847D-7278-48F7-BE8C-3740696AC6F2}" ShortID="702566963">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sfx_Enemy_Whoosh_03" ID="{ED56DAAE-20DE-43EB-A255-E5F7B8FA6952}" ShortID="1073206101">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Whooshes\Sfx_Enemy_Whoosh_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sfx_Enemy_Whoosh_03" ID="{ED56DAAE-20DE-43EB-A255-E5F7B8FA6952}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sfx_Enemy_Whoosh_05" ID="{13EDDCA1-64D2-450E-B789-550FD2B84FE1}" ShortID="619242782">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sfx_Enemy_Whoosh_05" ID="{3E8C64A4-1C27-4193-AB6C-85A21A8B0C2B}" ShortID="107670904">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Whooshes\Sfx_Enemy_Whoosh_05.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sfx_Enemy_Whoosh_05" ID="{3E8C64A4-1C27-4193-AB6C-85A21A8B0C2B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sfx_Enemy_Whoosh_04" ID="{AB63A368-CAD7-41D0-9308-DF583014BD59}" ShortID="874405807">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sfx_Enemy_Whoosh_04" ID="{FBCCC9C1-4CD6-4895-9B4C-D3B4945DCAA6}" ShortID="281776266">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Whooshes\Sfx_Enemy_Whoosh_04.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sfx_Enemy_Whoosh_04" ID="{FBCCC9C1-4CD6-4895-9B4C-D3B4945DCAA6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sfx_Enemy_Whoosh_01" ID="{5CB90951-B726-402C-B7E8-B056331480EB}" ShortID="376283470">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sfx_Enemy_Whoosh_01" ID="{3FF6C6EE-7A54-423D-8076-5D73182D8DF9}" ShortID="981424925">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Whooshes\Sfx_Enemy_Whoosh_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sfx_Enemy_Whoosh_01" ID="{3FF6C6EE-7A54-423D-8076-5D73182D8DF9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sfx_Enemy_Whoosh_02" ID="{01873253-EA55-4A88-A0AB-3FEF32842C50}" ShortID="652228365">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFX_In_World" ID="{966CF5C9-9804-4D96-986A-665745952550}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sfx_Enemy_Whoosh_02" ID="{9CCA4CD5-02F7-4BFA-9070-492EA5423041}" ShortID="220468369">
+													<Language>SFX</Language>
+													<AudioFile>Characters\Dagger\Whooshes\Sfx_Enemy_Whoosh_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sfx_Enemy_Whoosh_02" ID="{9CCA4CD5-02F7-4BFA-9070-492EA5423041}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

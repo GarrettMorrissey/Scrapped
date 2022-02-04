@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}" SchemaVersion="94">
+	<States>
+		<WorkUnit Name="Main" ID="{1FC4460C-4C64-4B82-A69C-6BCCC6D42615}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Game_Flow" ID="{F386B27C-9BB1-41E9-BB73-4AE6BFF41BBB}">
+					<ChildrenList>
+						<State Name="None" ID="{E484B2B3-B703-4664-9736-92C7042B5E52}"/>
+						<State Name="Game_Over" ID="{B5F7B2D8-2210-4BB6-BF62-2474A02CCE17}"/>
+						<State Name="Gameplay" ID="{C837B90F-1F2A-4229-97C3-A064313B1BAC}"/>
+						<State Name="Pause" ID="{121A6648-504E-48E1-98D6-FA43339EEF45}"/>
+						<State Name="Resume" ID="{72F44BFC-3708-4126-A9CC-C35B139A990C}"/>
+						<State Name="Menu" ID="{B2441681-A1B0-4F23-ACBD-13B9EF0DE955}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Gameplay" ID="{30720D8C-CC8D-4D34-AB10-74223EAF2464}">
+					<ChildrenList>
+						<State Name="None" ID="{8DCF63FB-28BF-40E1-BA1B-1C9605432CEF}"/>
+						<State Name="Calm" ID="{1DC7901D-D8E6-4831-9BD5-833186329851}"/>
+						<State Name="Intense" ID="{2E35B00C-8914-44D0-BC51-4B7D96CA24F5}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Level" ID="{AD54EA8D-2784-4D0D-84BF-E2FC6D2FC5D9}">
+					<ChildrenList>
+						<State Name="None" ID="{3D64354B-A34B-4691-A26A-F8B343F35E26}"/>
+						<State Name="Level_01" ID="{E8E05314-C4A8-4AF6-8787-A550615C6EF9}"/>
+						<State Name="Level_02" ID="{7CB52745-D5F0-44B6-A06B-7479A0ADBA3C}"/>
+						<State Name="Level_03" ID="{F22563C0-FDF1-479F-8781-98B34E12FD83}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Environment" ID="{2BF75FE8-216B-4D2C-99B9-2D5E8EE89FC9}">
+					<ChildrenList>
+						<State Name="None" ID="{AC7A58DC-FE13-474C-909D-CD923816A4FA}"/>
+						<State Name="Forest" ID="{C47863C1-9696-4993-A5C3-825C79FF431E}"/>
+						<State Name="Badlands" ID="{57C4EB5E-4898-45AF-AB07-1AF45A5DB8DA}"/>
+						<State Name="City" ID="{B9E71BE1-D766-4A1B-8D47-BF38FF71FA76}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Green_Fog" ID="{925EAD6F-D4B1-4EFD-82D5-8FCF27C51258}">
+					<ChildrenList>
+						<State Name="None" ID="{BD7905AB-0105-4B3E-B3B5-488508911765}"/>
+						<State Name="Green_Fog_Inside" ID="{66442615-184C-411B-B40C-7C2EB9E3959E}"/>
+						<State Name="Green_Fog_Outside" ID="{CCDA22C2-8253-4E86-B189-E291D51C426B}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

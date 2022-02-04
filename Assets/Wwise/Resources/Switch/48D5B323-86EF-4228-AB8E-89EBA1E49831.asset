@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f504e67f3993394a8482d7cf6994add, type: 3}
+  m_Name: 48D5B323-86EF-4228-AB8E-89EBA1E49831
+  m_EditorClassIdentifier: 
+  objectName: UFO
+  id: 1198168263
+  guid: 48D5B323-86EF-4228-AB8E-89EBA1E49831
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: c7af4b245e1b51942b94213e244351a6,
+    type: 2}

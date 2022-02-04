@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{995E4AF6-DAB7-463B-B751-D7ABEBC53B66}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{995E4AF6-DAB7-463B-B751-D7ABEBC53B66}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SFX_Dexter_Grapple_Whoosh_01" ID="{15686C1F-E1A7-448D-AFEB-26FF3DCAEDE1}" ShortID="477231626">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2D9109ED-72A3-43B3-B6F9-E00BA32A3928}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE8CD3B1-9DF2-42E4-BE12-97346CFDA77E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Dexter_Grapple_Whoosh_01" ID="{198795CF-08E7-46F2-9727-A0B672A204D3}" ShortID="539662866">
+							<Language>SFX</Language>
+							<AudioFile>Characters\Dexter\Grapple\Grapple_Whoosh\SFX_Dexter_Grapple_Whoosh_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Dexter_Grapple_Whoosh_01" ID="{198795CF-08E7-46F2-9727-A0B672A204D3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
