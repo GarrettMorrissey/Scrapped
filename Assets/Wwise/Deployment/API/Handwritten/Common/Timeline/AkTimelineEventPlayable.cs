@@ -7,8 +7,6 @@
 //
 //////////////////////////////////////////////////////////////////////
 
-#if UNITY_2017_1_OR_NEWER
-
 /// @brief Defines the behavior of a \ref AkTimelineEventPlayable within a \ref AkTimelineEventTrack.
 /// \sa
 /// - \ref AkTimelineEventTrack
@@ -95,15 +93,25 @@ public class AkTimelineEventPlayableBehavior : UnityEngine.Playables.PlayableBeh
 	private bool wasScrubbingAndRequiresRetrigger;
 	public bool StopEventAtClipEnd;
 
-	private bool IsScrubbing(UnityEngine.Playables.FrameData info)
+	private bool IsScrubbing(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
 	{
-#if !UNITY_2018_2_OR_NEWER
-		// We disable scrubbing in edit mode, due to an issue with how FrameData.EvaluationType is handled in edit mode.
-		// This is a known issue and Unity are aware of it: https://fogbugz.unity3d.com/default.asp?953109_kitf7pso0vmjm0m0
-		if (!UnityEngine.Application.isPlaying)
+		if(info.evaluationType != UnityEngine.Playables.FrameData.EvaluationType.Evaluate)
+		{
 			return false;
+		}
+#if UNITY_EDITOR
+		if (!UnityEngine.Application.isPlaying)
+		{
+			return true;
+		}
 #endif
-		return info.evaluationType == UnityEngine.Playables.FrameData.EvaluationType.Evaluate;
+		var previousTime = UnityEngine.Playables.PlayableExtensions.GetPreviousTime(playable);
+		var currentTime = UnityEngine.Playables.PlayableExtensions.GetTime(playable);
+
+		// Unfortunately, we can't use info.seekOccurred, because it is always true.
+		// When time is explicitely set using playable.time, deltaTime is zero, evaluationType is Evaluate, and 
+		// either previous time or current time is non-zero
+		return info.deltaTime == 0 && (previousTime > 0 || currentTime > 0);
 	}
 
 	public override void PrepareFrame(UnityEngine.Playables.Playable playable, UnityEngine.Playables.FrameData info)
@@ -114,13 +122,20 @@ public class AkTimelineEventPlayableBehavior : UnityEngine.Playables.PlayableBeh
 			return;
 
 		var shouldPlay = ShouldPlay(playable);
-		if (IsScrubbing(info) && shouldPlay)
+		if (IsScrubbing(playable, info) && shouldPlay)
 		{
 			requiredActions |= Actions.Seek;
 
 			if (!eventIsPlaying)
 			{
-				requiredActions |= Actions.Playback | Actions.DelayedStop;
+				requiredActions |= Actions.Playback;
+#if UNITY_EDITOR
+				if (!UnityEngine.Application.isPlaying)
+				{
+					// If we've explicitly set the playhead, only play a small snippet.
+					requiredActions |= Actions.DelayedStop;
+				}
+#endif
 				CheckForFadeInFadeOut(playable);
 			}
 		}
@@ -151,11 +166,17 @@ public class AkTimelineEventPlayableBehavior : UnityEngine.Playables.PlayableBeh
 
 		requiredActions |= Actions.Playback;
 
-		if (IsScrubbing(info))
+		if (IsScrubbing(playable, info))
 		{
 			wasScrubbingAndRequiresRetrigger = true;
-			// If we've explicitly set the playhead, only play a small snippet.
-			requiredActions |= Actions.DelayedStop;
+
+#if UNITY_EDITOR
+			if (!UnityEngine.Application.isPlaying)
+			{
+				// If we've explicitly set the playhead, only play a small snippet.
+				requiredActions |= Actions.DelayedStop;
+			}
+#endif
 		}
 		else if (GetProportionalTime(playable) > alph)
 		{
@@ -218,8 +239,15 @@ public class AkTimelineEventPlayableBehavior : UnityEngine.Playables.PlayableBeh
 	{
 		var previousTime = UnityEngine.Playables.PlayableExtensions.GetPreviousTime(playable);
 		var currentTime = UnityEngine.Playables.PlayableExtensions.GetTime(playable);
-		if (previousTime == 0.0 && System.Math.Abs(currentTime - previousTime) > 1.0)
-			return false;
+
+#if UNITY_EDITOR
+		// In editor, do not automatically play the event if the cursor is already in the section.
+		if (!UnityEditor.EditorApplication.isPlaying)
+		{
+			if (previousTime == 0.0 && System.Math.Abs(currentTime - previousTime) > 1.0)
+				return false;
+		}
+#endif
 
 		if (retriggerEvent)
 			return true;
@@ -503,8 +531,7 @@ public class AkTimelineEventPlayable : UnityEngine.Playables.PlayableAsset, Unit
 		[UnityEditor.InitializeOnLoadMethod]
 		public static void SetupSoundbankSetting()
 		{
-			var WprojPath = AkUtilities.GetFullPath(UnityEngine.Application.dataPath, WwiseSettings.LoadSettings().WwiseProjectPath);
-			AkUtilities.EnableBoolSoundbankSettingInWproj("SoundBankGenerateEstimatedDuration", WprojPath);
+			AkUtilities.EnableBoolSoundbankSettingInWproj("SoundBankGenerateEstimatedDuration", AkWwiseEditorSettings.WwiseProjectAbsolutePath);
 
 			UnityEditor.EditorApplication.update += RunOnce;
 			AkWwiseXMLWatcher.Instance.XMLUpdated += UpdateAllClips;
@@ -611,8 +638,6 @@ public class AkTimelineEventPlayable : UnityEngine.Playables.PlayableAsset, Unit
 
 #endif //#if UNITY_EDITOR
 }
-
-#endif // UNITY_2017_1_OR_NEWER
 
 #endif // !AK_DISABLE_TIMELINE
 #endif // #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.

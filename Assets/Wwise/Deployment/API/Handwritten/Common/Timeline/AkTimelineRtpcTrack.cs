@@ -1,8 +1,6 @@
 ﻿#if !(UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
 #if !AK_DISABLE_TIMELINE
 
-#if UNITY_2017_1_OR_NEWER
-
 [UnityEngine.Timeline.TrackColor(0.32f, 0.13f, 0.13f)]
 // Specifies the type of Playable Asset this track manages
 [UnityEngine.Timeline.TrackClipType(typeof(AkTimelineRtpcPlayable))]
@@ -32,8 +30,5 @@ public class AkTimelineRtpcTrack : UnityEngine.Timeline.TrackAsset
 			(clip.asset as AkTimelineRtpcPlayable).SetupClipDisplay();
 	}
 }
-
-#endif // UNITY_2017_1_OR_NEWER
 #endif // !AK_DISABLE_TIMELINE
-
 #endif // #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.

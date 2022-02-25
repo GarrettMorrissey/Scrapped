@@ -1,12 +1,11 @@
 #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
 #if !AK_DISABLE_TIMELINE
-#if UNITY_2017_1_OR_NEWER
 //--------------------------------------------------------------------------------------------
 // The representation of the Timeline Clip
 //--------------------------------------------------------------------------------------------
 
 [System.Serializable]
-[System.Obsolete(AkSoundEngine.Deprecation_2019_1_8)]
+[System.Obsolete(AkSoundEngine.Deprecation_2019_2_0)]
 public class AkRTPCPlayable : UnityEngine.Playables.PlayableAsset, UnityEngine.Timeline.ITimelineClipAsset
 {
 	public bool overrideTrackObject = false;
@@ -42,7 +41,7 @@ public class AkRTPCPlayable : UnityEngine.Playables.PlayableAsset, UnityEngine.T
 //--------------------------------------------------------------------------------------------
 
 [System.Serializable]
-[System.Obsolete(AkSoundEngine.Deprecation_2019_1_8)]
+[System.Obsolete(AkSoundEngine.Deprecation_2019_2_0)]
 public class AkRTPCPlayableBehaviour : UnityEngine.Playables.PlayableBehaviour
 {
 	[UnityEngine.SerializeField]
@@ -80,8 +79,5 @@ public class AkRTPCPlayableBehaviour : UnityEngine.Playables.PlayableBehaviour
 		base.ProcessFrame(playable, info, playerData);
 	}
 }
-
-#endif //UNITY_2017_1_OR_NEWER
 #endif // !AK_DISABLE_TIMELINE
-
 #endif // #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.

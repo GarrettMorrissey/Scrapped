@@ -7,8 +7,6 @@
 //
 //////////////////////////////////////////////////////////////////////
 
-#if UNITY_2017_1_OR_NEWER
-
 [System.Serializable]
 public class AkTimelineRtpcPlayableBehaviour : UnityEngine.Playables.PlayableBehaviour
 {
@@ -111,8 +109,5 @@ public class AkTimelineRtpcPlayable : UnityEngine.Playables.PlayableAsset, Unity
 
 #endif //#if UNITY_EDITOR
 }
-
-#endif // UNITY_2017_1_OR_NEWER
 #endif // !AK_DISABLE_TIMELINE
-
 #endif // #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.

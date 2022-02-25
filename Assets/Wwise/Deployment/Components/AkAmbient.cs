@@ -42,8 +42,14 @@ public class AkAmbient : AkEvent
 
 	public AkAmbientLargeModePositioner[] LargeModePositions;
 
-	private void OnEnable()
+	public override void OnEnable() 
 	{
+#if UNITY_EDITOR
+		if (UnityEngine.Application.isBatchMode)
+		{
+			return;
+		}
+#endif
 		if (multiPositionTypeLabel == MultiPositionTypeLabel.MultiPosition_Mode)
 		{
 			var gameObj = gameObject.GetComponents<AkGameObj>();
@@ -70,6 +76,7 @@ public class AkAmbient : AkEvent
 			AkSoundEngine.SetMultiplePositions(eventPosList.list[0].gameObject, positionArray, (ushort) positionArray.Count,
 				MultiPositionType);
 		}
+		base.OnEnable();
 	}
 
 	protected override void Start()
@@ -85,7 +92,7 @@ public class AkAmbient : AkEvent
 		else if (multiPositionTypeLabel == MultiPositionTypeLabel.Large_Mode)
 		{
 #if UNITY_EDITOR
-			if (!UnityEditor.EditorApplication.isPlaying)
+			if (!UnityEditor.EditorApplication.isPlaying || UnityEngine.Application.isBatchMode)
 			{
 				return;
 			}
@@ -252,7 +259,7 @@ public class AkAmbient : AkEvent
 			var largeModePositionElementProperty = largeModePositionsProperty.GetArrayElementAtIndex(point);
 			if (largeModePositionElementProperty != null)
 			{
-				UnityEngine.GameObject newPoint = new UnityEngine.GameObject("AkAmbientPoint" + point.ToString());
+				var newPoint = new UnityEngine.GameObject("AkAmbientPoint" + point.ToString());
 				newPoint.AddComponent<AkAmbientLargeModePositioner>();
 				newPoint.transform.SetParent(transform);
 				newPoint.transform.position = transform.TransformPoint(elementProperty.vector3Value);

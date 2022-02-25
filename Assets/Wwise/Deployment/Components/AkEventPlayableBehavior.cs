@@ -5,13 +5,11 @@
 //
 //////////////////////////////////////////////////////////////////////
 
-#if UNITY_2017_1_OR_NEWER
-
 /// @brief Defines the behavior of a \ref AkEventPlayable within a \ref AkEventTrack.
 /// \sa
 /// - \ref AkEventTrack
 /// - \ref AkEventPlayable
-//[System.Serializable]
+[System.Obsolete(AkSoundEngine.Deprecation_2019_2_0)]
 public class AkEventPlayableBehavior : UnityEngine.Playables.PlayableBehaviour
 {
 	private float currentDuration = -1f;
@@ -283,9 +281,7 @@ public class AkEventPlayableBehavior : UnityEngine.Playables.PlayableBehaviour
 
 #if UNITY_EDITOR
 		if (!UnityEditor.EditorApplication.isPlaying)
-		{
 			eventIsPlaying = false;
-		}
 #endif
 	}
 
@@ -294,6 +290,7 @@ public class AkEventPlayableBehavior : UnityEngine.Playables.PlayableBehaviour
 		fadeinTriggered = fadeoutTriggered = false;
 
 		uint playingID;
+
 #if UNITY_EDITOR
 		if (!CanPostEvents)
 		{
@@ -362,11 +359,9 @@ public class AkEventPlayableBehavior : UnityEngine.Playables.PlayableBehaviour
 #endif
 
 		if (eventIsPlaying)
-		{
 			AkSoundEngine.SeekOnEvent(akEvent.Id, eventObject, proportionalTime);
-		}
+
 		return proportionalTime;
 	}
 }
-#endif //UNITY_2017_1_OR_NEWER
 #endif // #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.

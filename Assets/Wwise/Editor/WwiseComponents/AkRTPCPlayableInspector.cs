@@ -1,4 +1,4 @@
-﻿#if UNITY_EDITOR && UNITY_2017_1_OR_NEWER
+﻿#if UNITY_EDITOR
 #if !AK_DISABLE_TIMELINE
 
 //////////////////////////////////////////////////////////////////////
@@ -7,7 +7,7 @@
 //
 //////////////////////////////////////////////////////////////////////
 
-[System.Obsolete(AkSoundEngine.Deprecation_2019_1_8)]
+[System.Obsolete(AkSoundEngine.Deprecation_2019_2_0)]
 [UnityEditor.CustomEditor(typeof(AkRTPCPlayable))]
 public class AkRTPCPlayableInspector : UnityEditor.Editor
 {
@@ -32,7 +32,7 @@ public class AkRTPCPlayableInspector : UnityEditor.Editor
 
 	public override void OnInspectorGUI()
 	{
-		UnityEditor.EditorGUILayout.HelpBox(AkSoundEngine.Deprecation_2019_1_8, UnityEditor.MessageType.Warning);
+		UnityEditor.EditorGUILayout.HelpBox(AkSoundEngine.Deprecation_2019_2_0, UnityEditor.MessageType.Warning);
 
 		serializedObject.Update();
 
@@ -69,5 +69,5 @@ public class AkRTPCPlayableInspector : UnityEditor.Editor
 	}
 }
 
-#endif //#if UNITY_EDITOR && UNITY_2017_1_OR_NEWER
 #endif // !AK_DISABLE_TIMELINE
+#endif //#if UNITY_EDITOR

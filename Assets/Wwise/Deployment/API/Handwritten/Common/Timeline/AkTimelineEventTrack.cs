@@ -7,8 +7,6 @@
 //
 //////////////////////////////////////////////////////////////////////
 
-#if UNITY_2017_1_OR_NEWER
-
 [UnityEngine.Timeline.TrackColor(0.855f, 0.8623f, 0.870f)]
 [UnityEngine.Timeline.TrackClipType(typeof(AkTimelineEventPlayable))]
 [UnityEngine.Timeline.TrackBindingType(typeof(UnityEngine.GameObject))]
@@ -34,8 +32,5 @@ public class AkTimelineEventTrack : UnityEngine.Timeline.TrackAsset
 		return playable;
 	}
 }
-
-#endif // UNITY_2017_1_OR_NEWER
 #endif // !AK_DISABLE_TIMELINE
-
 #endif // #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
