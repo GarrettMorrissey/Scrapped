@@ -23,14 +23,14 @@ Assets/StreamingAssets/Audio/GeneratedSoundBanks/Mac/
 Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/
 
 # Wwise Project
-WwiseProject/IncrementalSoundBankData.xml
-WwiseProject/.cache/
-WwiseProject/.backup/
-WwiseProject/*.akd
-WwiseProject/*.akpk
-WwiseProject/*.prof
-WwiseProject/*.validationcache
-WwiseProject/*.wsettings
+Wwise/IncrementalSoundBankData.xml
+Wwise/.cache/
+Wwise/.backup/
+Wwise/*.akd
+Wwise/*.akpk
+Wwise/*.prof
+Wwise/*.validationcache
+Wwise/*.wsettings
 *.akd
 *.bnk
 
