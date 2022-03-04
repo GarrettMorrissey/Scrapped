@@ -33,6 +33,7 @@ Wwise/*.validationcache
 Wwise/*.wsettings
 *.akd
 *.bnk
+*.wem
 
 #FMOD Plugin
 Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
