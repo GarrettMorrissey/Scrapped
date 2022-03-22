@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{97D48AD2-3574-4A4B-8DC7-16D3FB910336}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{97D48AD2-3574-4A4B-8DC7-16D3FB910336}" SchemaVersion="97">
 	<AudioObjects>
 		<WorkUnit Name="Boss" ID="{97D48AD2-3574-4A4B-8DC7-16D3FB910336}" PersistMode="Standalone">
 			<ChildrenList>
@@ -75,12 +75,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Boss_VO_Taunt_02" ID="{5F55961B-E7F9-434E-972F-2F4C02905F14}" ShortID="51328634">
+												<AudioFileSource Name="Boss_VO_Taunt_02" ID="{5F55961B-E7F9-434E-972F-2F4C02905F14}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Boss\Boss_VO\Boss_VO_Taunt\Boss_VO_Taunt_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="1013699243"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="1013699243"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -104,12 +104,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Boss_VO_Taunt_04" ID="{0090FD73-B9F7-4BD2-AF04-93538F0F3A87}" ShortID="896564207">
+												<AudioFileSource Name="Boss_VO_Taunt_04" ID="{0090FD73-B9F7-4BD2-AF04-93538F0F3A87}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Boss\Boss_VO\Boss_VO_Taunt\Boss_VO_Taunt_04.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="844910005"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="844910005"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -133,12 +133,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Boss_VO_Taunt_01" ID="{4513E307-BEC3-462B-95AF-C42F605F709D}" ShortID="597059038">
+												<AudioFileSource Name="Boss_VO_Taunt_01" ID="{4513E307-BEC3-462B-95AF-C42F605F709D}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Boss\Boss_VO\Boss_VO_Taunt\Boss_VO_Taunt_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="71195033"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="71195033"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -162,12 +162,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Boss_VO_Taunt_03" ID="{DEBD951B-A48B-4912-9A59-502FA21915C0}" ShortID="857765636">
+												<AudioFileSource Name="Boss_VO_Taunt_03" ID="{DEBD951B-A48B-4912-9A59-502FA21915C0}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Boss\Boss_VO\Boss_VO_Taunt\Boss_VO_Taunt_03.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="423850668"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="423850668"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -273,12 +273,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Boss_VO_Hurt_02" ID="{A1D005E6-602D-480D-A302-2EC6A5EB3E2A}" ShortID="917755217">
+												<AudioFileSource Name="Boss_VO_Hurt_02" ID="{A1D005E6-602D-480D-A302-2EC6A5EB3E2A}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Boss\Boss_VO\Boss_VO_Hurt\Boss_VO_Hurt_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="514825198"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="514825198"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -302,12 +302,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Boss_VO_Hurt_01" ID="{6C00B4E9-3B03-4DA4-BC9F-2FAB6420DF95}" ShortID="71598305">
+												<AudioFileSource Name="Boss_VO_Hurt_01" ID="{6C00B4E9-3B03-4DA4-BC9F-2FAB6420DF95}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Boss\Boss_VO\Boss_VO_Hurt\Boss_VO_Hurt_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="753307671"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="753307671"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -331,12 +331,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Boss_VO_Hurt_05" ID="{6084CAF6-8815-4A5B-9228-F6C6AA91EFA3}" ShortID="597794965">
+												<AudioFileSource Name="Boss_VO_Hurt_05" ID="{6084CAF6-8815-4A5B-9228-F6C6AA91EFA3}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Boss\Boss_VO\Boss_VO_Hurt\Boss_VO_Hurt_05.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="1010801345"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="1010801345"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -360,12 +360,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Boss_VO_Hurt_03" ID="{961AD1C0-E260-48CF-B956-FC5A3A8A7F02}" ShortID="880755126">
+												<AudioFileSource Name="Boss_VO_Hurt_03" ID="{961AD1C0-E260-48CF-B956-FC5A3A8A7F02}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Boss\Boss_VO\Boss_VO_Hurt\Boss_VO_Hurt_03.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="490772290"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="490772290"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -389,12 +389,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Boss_VO_Hurt_04" ID="{DC31F7C5-8239-4F1D-B10B-257B968CDD76}" ShortID="267465372">
+												<AudioFileSource Name="Boss_VO_Hurt_04" ID="{DC31F7C5-8239-4F1D-B10B-257B968CDD76}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Boss\Boss_VO\Boss_VO_Hurt\Boss_VO_Hurt_04.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="618434462"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="618434462"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -490,7 +490,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Boss_VO_Death_01" ID="{41A7BB5C-AFB1-4F98-B91D-A0348492555B}" ShortID="850165773">
+												<AudioFileSource Name="Boss_VO_Death_01" ID="{41A7BB5C-AFB1-4F98-B91D-A0348492555B}">
 													<PropertyList>
 														<Property Name="FadeOutDuration" Type="Real64" Value="1.18066666666667"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -498,6 +498,9 @@
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Characters\Boss\Boss_VO\Boss_VO_Death\Boss_VO_Death_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="850165773"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -514,7 +517,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Boss_VO_Death_02" ID="{0B5BFB39-6C14-43AA-8D63-5383ABC9679A}" ShortID="977260401">
+												<AudioFileSource Name="Boss_VO_Death_02" ID="{0B5BFB39-6C14-43AA-8D63-5383ABC9679A}">
 													<PropertyList>
 														<Property Name="FadeOutDuration" Type="Real64" Value="1.02678081597222"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -522,6 +525,9 @@
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Characters\Boss\Boss_VO\Boss_VO_Death\Boss_VO_Death_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="977260401"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -557,9 +563,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Boss_VO_Grunt_01" ID="{AEAF62E1-926A-418F-AD3B-58D518E6A5C4}" ShortID="199281764">
+												<AudioFileSource Name="Boss_VO_Grunt_01" ID="{AEAF62E1-926A-418F-AD3B-58D518E6A5C4}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Boss\Boss_VO\Boss_VO_Grunt\Boss_VO_Grunt_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="199281764"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -583,9 +592,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Boss_VO_Grunt_02" ID="{F4AFAC48-9423-43CD-9153-586B918D5633}" ShortID="53741401">
+												<AudioFileSource Name="Boss_VO_Grunt_02" ID="{F4AFAC48-9423-43CD-9153-586B918D5633}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Boss\Boss_VO\Boss_VO_Grunt\Boss_VO_Grunt_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="53741401"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -609,9 +621,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Boss_VO_Grunt_03" ID="{F35E850A-C936-44C3-AD39-D90AA2AE6CE5}" ShortID="299728411">
+												<AudioFileSource Name="Boss_VO_Grunt_03" ID="{F35E850A-C936-44C3-AD39-D90AA2AE6CE5}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Boss\Boss_VO\Boss_VO_Grunt\Boss_VO_Grunt_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="299728411"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -635,9 +650,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Boss_VO_Grunt_04" ID="{7FEA4834-A14C-43CC-BC34-A851ABB2D787}" ShortID="851481674">
+												<AudioFileSource Name="Boss_VO_Grunt_04" ID="{7FEA4834-A14C-43CC-BC34-A851ABB2D787}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Boss\Boss_VO\Boss_VO_Grunt\Boss_VO_Grunt_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="851481674"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -661,9 +679,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Boss_VO_Grunt_05" ID="{EF102507-F466-471C-9292-AC0C9A6498FB}" ShortID="312977624">
+												<AudioFileSource Name="Boss_VO_Grunt_05" ID="{EF102507-F466-471C-9292-AC0C9A6498FB}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Boss\Boss_VO\Boss_VO_Grunt\Boss_VO_Grunt_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="312977624"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -687,9 +708,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Boss_VO_Grunt_06" ID="{648AE79C-EE0B-4893-B6C5-DDFD03C8E44A}" ShortID="623040933">
+												<AudioFileSource Name="Boss_VO_Grunt_06" ID="{648AE79C-EE0B-4893-B6C5-DDFD03C8E44A}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Boss\Boss_VO\Boss_VO_Grunt\Boss_VO_Grunt_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="623040933"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -861,9 +885,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Boss_Gunshot_01" ID="{0F8D1EF8-8166-4776-B7F9-F6E6CBCECF6D}" ShortID="795130998">
+												<AudioFileSource Name="Sfx_Boss_Gunshot_01" ID="{0F8D1EF8-8166-4776-B7F9-F6E6CBCECF6D}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Boss\Weapon\Gunshot\Sfx_Boss_Gunshot_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="795130998"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -913,9 +940,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Boss_Gun_Reload_01" ID="{2AB521A1-4D38-4D69-BFF5-10A14DC097E4}" ShortID="570511405">
+												<AudioFileSource Name="Sfx_Boss_Gun_Reload_01" ID="{2AB521A1-4D38-4D69-BFF5-10A14DC097E4}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Boss\Weapon\Reload\Sfx_Boss_Gun_Reload_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="570511405"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -994,9 +1024,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Boss_Hoverboard_Idle" ID="{7E5B1112-C50F-4CEE-9614-BA8073E1A62F}" ShortID="792420520">
+														<AudioFileSource Name="Sfx_Boss_Hoverboard_Idle" ID="{7E5B1112-C50F-4CEE-9614-BA8073E1A62F}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Boss\Hoverboard\Sfx_Boss_Hoverboard_Idle.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="792420520"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1028,9 +1061,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Boss_Hoverboard_Fast" ID="{5F98D3DA-1CD0-4200-80B0-CED9DDE3F6AB}" ShortID="122928968">
+														<AudioFileSource Name="Sfx_Boss_Hoverboard_Fast" ID="{5F98D3DA-1CD0-4200-80B0-CED9DDE3F6AB}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Boss\Hoverboard\Sfx_Boss_Hoverboard_Fast.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="122928968"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1050,9 +1086,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Boss_Hoverboard_Slow" ID="{5A525FD8-5D2C-4797-A97A-B3842E07E979}" ShortID="963319618">
+														<AudioFileSource Name="Sfx_Boss_Hoverboard_Slow" ID="{5A525FD8-5D2C-4797-A97A-B3842E07E979}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Boss\Hoverboard\Sfx_Boss_Hoverboard_Slow.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="963319618"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1072,12 +1111,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Boss_Hoverboard_Idle" ID="{AC933E27-CFCF-4050-A583-F98750F540A8}" ShortID="157888796">
+														<AudioFileSource Name="Sfx_Boss_Hoverboard_Idle" ID="{AC933E27-CFCF-4050-A583-F98750F540A8}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Boss\Hoverboard\Sfx_Boss_Hoverboard_Idle.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="792420520"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="792420520"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1158,14 +1197,14 @@
 															<CrossfadingInfo>
 																<LeftEdgePos>0</LeftEdgePos>
 																<LeftFadingMode>Automatic</LeftFadingMode>
-																<RightEdgePos>6.39450536062378E-02</RightEdgePos>
+																<RightEdgePos>0.0639450536062378</RightEdgePos>
 																<RightFadingMode>Automatic</RightFadingMode>
 															</CrossfadingInfo>
 														</BlendTrackAssoc>
 														<BlendTrackAssoc>
 															<ItemRef Name="Sfx_Boss_Hoverboard_Slow" ID="{2A879992-4878-4C9D-B2FC-1A10E3EA2127}"/>
 															<CrossfadingInfo>
-																<LeftEdgePos>2.99390838206627E-03</LeftEdgePos>
+																<LeftEdgePos>0.00299390838206627</LeftEdgePos>
 																<LeftFadingMode>Automatic</LeftFadingMode>
 																<RightEdgePos>0.878417641325536</RightEdgePos>
 																<RightFadingMode>Automatic</RightFadingMode>

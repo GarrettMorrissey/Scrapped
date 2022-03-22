@@ -1,4 +1,4 @@
-#if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
+#if !(UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.
 //////////////////////////////////////////////////////////////////////
 //
 // Copyright (c) 2012 Audiokinetic Inc. / All Rights Reserved
@@ -37,6 +37,7 @@ public partial class AkBasePathGetter
 public partial class AkBasePathGetter
 {
 	public static readonly string DefaultBasePath = System.IO.Path.Combine("Audio", "GeneratedSoundBanks");
+	private const string DecodedBankFolder = "DecodedBanks";
 
 	private static bool LogWarnings_Internal = true;
 	public static bool LogWarnings
@@ -117,10 +118,21 @@ public partial class AkBasePathGetter
 		return fullBasePath;
 	}
 
+	public static string GetWwiseProjectPath()
+	{
+		var Settings = AkWwiseEditorSettings.Instance;
+		return AkUtilities.GetFullPath(UnityEngine.Application.dataPath, Settings.WwiseProjectPath);
+	}
+
 	public static string GetWwiseProjectDirectory()
 	{
 		var projectPath= AkUtilities.GetFullPath(UnityEngine.Application.dataPath, AkWwiseEditorSettings.Instance.WwiseProjectPath);
 		return System.IO.Path.GetDirectoryName(projectPath);
+	}
+
+	public static string GetDefaultGeneratedSoundbanksPath()
+	{
+		return System.IO.Path.Combine(GetWwiseProjectPath(), "GeneratedSoundBanks");
 	}
 
 	/// <summary>
@@ -130,9 +142,8 @@ public partial class AkBasePathGetter
 	/// <returns>The full path to the sound banks for use within the Editor.</returns>
 	private static string GetPlatformBasePathEditor(string platformName)
 	{
-		var Settings = AkWwiseEditorSettings.Instance;
-		var WwiseProjectFullPath = AkUtilities.GetFullPath(UnityEngine.Application.dataPath, Settings.WwiseProjectPath);
-		var SoundBankDest = AkUtilities.GetWwiseSoundBankDestinationFolder(platformName, WwiseProjectFullPath);
+		var WwiseProjectFullPath = GetWwiseProjectPath();
+		var SoundBankDest = AkUtilities.GetWwiseSoundBankDestinationFolder(platformName);
 
 		try
 		{
@@ -185,7 +196,18 @@ public partial class AkBasePathGetter
 	}
 #endif
 
-	public static void EvaluateGamePaths()
+	private static AkBasePathGetter Instance;
+	public static AkBasePathGetter Get()
+	{
+		if (Instance == null)
+		{
+			Instance = new AkBasePathGetter();
+			Instance.EvaluateGamePaths();
+		}
+		return Instance;
+	}
+
+	public void EvaluateGamePaths()
 	{
 #if UNITY_SWITCH && !UNITY_EDITOR
 		// Calling Application.persistentDataPath crashes Switch
@@ -246,13 +268,11 @@ public partial class AkBasePathGetter
 		DecodedBankFullPath = tempDecodedBankFullPath;
 	}
 
-	public static string SoundBankBasePath { get; private set; }
+	public string SoundBankBasePath { get; private set; }
 
-	public static string PersistentDataPath { get; private set; }
+	public string PersistentDataPath { get; private set; }
 
-	private const string DecodedBankFolder = "DecodedBanks";
-
-	public static string DecodedBankFullPath { get; private set; }
+	public string DecodedBankFullPath { get; private set; }
 }
 
 #endif // #if ! (UNITY_DASHBOARD_WIDGET || UNITY_WEBPLAYER || UNITY_WII || UNITY_WIIU || UNITY_NACL || UNITY_FLASH || UNITY_BLACKBERRY) // Disable under unsupported platforms.

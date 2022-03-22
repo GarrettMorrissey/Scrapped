@@ -1,4 +1,4 @@
-﻿#if UNITY_EDITOR
+#if UNITY_EDITOR
 //////////////////////////////////////////////////////////////////////
 //
 // Copyright (c) 2014 Audiokinetic Inc. / All Rights Reserved
@@ -23,6 +23,20 @@ public class AkWwiseWWUBuilder
 	private int m_currentWwuCnt;
 	private int m_totWwuCnt = 1;
 
+	static AkWwiseWWUBuilder()
+	{
+		// This method gets called from InitializeOnLoad and uses the AkWwiseProjectInfo later on so it needs to check if it can run right now
+		InitializeWwiseProjectData();
+
+		UnityEditor.EditorApplication.playModeStateChanged += (UnityEditor.PlayModeStateChange playMode) =>
+		{
+			if (playMode == UnityEditor.PlayModeStateChange.EnteredEditMode)
+			{
+				RestartWWUWatcher();
+			}
+		};
+	}
+
 	private static void Tick()
 	{
 		isTicking = true;
@@ -30,8 +44,8 @@ public class AkWwiseWWUBuilder
 		if (AkWwiseProjectInfo.GetData() != null)
 		{
 			if (System.DateTime.Now.Subtract(s_lastFileCheck).Seconds > s_SecondsBetweenChecks &&
-			    !UnityEditor.EditorApplication.isCompiling && !UnityEditor.EditorApplication.isPlayingOrWillChangePlaymode &&
-			    AkWwiseProjectInfo.GetData().autoPopulateEnabled)
+				!UnityEditor.EditorApplication.isCompiling && !UnityEditor.EditorApplication.isPlayingOrWillChangePlaymode &&
+				AkWwiseProjectInfo.GetData().autoPopulateEnabled)
 			{
 				AkWwisePicker.treeView.SaveExpansionStatus();
 				if (Populate())
@@ -89,7 +103,7 @@ public class AkWwiseWWUBuilder
 
 			AkUtilities.IsWwiseProjectAvailable = System.IO.File.Exists(fullWwiseProjectPath);
 			if (!AkUtilities.IsWwiseProjectAvailable || UnityEditor.EditorApplication.isPlayingOrWillChangePlaymode || string.IsNullOrEmpty(s_wwiseProjectPath) ||
-			    (UnityEditor.EditorApplication.isCompiling && !AkUtilities.IsMigrating))
+				(UnityEditor.EditorApplication.isCompiling && !AkUtilities.IsMigrating))
 				return false;
 
 			AkPluginActivator.Update();
@@ -150,7 +164,7 @@ public class AkWwiseWWUBuilder
 			wwu.PathAndIcons = new System.Collections.Generic.List<AkWwiseProjectData.PathElement>(in_pathAndIcons);
 			wwu.Guid = System.Guid.Empty;
 			wwu.LastTime = System.IO.File.GetLastWriteTime(in_workUnit.FullName);
-			
+
 			using (var reader = System.Xml.XmlReader.Create(in_workUnit.FullName))
 			{
 				reader.MoveToContent();
@@ -197,7 +211,7 @@ public class AkWwiseWWUBuilder
 					else if (reader.NodeType == System.Xml.XmlNodeType.Element && (reader.Name.Equals("AuxBus") || reader.Name.Equals("Folder") || reader.Name.Equals("Bus")))
 					{
 						WwiseObjectType objType;
-						switch(reader.Name)
+						switch (reader.Name)
 						{
 							case "AuxBus":
 								objType = WwiseObjectType.AuxBus;
@@ -216,7 +230,7 @@ public class AkWwiseWWUBuilder
 						in_pathAndIcons.AddLast(new AkWwiseProjectData.PathElement(reader.GetAttribute("Name"), objType));
 						bool IsEmptyElement = reader.IsEmptyElement; // Need to cache this because AddElementToList advances the reader.
 						AddElementToList(in_currentPathInProj, reader, in_type, in_pathAndIcons, wwuIndex, objType);
-						if(IsEmptyElement)
+						if (IsEmptyElement)
 						{
 							// This element has no children, step out of it immediately
 							// Remove the folder/bus from the path
@@ -280,18 +294,7 @@ public class AkWwiseWWUBuilder
 			StartWWUWatcher();
 	}
 
-	static AkWwiseWWUBuilder()
-	{
-		InitializeWwiseProjectData();
-
-		UnityEditor.EditorApplication.playModeStateChanged += (UnityEditor.PlayModeStateChange playMode) => 
-		{
-			if (playMode == UnityEditor.PlayModeStateChange.EnteredEditMode)
-				RestartWWUWatcher();
-		};
-	}
-
-	private static System.Collections.Generic.Dictionary<WwiseObjectType, System.Collections.Generic.List<AkWwiseProjectData.AkBaseInformation>> _WwiseObjectsToRemove 
+	private static System.Collections.Generic.Dictionary<WwiseObjectType, System.Collections.Generic.List<AkWwiseProjectData.AkBaseInformation>> _WwiseObjectsToRemove
 		= new System.Collections.Generic.Dictionary<WwiseObjectType, System.Collections.Generic.List<AkWwiseProjectData.AkBaseInformation>>();
 
 	private static System.Collections.Generic.Dictionary<WwiseObjectType, System.Collections.Generic.List<AkWwiseProjectData.AkBaseInformation>> _WwiseObjectsToAdd
@@ -782,7 +785,7 @@ public class AkWwiseWWUBuilder
 
 	private bool CreateWorkUnit(string in_relativePath, string in_wwuType, string in_fullPath)
 	{
-		var ParentID = string.Empty;	
+		var ParentID = string.Empty;
 		try
 		{
 			using (var reader = System.Xml.XmlReader.Create(in_fullPath))
@@ -842,13 +845,13 @@ public class AkWwiseWWUBuilder
 					else
 					{
 						var WwuChildren = wwu.GetChildrenArrayList();
-						foreach(AkWwiseProjectData.AkInformation child in WwuChildren)
+						foreach (AkWwiseProjectData.AkInformation child in WwuChildren)
 						{
 							if (child.Guid.Equals(parentGuid))
 							{
 								PathInProj = child.Path;
 								PathAndIcons = new System.Collections.Generic.LinkedList<AkWwiseProjectData.PathElement>(child.PathAndIcons);
-							break;
+								break;
 							}
 						}
 					}
@@ -862,7 +865,7 @@ public class AkWwiseWWUBuilder
 				return true;
 			}
 
-			//Not found.  Wait for it to load
+			//Not found. Wait for it to load
 			return false;
 		}
 

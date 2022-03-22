@@ -16,23 +16,23 @@ State Group	ID	Name			Wwise Object Path	Notes
 	2782712965	Level			\Main\Level	
 
 State	ID	Name	State Group			Notes
-	0	None	Gameplay			
+	748895195	None	Gameplay			
 	3753286132	Calm	Gameplay			
 	4223512837	Intense	Gameplay			
-	0	None	Game_Flow			
 	89505537	Gameplay	Game_Flow			
+	748895195	None	Game_Flow			
 	953277036	Resume	Game_Flow			
 	1432716332	Game_Over	Game_Flow			
 	2607556080	Menu	Game_Flow			
 	3092587493	Pause	Game_Flow			
-	0	None	Environment			
 	491961918	Forest	Environment			
+	748895195	None	Environment			
 	1901099224	Badlands	Environment			
 	3888786832	City	Environment			
-	0	None	Green_Fog			
+	748895195	None	Green_Fog			
 	1731703827	Green_Fog_Outside	Green_Fog			
 	4123533174	Green_Fog_Inside	Green_Fog			
-	0	None	Level			
+	748895195	None	Level			
 	987635873	Level_01	Level			
 	987635874	Level_02	Level			
 	987635875	Level_03	Level			

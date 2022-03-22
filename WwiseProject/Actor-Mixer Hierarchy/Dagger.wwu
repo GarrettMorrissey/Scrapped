@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{BFE098DE-3399-413C-8F93-2DECC896EB20}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{BFE098DE-3399-413C-8F93-2DECC896EB20}" SchemaVersion="97">
 	<AudioObjects>
 		<WorkUnit Name="Dagger" ID="{BFE098DE-3399-413C-8F93-2DECC896EB20}" PersistMode="Standalone">
 			<ChildrenList>
@@ -167,12 +167,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_05" ID="{5C4934C4-EE05-4676-804E-2840B170EFE9}" ShortID="506608481">
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_05" ID="{5C4934C4-EE05-4676-804E-2840B170EFE9}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_05.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="379638085"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="379638085"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -189,12 +189,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_06" ID="{53ED97AC-1535-425A-854A-1CA62B4EAD07}" ShortID="175076107">
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_06" ID="{53ED97AC-1535-425A-854A-1CA62B4EAD07}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_06.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="580856853"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="580856853"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -211,12 +211,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_07" ID="{56D48933-CE9D-459E-916A-78EFAEB5BF38}" ShortID="839244758">
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_07" ID="{56D48933-CE9D-459E-916A-78EFAEB5BF38}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_07.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="810173109"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="810173109"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -233,12 +233,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_08" ID="{387F93FB-2BEC-4B54-99BE-5DD1C545D7C7}" ShortID="380706001">
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_08" ID="{387F93FB-2BEC-4B54-99BE-5DD1C545D7C7}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_08.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="922922173"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="922922173"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -255,12 +255,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_09" ID="{5F9B5F0C-6C57-44F6-A1D4-CCBA77FB97E2}" ShortID="454184513">
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_09" ID="{5F9B5F0C-6C57-44F6-A1D4-CCBA77FB97E2}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_09.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="128680005"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="128680005"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -277,12 +277,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_01" ID="{4A702955-B16C-4ACB-8394-1A891B0E5190}" ShortID="243410037">
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_01" ID="{4A702955-B16C-4ACB-8394-1A891B0E5190}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_01.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="679519467"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="679519467"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -299,12 +299,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_02" ID="{0CAA8F75-EB6A-427C-A47D-022D97264EDA}" ShortID="1067659142">
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_02" ID="{0CAA8F75-EB6A-427C-A47D-022D97264EDA}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_02.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="130130561"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="130130561"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -321,12 +321,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_03" ID="{DCB5F3AD-9E7C-46ED-99A6-E059921759BF}" ShortID="1066773456">
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_03" ID="{DCB5F3AD-9E7C-46ED-99A6-E059921759BF}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_03.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="934448696"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="934448696"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -343,12 +343,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_04" ID="{42CDC495-5D2A-4E01-8808-37E0EB3C421A}" ShortID="1002372291">
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_04" ID="{42CDC495-5D2A-4E01-8808-37E0EB3C421A}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_04.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="875129596"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="875129596"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -436,9 +436,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Grunt_01" ID="{C970BC52-66BC-4326-8A84-68FD761775E0}" ShortID="586672562">
+												<AudioFileSource Name="Dagger_VO_Grunt_01" ID="{C970BC52-66BC-4326-8A84-68FD761775E0}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Grunt\Dagger_VO_Grunt_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="586672562"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -455,9 +458,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Grunt_03" ID="{A1365A7F-CB94-4F35-A6D4-F2E240825000}" ShortID="151946738">
+												<AudioFileSource Name="Dagger_VO_Grunt_03" ID="{A1365A7F-CB94-4F35-A6D4-F2E240825000}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Grunt\Dagger_VO_Grunt_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="151946738"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -474,9 +480,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Grunt_05" ID="{FE196C8C-E351-43A0-AE1A-762406B13079}" ShortID="111058783">
+												<AudioFileSource Name="Dagger_VO_Grunt_05" ID="{FE196C8C-E351-43A0-AE1A-762406B13079}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Grunt\Dagger_VO_Grunt_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="111058783"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -493,9 +502,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Grunt_04" ID="{4472957C-B1BC-4BAC-A5E0-D56928D3E6A2}" ShortID="1023878935">
+												<AudioFileSource Name="Dagger_VO_Grunt_04" ID="{4472957C-B1BC-4BAC-A5E0-D56928D3E6A2}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Grunt\Dagger_VO_Grunt_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1023878935"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -512,9 +524,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Grunt_02" ID="{28C49667-C04C-4B1A-B6D5-FBD4D970EDBD}" ShortID="288285887">
+												<AudioFileSource Name="Dagger_VO_Grunt_02" ID="{28C49667-C04C-4B1A-B6D5-FBD4D970EDBD}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Grunt\Dagger_VO_Grunt_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="288285887"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -565,9 +580,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Hurt_02" ID="{AA41E3BE-3FC1-4223-B999-1056889EDC6C}" ShortID="319305903">
+												<AudioFileSource Name="Dagger_VO_Hurt_02" ID="{AA41E3BE-3FC1-4223-B999-1056889EDC6C}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Hurt\Dagger_VO_Hurt_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="319305903"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -584,9 +602,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Hurt_03" ID="{97BFF528-E6FC-4E9A-B7BD-2BD169695CB3}" ShortID="803906612">
+												<AudioFileSource Name="Dagger_VO_Hurt_03" ID="{97BFF528-E6FC-4E9A-B7BD-2BD169695CB3}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Hurt\Dagger_VO_Hurt_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="803906612"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -603,9 +624,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Hurt_06" ID="{789FAB79-2FF6-4D48-8B19-A88F1FB7B664}" ShortID="240833438">
+												<AudioFileSource Name="Dagger_VO_Hurt_06" ID="{789FAB79-2FF6-4D48-8B19-A88F1FB7B664}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Hurt\Dagger_VO_Hurt_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="240833438"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -622,9 +646,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Hurt_01" ID="{73FC4514-2D9F-45AA-B91A-F78BDF981BE2}" ShortID="550773256">
+												<AudioFileSource Name="Dagger_VO_Hurt_01" ID="{73FC4514-2D9F-45AA-B91A-F78BDF981BE2}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Hurt\Dagger_VO_Hurt_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="550773256"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -641,9 +668,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Hurt_04" ID="{0530F87F-1316-496F-B83E-92CE505971A8}" ShortID="188327803">
+												<AudioFileSource Name="Dagger_VO_Hurt_04" ID="{0530F87F-1316-496F-B83E-92CE505971A8}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Hurt\Dagger_VO_Hurt_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="188327803"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -660,9 +690,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Hurt_05" ID="{9BA3F613-1FD7-4B5C-A60F-E3F1A8197B44}" ShortID="793933020">
+												<AudioFileSource Name="Dagger_VO_Hurt_05" ID="{9BA3F613-1FD7-4B5C-A60F-E3F1A8197B44}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Hurt\Dagger_VO_Hurt_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="793933020"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -691,9 +724,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Death_01" ID="{3B9605C8-4348-40EB-A455-591FDC1FD8E6}" ShortID="1036514416">
+												<AudioFileSource Name="Dagger_VO_Death_01" ID="{3B9605C8-4348-40EB-A455-591FDC1FD8E6}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Death\Dagger_VO_Death_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1036514416"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -710,9 +746,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Death_02" ID="{325569A1-F6DC-4EC3-9DEE-AFBD28ED58CB}" ShortID="993321666">
+												<AudioFileSource Name="Dagger_VO_Death_02" ID="{325569A1-F6DC-4EC3-9DEE-AFBD28ED58CB}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Death\Dagger_VO_Death_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="993321666"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -729,9 +768,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Death_03" ID="{764F6E3D-5E11-42F8-BCD6-075771CE707B}" ShortID="170836349">
+												<AudioFileSource Name="Dagger_VO_Death_03" ID="{764F6E3D-5E11-42F8-BCD6-075771CE707B}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Death\Dagger_VO_Death_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="170836349"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -748,9 +790,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Death_04" ID="{F96599F3-84D3-47C7-92DC-7CFA5153E45B}" ShortID="1046992760">
+												<AudioFileSource Name="Dagger_VO_Death_04" ID="{F96599F3-84D3-47C7-92DC-7CFA5153E45B}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Death\Dagger_VO_Death_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1046992760"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -767,9 +812,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Death_05" ID="{277AFEB5-48CC-4F50-A2FB-16F5EE4E18C6}" ShortID="817229764">
+												<AudioFileSource Name="Dagger_VO_Death_05" ID="{277AFEB5-48CC-4F50-A2FB-16F5EE4E18C6}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Death\Dagger_VO_Death_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="817229764"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -805,9 +853,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Taunt_01" ID="{2BB89E57-6285-4114-9AF6-20A8FCA36FDD}" ShortID="130606628">
+												<AudioFileSource Name="Dagger_VO_Taunt_01" ID="{2BB89E57-6285-4114-9AF6-20A8FCA36FDD}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Taunt\Dagger_VO_Taunt_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="130606628"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -824,9 +875,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Taunt_02" ID="{29ECD52D-EA33-4FEB-99C5-B50D4AD9799E}" ShortID="619024018">
+												<AudioFileSource Name="Dagger_VO_Taunt_02" ID="{29ECD52D-EA33-4FEB-99C5-B50D4AD9799E}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Taunt\Dagger_VO_Taunt_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="619024018"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -843,9 +897,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Taunt_03" ID="{BDF1977F-AA16-46F4-B6A3-86E7847D87F5}" ShortID="275371594">
+												<AudioFileSource Name="Dagger_VO_Taunt_03" ID="{BDF1977F-AA16-46F4-B6A3-86E7847D87F5}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Taunt\Dagger_VO_Taunt_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="275371594"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -862,9 +919,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Taunt_04" ID="{CBE4AB37-AAE5-4AEC-8291-8C6A75A4637E}" ShortID="937426561">
+												<AudioFileSource Name="Dagger_VO_Taunt_04" ID="{CBE4AB37-AAE5-4AEC-8291-8C6A75A4637E}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Taunt\Dagger_VO_Taunt_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="937426561"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -881,9 +941,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Taunt_05" ID="{40F6E6A5-0E15-4E6F-B0C4-0BFA3D1DE655}" ShortID="282016076">
+												<AudioFileSource Name="Dagger_VO_Taunt_05" ID="{40F6E6A5-0E15-4E6F-B0C4-0BFA3D1DE655}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Taunt\Dagger_VO_Taunt_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="282016076"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -900,9 +963,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Taunt_06" ID="{30FD687C-65B6-48EB-9F53-586B321B9A7F}" ShortID="859479609">
+												<AudioFileSource Name="Dagger_VO_Taunt_06" ID="{30FD687C-65B6-48EB-9F53-586B321B9A7F}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Taunt\Dagger_VO_Taunt_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="859479609"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -919,9 +985,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dagger_VO_Taunt_07" ID="{9CF64E12-9F66-4B62-AA9A-ACC093E5AEDD}" ShortID="217633968">
+												<AudioFileSource Name="Dagger_VO_Taunt_07" ID="{9CF64E12-9F66-4B62-AA9A-ACC093E5AEDD}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Dagger_VO_Taunt\Dagger_VO_Taunt_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="217633968"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -978,9 +1047,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Dagger_Shing_05" ID="{8379F41D-AF05-458B-9491-A8024FB806F2}" ShortID="89574443">
+												<AudioFileSource Name="Sfx_Dagger_Shing_05" ID="{8379F41D-AF05-458B-9491-A8024FB806F2}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Shing\Sfx_Dagger_Shing_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="89574443"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -997,9 +1069,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Dagger_Shing_04" ID="{A1B8EFC9-BEC1-4F2D-8E9C-8C60E89B7600}" ShortID="705288680">
+												<AudioFileSource Name="Sfx_Dagger_Shing_04" ID="{A1B8EFC9-BEC1-4F2D-8E9C-8C60E89B7600}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Shing\Sfx_Dagger_Shing_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="705288680"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1016,9 +1091,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Dagger_Shing_01" ID="{6A88EB6F-DFAD-4086-B79B-D0EF608BF018}" ShortID="604815814">
+												<AudioFileSource Name="Sfx_Dagger_Shing_01" ID="{6A88EB6F-DFAD-4086-B79B-D0EF608BF018}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Shing\Sfx_Dagger_Shing_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="604815814"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1035,9 +1113,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Dagger_Shing_02" ID="{C49CCE90-C2B5-4CF0-BD49-359F90A96249}" ShortID="839675352">
+												<AudioFileSource Name="Sfx_Dagger_Shing_02" ID="{C49CCE90-C2B5-4CF0-BD49-359F90A96249}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Shing\Sfx_Dagger_Shing_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="839675352"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1054,9 +1135,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Dagger_Shing_03" ID="{3B362C37-C5AC-492A-BB35-90925A152141}" ShortID="694603896">
+												<AudioFileSource Name="Sfx_Dagger_Shing_03" ID="{3B362C37-C5AC-492A-BB35-90925A152141}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Shing\Sfx_Dagger_Shing_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="694603896"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1094,9 +1178,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Enemy_Whoosh_03" ID="{ED56DAAE-20DE-43EB-A255-E5F7B8FA6952}" ShortID="1073206101">
+												<AudioFileSource Name="Sfx_Enemy_Whoosh_03" ID="{ED56DAAE-20DE-43EB-A255-E5F7B8FA6952}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Whooshes\Sfx_Enemy_Whoosh_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1073206101"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1113,9 +1200,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Enemy_Whoosh_05" ID="{3E8C64A4-1C27-4193-AB6C-85A21A8B0C2B}" ShortID="107670904">
+												<AudioFileSource Name="Sfx_Enemy_Whoosh_05" ID="{3E8C64A4-1C27-4193-AB6C-85A21A8B0C2B}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Whooshes\Sfx_Enemy_Whoosh_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="107670904"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1132,9 +1222,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Enemy_Whoosh_04" ID="{FBCCC9C1-4CD6-4895-9B4C-D3B4945DCAA6}" ShortID="281776266">
+												<AudioFileSource Name="Sfx_Enemy_Whoosh_04" ID="{FBCCC9C1-4CD6-4895-9B4C-D3B4945DCAA6}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Whooshes\Sfx_Enemy_Whoosh_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="281776266"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1151,9 +1244,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Enemy_Whoosh_01" ID="{3FF6C6EE-7A54-423D-8076-5D73182D8DF9}" ShortID="981424925">
+												<AudioFileSource Name="Sfx_Enemy_Whoosh_01" ID="{3FF6C6EE-7A54-423D-8076-5D73182D8DF9}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Whooshes\Sfx_Enemy_Whoosh_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="981424925"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1170,9 +1266,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Enemy_Whoosh_02" ID="{9CCA4CD5-02F7-4BFA-9070-492EA5423041}" ShortID="220468369">
+												<AudioFileSource Name="Sfx_Enemy_Whoosh_02" ID="{9CCA4CD5-02F7-4BFA-9070-492EA5423041}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Whooshes\Sfx_Enemy_Whoosh_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="220468369"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>

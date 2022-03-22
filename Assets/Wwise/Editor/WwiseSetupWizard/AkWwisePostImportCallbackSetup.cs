@@ -1,4 +1,6 @@
 #if UNITY_EDITOR
+using UnityEditor;
+
 [UnityEditor.InitializeOnLoad]
 public class AkWwisePostImportCallbackSetup
 {

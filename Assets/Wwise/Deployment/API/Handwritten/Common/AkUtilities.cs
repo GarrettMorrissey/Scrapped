@@ -291,11 +291,11 @@ public partial class AkUtilities
 	}
 
 	// Parses the .wproj to find out where SoundBanks are generated for the given path.
-	public static string GetWwiseSoundBankDestinationFolder(string Platform, string WwiseProjectPath)
+	public static string GetWwiseSoundBankDestinationFolder(string Platform)
 	{
 		try
 		{
-			UpdateSoundbanksDestinationFolders(WwiseProjectPath);
+			UpdateSoundbanksDestinationFolders(AkWwiseEditorSettings.WwiseProjectAbsolutePath);
 			return s_ProjectBankPaths[Platform];
 		}
 		catch
