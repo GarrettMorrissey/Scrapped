@@ -67,6 +67,7 @@ public class AkPluginActivator
 		{
 			{ PluginID.AkAudioInput, "AkAudioInputSource" },
 			{ PluginID.AkCompressor, "AkCompressorFX" },
+			{ PluginID.AkRouterMixer, "AkRouterMixerFX" },
 			{ PluginID.AkConvolutionReverb, "AkConvolutionReverbFX" },
 			{ PluginID.AkDelay, "AkDelayFX" },
 			{ PluginID.AkExpander, "AkExpanderFX" },
@@ -94,7 +95,7 @@ public class AkPluginActivator
 			{ PluginID.AkTimeStretch, "AkTimeStretchFX" },
 			{ PluginID.AkTremolo, "AkTremoloFX" },
 			{ PluginID.AuroHeadphone, "AuroHeadphoneFX" },
-			{ PluginID.CrankcaseAudioREVModelPlayer, "CrankcaseAudioREVModelPlayerFX" },
+			{ PluginID.CrankcaseAudioREVModelPlayer, "CrankcaseAudioREVModelPlayerSource" },
 			{ PluginID.iZHybridReverb, "iZHybridReverbFX" },
 			{ PluginID.iZTrashBoxModeler, "iZTrashBoxModelerFX" },
 			{ PluginID.iZTrashDelay, "iZTrashDelayFX" },
@@ -198,6 +199,7 @@ public class AkPluginActivator
 	}
 
 	public static Dictionary<UnityEditor.BuildTarget, string> BuildTargetToPlatformName = new Dictionary<UnityEditor.BuildTarget, string>();
+	public static Dictionary<string, string> WwisePlatformToSoundBankPlatform = new Dictionary<string, string>();
 
 	// returns the name of the folder that contains plugins for a specific target
 	private static string GetPluginDeploymentPlatformName(UnityEditor.BuildTarget target)
@@ -207,6 +209,15 @@ public class AkPluginActivator
 			return BuildTargetToPlatformName[target];
 		}
 		return target.ToString();
+	}
+
+	private static string GetWwiseSoundBankPlatformName(string WwisePlatform)
+	{
+		if (WwisePlatformToSoundBankPlatform.ContainsKey(WwisePlatform))
+		{
+			return WwisePlatformToSoundBankPlatform[WwisePlatform];
+		}
+		return WwisePlatform;
 	}
 
 	private static string[] GetPluginInfoFromPath(string path)
@@ -499,7 +510,6 @@ public class AkPluginActivator
 	{
 	}
 
-	[UnityEditor.MenuItem("WWISE/ACTIVATE")]
 	public static void ActivatePluginsForEditor()
 	{
 		var importers = UnityEditor.PluginImporter.GetAllImporters();
@@ -606,16 +616,7 @@ public class AkPluginActivator
 	public static bool IsPluginUsed(string in_UnityPlatform, string in_PluginName)
 	{
 		// For WSA, we use the plugin info for Windows, since they share banks. Same for tvOS vs iOS.
-		var pluginDSPPlatform = in_UnityPlatform;
-		switch (pluginDSPPlatform)
-		{
-			case "WSA":
-				pluginDSPPlatform = "Windows";
-				break;
-			case "tvOS":
-				pluginDSPPlatform = "iOS";
-				break;
-		}
+		var pluginDSPPlatform = GetWwiseSoundBankPlatformName(in_UnityPlatform);
 
 		if (!s_PerPlatformPlugins.ContainsKey(pluginDSPPlatform))
 		{
@@ -1033,6 +1034,7 @@ void *_pluginName_##_fp = (void*)&_pluginName_##Registration;
 	{
 		// Built-in plugins
 		AkCompressor = 0x006C0003, //Wwise Compressor
+		AkRouterMixer = 0x00AC0006, //Wwise RouterMixer
 		AkDelay = 0x006A0003, //Delay
 		AkExpander = 0x006D0003, //Wwise Expander
 		AkGain = 0x008B0003, //Gain

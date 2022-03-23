@@ -11,8 +11,9 @@ public class AkBankInspector : AkBaseInspector
 {
 	private readonly AkUnityEventHandlerInspector m_LoadBankEventHandlerInspector = new AkUnityEventHandlerInspector();
 	private readonly AkUnityEventHandlerInspector m_UnloadBankEventHandlerInspector = new AkUnityEventHandlerInspector();
-	private UnityEditor.SerializedProperty decode;
+
 	private UnityEditor.SerializedProperty loadAsync;
+	private UnityEditor.SerializedProperty decode;
 	private UnityEditor.SerializedProperty saveDecoded;
 
 	private void OnEnable()
@@ -44,8 +45,7 @@ public class AkBankInspector : AkBaseInspector
 				return;
 
 			var bank = target as AkBank;
-			AkBasePathGetter.EvaluateGamePaths();
-			var decodedBankPath = System.IO.Path.Combine(AkBasePathGetter.DecodedBankFullPath, bank.data.Name + ".bnk");
+			var decodedBankPath = System.IO.Path.Combine(AkBasePathGetter.Get().DecodedBankFullPath, bank.data.Name + ".bnk");
 
 			try
 			{

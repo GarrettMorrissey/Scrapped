@@ -93,14 +93,8 @@ public class AkEventPlayableInspector : UnityEditor.Editor
 	{
 		AkUtilities.EnableBoolSoundbankSettingInWproj("SoundBankGenerateEstimatedDuration", AkWwiseEditorSettings.WwiseProjectAbsolutePath);
 
-		UnityEditor.EditorApplication.update += RunOnce;
+		UnityEditor.EditorApplication.delayCall += UpdateAllClips;
 		AkWwiseXMLWatcher.Instance.XMLUpdated += UpdateAllClips;
-	}
-
-	private static void RunOnce()
-	{
-		UpdateAllClips();
-		UnityEditor.EditorApplication.update -= RunOnce;
 	}
 
 	private static void UpdateAllClips()

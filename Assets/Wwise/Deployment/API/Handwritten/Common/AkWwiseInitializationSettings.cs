@@ -301,10 +301,9 @@ public class AkWwiseInitializationSettings : AkCommonPlatformSettings
 		}
 
 		AkSoundEngine.InitCommunication(ActivePlatformSettings.AkCommunicationSettings);
-
-		AkBasePathGetter.EvaluateGamePaths();
-
-		var soundBankBasePath = AkBasePathGetter.SoundBankBasePath;
+		
+		var akBasePathGetterInstance =  AkBasePathGetter.Get();
+		var soundBankBasePath = akBasePathGetterInstance.SoundBankBasePath;
 		if (string.IsNullOrEmpty(soundBankBasePath))
 		{
 			// this is a nearly impossible situation
@@ -313,7 +312,7 @@ public class AkWwiseInitializationSettings : AkCommonPlatformSettings
 			return false;
 		}
 
-		var persistentDataPath = AkBasePathGetter.PersistentDataPath;
+		var persistentDataPath = akBasePathGetterInstance.PersistentDataPath;
 		var isBasePathSameAsPersistentPath = soundBankBasePath == persistentDataPath;
 
 #if UNITY_ANDROID
@@ -342,7 +341,7 @@ public class AkWwiseInitializationSettings : AkCommonPlatformSettings
 			AkSoundEngine.AddBasePath(persistentDataPath);
 		}
 
-		var decodedBankFullPath = AkBasePathGetter.DecodedBankFullPath;
+		var decodedBankFullPath = akBasePathGetterInstance.DecodedBankFullPath;
 		if (!string.IsNullOrEmpty(decodedBankFullPath))
 		{
 			// AkSoundEngine.SetDecodedBankPath creates the folders for writing to (if they don't exist)

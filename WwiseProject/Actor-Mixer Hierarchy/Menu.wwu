@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{535208EE-2655-495A-910F-ACFEC7DAA4AD}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{535208EE-2655-495A-910F-ACFEC7DAA4AD}" SchemaVersion="97">
 	<AudioObjects>
 		<WorkUnit Name="Menu" ID="{535208EE-2655-495A-910F-ACFEC7DAA4AD}" PersistMode="Standalone">
 			<ChildrenList>
@@ -58,7 +58,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Menu_Button" ID="{51B40151-4D1C-44AE-A822-55D770ECF67C}" ShortID="807966825">
+												<AudioFileSource Name="Sfx_Menu_Button" ID="{51B40151-4D1C-44AE-A822-55D770ECF67C}">
 													<PropertyList>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.762296657986111"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -66,6 +66,9 @@
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Menu\Sfx_Menu_Button.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="807966825"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -94,9 +97,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Menu_Button_Click_Enter_01" ID="{FE3A69F9-7A7C-43AA-A503-EE23265917DD}" ShortID="620987173">
+												<AudioFileSource Name="Menu_Button_Click_Enter_01" ID="{FE3A69F9-7A7C-43AA-A503-EE23265917DD}">
 													<Language>SFX</Language>
 													<AudioFile>Menu\Menu_Button_Click\Menu_Button_Click_Enter\Menu_Button_Click_Enter_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="620987173"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -125,9 +131,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Menu_Button_Click_Exit_01" ID="{6A5D62EA-FB68-4179-854A-2E5EB9BC4A04}" ShortID="337237074">
+												<AudioFileSource Name="Menu_Button_Click_Exit_01" ID="{6A5D62EA-FB68-4179-854A-2E5EB9BC4A04}">
 													<Language>SFX</Language>
 													<AudioFile>Menu\Menu_Button_Click\Menu_Button_Click_Exit\Menu_Button_Click_Exit_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="337237074"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -218,14 +227,17 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Menu_Button_Highlight_Loop_01" ID="{D67F49FA-FAFC-480B-BBE2-883FE63118CF}" ShortID="848267620">
+										<AudioFileSource Name="Sfx_Menu_Button_Highlight_Loop_01" ID="{D67F49FA-FAFC-480B-BBE2-883FE63118CF}">
 											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="7.76343856887205E-02"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0776343856887205"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimEnd" Type="Real64" Value="0.120666176067608"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Menu\Menu_Button_Highlight\Sfx_Menu_Button_Highlight_Loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="848267620"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -273,9 +285,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amateur_Hour_Logo" ID="{D5D914F9-6007-4E75-A4DC-91595F7CAC4C}" ShortID="411746345">
+										<AudioFileSource Name="Amateur_Hour_Logo" ID="{D5D914F9-6007-4E75-A4DC-91595F7CAC4C}">
 											<Language>SFX</Language>
 											<AudioFile>Menu\Cinematics\Amateur_Hour_Logo.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="411746345"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -327,9 +342,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Scrapped_Cinematic_Start_Temp_01" ID="{A8F09861-0307-4DFD-9966-10D8484A5DA2}" ShortID="852679385">
+										<AudioFileSource Name="Scrapped_Cinematic_Start_Temp_01" ID="{A8F09861-0307-4DFD-9966-10D8484A5DA2}">
 											<Language>SFX</Language>
 											<AudioFile>Menu\Cinematics\Scrapped_Cinematic_Start_Temp_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="852679385"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -353,9 +371,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Scrapped_Cinematic_Start_Temp_Sync_01" ID="{218AE924-C7F6-4AA4-A280-2D7C552878F2}" ShortID="871853651">
+										<AudioFileSource Name="Scrapped_Cinematic_Start_Temp_Sync_01" ID="{218AE924-C7F6-4AA4-A280-2D7C552878F2}">
 											<Language>SFX</Language>
 											<AudioFile>Menu\Cinematics\Scrapped_Cinematic_Start_Temp_Sync_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="871853651"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -375,9 +396,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Scrapped_Cinematic_Start_Final_01" ID="{49417437-458F-40B1-BD41-18EFC1031F0A}" ShortID="1064161598">
+										<AudioFileSource Name="Scrapped_Cinematic_Start_Final_01" ID="{49417437-458F-40B1-BD41-18EFC1031F0A}">
 											<Language>SFX</Language>
 											<AudioFile>Menu\Cinematics\Scrapped_Cinematic_Start_Final_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1064161598"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -429,9 +453,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Scrapped_Cinematic_End_Temp_01" ID="{1F4DEC56-B4A5-4E80-B0A0-A12340477730}" ShortID="615458852">
+										<AudioFileSource Name="Scrapped_Cinematic_End_Temp_01" ID="{1F4DEC56-B4A5-4E80-B0A0-A12340477730}">
 											<Language>SFX</Language>
 											<AudioFile>Menu\Cinematics\Scrapped_Cinematic_End_Temp_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="615458852"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -448,9 +475,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Scrapped_Cinematic_End_Final_01" ID="{9F6165B9-D0A5-4386-9278-5EA2E40E1685}" ShortID="263160689">
+										<AudioFileSource Name="Scrapped_Cinematic_End_Final_01" ID="{9F6165B9-D0A5-4386-9278-5EA2E40E1685}">
 											<Language>SFX</Language>
 											<AudioFile>Menu\Cinematics\Scrapped_Cinematic_End_Final_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="263160689"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{66AFC0B8-0C6D-47B6-BC65-D9A84984FC5E}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{66AFC0B8-0C6D-47B6-BC65-D9A84984FC5E}" SchemaVersion="97">
 	<AudioObjects>
 		<WorkUnit Name="Bomber" ID="{66AFC0B8-0C6D-47B6-BC65-D9A84984FC5E}" PersistMode="Standalone">
 			<ChildrenList>
@@ -103,9 +103,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_01" ID="{53A85531-2AC2-4531-818E-7CB824238B37}" ShortID="679519467">
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_01" ID="{53A85531-2AC2-4531-818E-7CB824238B37}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="679519467"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -122,9 +125,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_02" ID="{57264D8E-486D-4E39-8194-8D75572BE71B}" ShortID="130130561">
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_02" ID="{57264D8E-486D-4E39-8194-8D75572BE71B}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="130130561"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -141,9 +147,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_03" ID="{64B0118D-E90C-4C19-B6C0-1041C158C815}" ShortID="934448696">
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_03" ID="{64B0118D-E90C-4C19-B6C0-1041C158C815}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="934448696"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -160,9 +169,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_04" ID="{9D4F72B7-4247-44F9-B01C-4DF69576B285}" ShortID="875129596">
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_04" ID="{9D4F72B7-4247-44F9-B01C-4DF69576B285}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="875129596"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -179,9 +191,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_05" ID="{0B3B7A35-94A8-47DF-AC03-606E8DF5D046}" ShortID="379638085">
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_05" ID="{0B3B7A35-94A8-47DF-AC03-606E8DF5D046}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="379638085"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -198,9 +213,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_06" ID="{1A5D8261-4A81-49A9-932A-4099FAD48915}" ShortID="580856853">
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_06" ID="{1A5D8261-4A81-49A9-932A-4099FAD48915}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="580856853"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -217,9 +235,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_07" ID="{B647DACE-AA9B-42C6-87F1-E938ACB0BBF6}" ShortID="810173109">
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_07" ID="{B647DACE-AA9B-42C6-87F1-E938ACB0BBF6}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_07.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="810173109"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -236,9 +257,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_08" ID="{C1DE4BE7-D6CB-4182-BB26-E396A34B1F0B}" ShortID="922922173">
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_08" ID="{C1DE4BE7-D6CB-4182-BB26-E396A34B1F0B}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_08.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="922922173"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -255,9 +279,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_09" ID="{805503A0-1411-4920-BFA9-6792377029D3}" ShortID="128680005">
+														<AudioFileSource Name="Sfx_Enemy_Footsteps_Gravel_09" ID="{805503A0-1411-4920-BFA9-6792377029D3}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Bomber\Feet\Gravel\Sfx_Enemy_Footsteps_Gravel_09.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="128680005"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -342,7 +369,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Bomber_VO_Grunt_03" ID="{6484A74D-F41B-450A-BB34-8040E90E9EDF}" ShortID="247235895">
+												<AudioFileSource Name="Bomber_VO_Grunt_03" ID="{6484A74D-F41B-450A-BB34-8040E90E9EDF}">
 													<PropertyList>
 														<Property Name="FadeInDuration" Type="Real64" Value="0.0472592592592593"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -350,9 +377,9 @@
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Characters\Bomber\VO\Bomber_VO_Grunt\Bomber_VO_Grunt_03.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="80357911"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="80357911"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -369,7 +396,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Bomber_VO_Grunt_02" ID="{0777681A-72C0-4497-BB0F-A6AF4DF067D5}" ShortID="613472510">
+												<AudioFileSource Name="Bomber_VO_Grunt_02" ID="{0777681A-72C0-4497-BB0F-A6AF4DF067D5}">
 													<PropertyList>
 														<Property Name="FadeInDuration" Type="Real64" Value="0.054962962962963"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -377,9 +404,9 @@
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Characters\Bomber\VO\Bomber_VO_Grunt\Bomber_VO_Grunt_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="869281246"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="869281246"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -396,7 +423,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Bomber_VO_Grunt_05" ID="{F8346E2D-D7B9-4C46-9718-DDA496740CD0}" ShortID="504033093">
+												<AudioFileSource Name="Bomber_VO_Grunt_05" ID="{F8346E2D-D7B9-4C46-9718-DDA496740CD0}">
 													<PropertyList>
 														<Property Name="FadeInDuration" Type="Real64" Value="0.0418888888888889"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -404,9 +431,9 @@
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Characters\Bomber\VO\Bomber_VO_Grunt\Bomber_VO_Grunt_05.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="637112015"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="637112015"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -423,7 +450,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Bomber_VO_Grunt_01" ID="{37F2E5E9-DC4D-4526-9473-BD2B1FB415CA}" ShortID="845419575">
+												<AudioFileSource Name="Bomber_VO_Grunt_01" ID="{37F2E5E9-DC4D-4526-9473-BD2B1FB415CA}">
 													<PropertyList>
 														<Property Name="FadeInDuration" Type="Real64" Value="0.0616296296296296"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -431,9 +458,9 @@
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Characters\Bomber\VO\Bomber_VO_Grunt\Bomber_VO_Grunt_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="240328935"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="240328935"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -450,7 +477,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Bomber_VO_Grunt_04" ID="{464F79EE-7B5D-4B4D-B372-2E0AD4781094}" ShortID="359943511">
+												<AudioFileSource Name="Bomber_VO_Grunt_04" ID="{464F79EE-7B5D-4B4D-B372-2E0AD4781094}">
 													<PropertyList>
 														<Property Name="FadeInDuration" Type="Real64" Value="0.0518645109953704"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -458,9 +485,9 @@
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Characters\Bomber\VO\Bomber_VO_Grunt\Bomber_VO_Grunt_04.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="69730135"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="69730135"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -570,12 +597,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Bomber_VO_Hurt_03" ID="{B27648E8-04FE-4D66-B9EB-EF66713C3777}" ShortID="407354030">
+												<AudioFileSource Name="Bomber_VO_Hurt_03" ID="{B27648E8-04FE-4D66-B9EB-EF66713C3777}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Bomber\VO\Bomber_VO_Hurt\Bomber_VO_Hurt_03.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="482124846"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="482124846"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -592,12 +619,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Bomber_VO_Hurt_02" ID="{36118B1F-3FF9-4CFB-996A-EEC0DFD43FBA}" ShortID="649854448">
+												<AudioFileSource Name="Bomber_VO_Hurt_02" ID="{36118B1F-3FF9-4CFB-996A-EEC0DFD43FBA}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Bomber\VO\Bomber_VO_Hurt\Bomber_VO_Hurt_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="796006436"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="796006436"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -614,12 +641,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Bomber_VO_Hurt_01" ID="{2FD12AB8-D0FB-4982-8038-5DEEA7038A7A}" ShortID="385316591">
+												<AudioFileSource Name="Bomber_VO_Hurt_01" ID="{2FD12AB8-D0FB-4982-8038-5DEEA7038A7A}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Bomber\VO\Bomber_VO_Hurt\Bomber_VO_Hurt_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="349683262"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="349683262"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -636,12 +663,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Bomber_VO_Hurt_05" ID="{0BF68BA8-F5B7-44B3-909D-5A391536802F}" ShortID="971714930">
+												<AudioFileSource Name="Bomber_VO_Hurt_05" ID="{0BF68BA8-F5B7-44B3-909D-5A391536802F}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Bomber\VO\Bomber_VO_Hurt\Bomber_VO_Hurt_05.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="753335629"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="753335629"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -658,12 +685,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Bomber_VO_Hurt_04" ID="{01D0C515-2337-4329-8CAC-D9E4A0AF562B}" ShortID="859529314">
+												<AudioFileSource Name="Bomber_VO_Hurt_04" ID="{01D0C515-2337-4329-8CAC-D9E4A0AF562B}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Bomber\VO\Bomber_VO_Hurt\Bomber_VO_Hurt_04.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="781768128"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="781768128"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -777,9 +804,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Bomber_VO_Taunt_01" ID="{AC47BD40-E621-4E2F-AEF4-66C64E17C7AA}" ShortID="697267405">
+												<AudioFileSource Name="Bomber_VO_Taunt_01" ID="{AC47BD40-E621-4E2F-AEF4-66C64E17C7AA}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Bomber\VO\Bomber_VO_Taunt\Bomber_VO_Taunt_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="697267405"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -796,9 +826,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Bomber_VO_Taunt_02" ID="{B3D31554-1AAE-4B27-8BF6-96743BB879ED}" ShortID="643787567">
+												<AudioFileSource Name="Bomber_VO_Taunt_02" ID="{B3D31554-1AAE-4B27-8BF6-96743BB879ED}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Bomber\VO\Bomber_VO_Taunt\Bomber_VO_Taunt_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="643787567"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -815,9 +848,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Bomber_VO_Taunt_03" ID="{DBDFCB0D-1119-48D8-AC0B-925B9B78E1CC}" ShortID="767300206">
+												<AudioFileSource Name="Bomber_VO_Taunt_03" ID="{DBDFCB0D-1119-48D8-AC0B-925B9B78E1CC}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Bomber\VO\Bomber_VO_Taunt\Bomber_VO_Taunt_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="767300206"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -957,9 +993,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Bomb_Explosion_01" ID="{3B75EF52-FF98-41AA-A717-0BCB1047E4A1}" ShortID="866742317">
+												<AudioFileSource Name="Sfx_Bomb_Explosion_01" ID="{3B75EF52-FF98-41AA-A717-0BCB1047E4A1}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Bomber\Weapon\Sfx_Bomb_Explosion_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="866742317"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -976,9 +1015,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Bomb_Explosion_02" ID="{ED8B9533-3053-4A7E-8B8E-F36C4603676C}" ShortID="405230757">
+												<AudioFileSource Name="Sfx_Bomb_Explosion_02" ID="{ED8B9533-3053-4A7E-8B8E-F36C4603676C}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Bomber\Weapon\Sfx_Bomb_Explosion_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="405230757"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -995,9 +1037,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Bomb_Explosion_03" ID="{76102BC3-71FB-4BBB-BF1B-F13D4FE1FDEC}" ShortID="247264248">
+												<AudioFileSource Name="Sfx_Bomb_Explosion_03" ID="{76102BC3-71FB-4BBB-BF1B-F13D4FE1FDEC}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Bomber\Weapon\Sfx_Bomb_Explosion_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="247264248"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1014,9 +1059,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Bomb_Explosion_04" ID="{4E504146-EF94-4EEB-83B9-B0AEE312C90E}" ShortID="609911103">
+												<AudioFileSource Name="Sfx_Bomb_Explosion_04" ID="{4E504146-EF94-4EEB-83B9-B0AEE312C90E}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Bomber\Weapon\Sfx_Bomb_Explosion_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="609911103"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1040,13 +1088,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Bomb_Explosion_05" ID="{6C14D904-C93B-4EAC-988C-FB9D3C58DBF5}" ShortID="59848122">
+												<AudioFileSource Name="Sfx_Bomb_Explosion_05" ID="{6C14D904-C93B-4EAC-988C-FB9D3C58DBF5}">
 													<PropertyList>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.726536096643518"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Characters\Bomber\Weapon\Sfx_Bomb_Explosion_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="59848122"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1063,7 +1114,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Bomb_Explosion_06" ID="{6976AAB6-8748-4241-BCDE-82BBF73E4A5A}" ShortID="680325760">
+												<AudioFileSource Name="Sfx_Bomb_Explosion_06" ID="{6976AAB6-8748-4241-BCDE-82BBF73E4A5A}">
 													<PropertyList>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.689488715277778"/>
 														<Property Name="LoopBegin" Type="Real64" Value="0"/>
@@ -1071,6 +1122,9 @@
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Characters\Bomber\Weapon\Sfx_Bomb_Explosion_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="680325760"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1116,12 +1170,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Enemy_Whoosh_03" ID="{F4AC3AB2-D750-4853-B1B0-872F971FC87B}" ShortID="509861816">
+												<AudioFileSource Name="Sfx_Enemy_Whoosh_03" ID="{F4AC3AB2-D750-4853-B1B0-872F971FC87B}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Whooshes\Sfx_Enemy_Whoosh_03.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="1073206101"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="1073206101"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1138,12 +1192,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Enemy_Whoosh_05" ID="{83815BC4-F692-4C43-B9E9-B5879F1CA4A0}" ShortID="374885335">
+												<AudioFileSource Name="Sfx_Enemy_Whoosh_05" ID="{83815BC4-F692-4C43-B9E9-B5879F1CA4A0}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Whooshes\Sfx_Enemy_Whoosh_05.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="107670904"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="107670904"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1160,12 +1214,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Enemy_Whoosh_04" ID="{90E1F3E8-6805-4E33-A85E-BEA058AC2E73}" ShortID="13281954">
+												<AudioFileSource Name="Sfx_Enemy_Whoosh_04" ID="{90E1F3E8-6805-4E33-A85E-BEA058AC2E73}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Whooshes\Sfx_Enemy_Whoosh_04.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="281776266"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="281776266"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1182,12 +1236,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Enemy_Whoosh_01" ID="{53981BC1-D42C-43B5-A5A2-2319FE5C610A}" ShortID="484464720">
+												<AudioFileSource Name="Sfx_Enemy_Whoosh_01" ID="{53981BC1-D42C-43B5-A5A2-2319FE5C610A}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Whooshes\Sfx_Enemy_Whoosh_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="981424925"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="981424925"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1204,12 +1258,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Enemy_Whoosh_02" ID="{3794FEC2-17FF-42EA-B36D-F1DA1B060B09}" ShortID="737839262">
+												<AudioFileSource Name="Sfx_Enemy_Whoosh_02" ID="{3794FEC2-17FF-42EA-B36D-F1DA1B060B09}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dagger\Whooshes\Sfx_Enemy_Whoosh_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="220468369"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="220468369"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{995E4AF6-DAB7-463B-B751-D7ABEBC53B66}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{995E4AF6-DAB7-463B-B751-D7ABEBC53B66}" SchemaVersion="97">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{995E4AF6-DAB7-463B-B751-D7ABEBC53B66}" PersistMode="Standalone">
 			<ChildrenList>
@@ -13,9 +13,12 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="SFX_Dexter_Grapple_Whoosh_01" ID="{198795CF-08E7-46F2-9727-A0B672A204D3}" ShortID="539662866">
+						<AudioFileSource Name="SFX_Dexter_Grapple_Whoosh_01" ID="{198795CF-08E7-46F2-9727-A0B672A204D3}">
 							<Language>SFX</Language>
 							<AudioFile>Characters\Dexter\Grapple\Grapple_Whoosh\SFX_Dexter_Grapple_Whoosh_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="539662866"/>
+							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>

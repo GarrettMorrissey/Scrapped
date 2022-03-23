@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{E4F27046-23A2-4EA0-A10E-D6E5BA261C2F}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{E4F27046-23A2-4EA0-A10E-D6E5BA261C2F}" SchemaVersion="97">
 	<InteractiveMusic>
 		<WorkUnit Name="Music" ID="{E4F27046-23A2-4EA0-A10E-D6E5BA261C2F}" PersistMode="Standalone">
 			<ChildrenList>
@@ -71,9 +71,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_03_Calm_PartA_Bass_01" ID="{B63A94A8-E2F9-46ED-A414-305D96B52244}" ShortID="474738308">
+														<AudioFileSource Name="Mus_Level_03_Calm_PartA_Bass_01" ID="{B63A94A8-E2F9-46ED-A414-305D96B52244}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 3_98bpm\Intense\Part A\Mus_Level_03_Calm_PartA_Bass_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="474738308"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -192,9 +195,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_03_Calm_PartA_LaserSynth_01" ID="{ED766B5C-AD0A-413D-831E-5CA5A517069C}" ShortID="121289228">
+														<AudioFileSource Name="Mus_Level_03_Calm_PartA_LaserSynth_01" ID="{ED766B5C-AD0A-413D-831E-5CA5A517069C}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 3_98bpm\Intense\Part A\Mus_Level_03_Calm_PartA_LaserSynth_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="121289228"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<PositioningInfo>
@@ -363,9 +369,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_03_Calm_PartA_MadSynth_01" ID="{70D28B7F-7C96-40AF-BF0C-02CA80B89F8D}" ShortID="241942578">
+														<AudioFileSource Name="Mus_Level_03_Calm_PartA_MadSynth_01" ID="{70D28B7F-7C96-40AF-BF0C-02CA80B89F8D}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 3_98bpm\Intense\Part A\Mus_Level_03_Calm_PartA_MadSynth_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="241942578"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<TransitionList>
@@ -460,9 +469,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_03_Intense_PartB_Drums_01" ID="{B2E55F99-8F4A-4C16-8DBC-5CC85B7252FE}" ShortID="326203932">
+														<AudioFileSource Name="Mus_Level_03_Intense_PartB_Drums_01" ID="{B2E55F99-8F4A-4C16-8DBC-5CC85B7252FE}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 3_98bpm\Intense\Part A\Mus_Level_03_Intense_PartB_Drums_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="326203932"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -581,9 +593,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_03_Part_A_Arpegio" ID="{063F83D6-33DA-4DBC-A6CA-1E27AF004549}" ShortID="432270323">
+														<AudioFileSource Name="Mus_Level_03_Part_A_Arpegio" ID="{063F83D6-33DA-4DBC-A6CA-1E27AF004549}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 3_98bpm\Calm\Part A\Mus_Level_03_Part_A_Arpegio.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="432270323"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -750,9 +765,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_03_Calm_PartB_Bass_02" ID="{F003ED77-AEDF-4029-BB81-ECE076C660BE}" ShortID="1020424859">
+														<AudioFileSource Name="Mus_Level_03_Calm_PartB_Bass_02" ID="{F003ED77-AEDF-4029-BB81-ECE076C660BE}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 3_98bpm\Intense\Part B\Mus_Level_03_Calm_PartB_Bass_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1020424859"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -868,9 +886,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_03_Calm_PartB_BladeSynth_01" ID="{68C3EC04-03AC-46FE-BCAB-E7DB164DFE56}" ShortID="1038409302">
+														<AudioFileSource Name="Mus_Level_03_Calm_PartB_BladeSynth_01" ID="{68C3EC04-03AC-46FE-BCAB-E7DB164DFE56}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 3_98bpm\Intense\Part B\Mus_Level_03_Calm_PartB_BladeSynth_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1038409302"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<TransitionList>
@@ -968,12 +989,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_03_Intense_PartB_Drums_01" ID="{38588B91-9CD8-48DE-886E-8728B1AEEC0B}" ShortID="1041183320">
+														<AudioFileSource Name="Mus_Level_03_Intense_PartB_Drums_01" ID="{38588B91-9CD8-48DE-886E-8728B1AEEC0B}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 3_98bpm\Intense\Part A\Mus_Level_03_Intense_PartB_Drums_01.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="326203932"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="326203932"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -1099,12 +1120,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_03_Calm_PartA_MadSynth_01" ID="{F5E8FD52-3FA9-42FC-A441-EA9E167635F3}" ShortID="361056457">
+														<AudioFileSource Name="Mus_Level_03_Calm_PartA_MadSynth_01" ID="{F5E8FD52-3FA9-42FC-A441-EA9E167635F3}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 3_98bpm\Intense\Part A\Mus_Level_03_Calm_PartA_MadSynth_01.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="241942578"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="241942578"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<TransitionList>
@@ -1242,9 +1263,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_03_Calm_PartC_Bass_03" ID="{C12E19F9-5B71-4548-A1E4-AC559C02DB7B}" ShortID="177144750">
+														<AudioFileSource Name="Mus_Level_03_Calm_PartC_Bass_03" ID="{C12E19F9-5B71-4548-A1E4-AC559C02DB7B}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 3_98bpm\Intense\Part C\Mus_Level_03_Calm_PartC_Bass_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="177144750"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -1298,9 +1322,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_03_Calm_PartC_ElectricGeet_01" ID="{447A1D88-4593-40F9-8474-E16C7410F3A0}" ShortID="343162861">
+														<AudioFileSource Name="Mus_Level_03_Calm_PartC_ElectricGeet_01" ID="{447A1D88-4593-40F9-8474-E16C7410F3A0}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 3_98bpm\Intense\Part C\Mus_Level_03_Calm_PartC_ElectricGeet_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="343162861"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<TransitionList>
@@ -1333,9 +1360,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_03_Calm_PartC_MadSynth_01" ID="{3D42435C-7392-4B2C-A76B-B98062894358}" ShortID="130770934">
+														<AudioFileSource Name="Mus_Level_03_Calm_PartC_MadSynth_01" ID="{3D42435C-7392-4B2C-A76B-B98062894358}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 3_98bpm\Intense\Part C\Mus_Level_03_Calm_PartC_MadSynth_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="130770934"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<TransitionList>
@@ -1371,9 +1401,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_03_Intense_PartC_Drums_01" ID="{B39D6101-7A49-4E8F-B5D2-C59A0318BACA}" ShortID="681180144">
+														<AudioFileSource Name="Mus_Level_03_Intense_PartC_Drums_01" ID="{B39D6101-7A49-4E8F-B5D2-C59A0318BACA}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 3_98bpm\Intense\Part C\Mus_Level_03_Intense_PartC_Drums_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="681180144"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -1476,9 +1509,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_03_Calm_Intro_Bass_01" ID="{FB096A7D-C17D-4AD5-82E2-366347CEF122}" ShortID="315709350">
+														<AudioFileSource Name="Mus_Level_03_Calm_Intro_Bass_01" ID="{FB096A7D-C17D-4AD5-82E2-366347CEF122}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 3_98bpm\Calm\Intro\Mus_Level_03_Calm_Intro_Bass_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="315709350"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -1522,7 +1558,7 @@
 																		<Property Name="BeginTrimOffset" Type="Real64" Value="9795.91836734694"/>
 																		<Property Name="EndTrimOffset" Type="Real64" Value="19583.3333333333"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																		<Property Name="PlayAt" Type="Real64" Value="-7.27595761418343E-012"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-7.27595761418343E-12"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="Mus_Level_03_Calm_Intro_Bass_01" ID="{FB096A7D-C17D-4AD5-82E2-366347CEF122}"/>
 																	<PropertyCurveList>
@@ -1596,9 +1632,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_03_Calm_Intro_MadSynth_01" ID="{35ECB743-2DC3-49A5-8315-E6608A77D90D}" ShortID="384038586">
+														<AudioFileSource Name="Mus_Level_03_Calm_Intro_MadSynth_01" ID="{35ECB743-2DC3-49A5-8315-E6608A77D90D}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 3_98bpm\Calm\Intro\Mus_Level_03_Calm_Intro_MadSynth_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="384038586"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<TransitionList>
@@ -1842,12 +1881,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Part_A_Drums" ID="{9B75A1B7-1F55-45C5-8464-AFE50134E776}" ShortID="700822665">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Part_A_Drums" ID="{9B75A1B7-1F55-45C5-8464-AFE50134E776}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Part A\Scrapped_Music_Level_01_Part_A_Drums.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="547273303"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="547273303"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -1906,12 +1945,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Part_A_Shaker" ID="{6072B04D-F26D-4A51-8EA7-B46705829A8C}" ShortID="154859816">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Part_A_Shaker" ID="{6072B04D-F26D-4A51-8EA7-B46705829A8C}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Part A\Scrapped_Music_Level_01_Part_A_Shaker.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="691073663"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="691073663"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -1970,12 +2009,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Part_A_Synth_Bass" ID="{96D914E9-59B4-4689-AF99-B41E3809E8D1}" ShortID="123508209">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Part_A_Synth_Bass" ID="{96D914E9-59B4-4689-AF99-B41E3809E8D1}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Part A\Scrapped_Music_Level_01_Part_A_Synth_Bass.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="735914143"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="735914143"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<PositioningInfo>
@@ -2037,12 +2076,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Part_A_Synth_Low" ID="{1DAB76EE-8B3E-4CBF-BEB8-C470163377F8}" ShortID="516067939">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Part_A_Synth_Low" ID="{1DAB76EE-8B3E-4CBF-BEB8-C470163377F8}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Part A\Scrapped_Music_Level_01_Part_A_Synth_Low.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="964445673"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="964445673"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<PositioningInfo>
@@ -2100,12 +2139,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Part_A_Synth_Pad" ID="{B9046E4B-4E83-4101-BEF2-B5B71627611A}" ShortID="928438917">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Part_A_Synth_Pad" ID="{B9046E4B-4E83-4101-BEF2-B5B71627611A}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Part A\Scrapped_Music_Level_01_Part_A_Synth_Pad.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="234236387"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="234236387"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<PositioningInfo>
@@ -2118,7 +2157,7 @@
 															<ChildrenList>
 																<Path2D Name="Scrapped_Music_Level_01_Part_A_Synth_Pad_Path" ID="{BE8F3FD5-3B16-448D-AD6E-2182576DDA4B}">
 																	<PropertyList>
-																		<Property Name="Duration" Type="int32" Value="10000"/>
+																		<Property Name="Duration" Type="Uint32" Value="10000"/>
 																	</PropertyList>
 																	<PointList>
 																		<Point>
@@ -2161,7 +2200,7 @@
 																</Path2D>
 																<Path2D Name="Scrapped_Music_Level_01_Part_A_Synth_Pad_Path_01" ID="{FEE9DD47-3303-41FE-839E-1E87102E3F03}">
 																	<PropertyList>
-																		<Property Name="Duration" Type="int32" Value="10000"/>
+																		<Property Name="Duration" Type="Uint32" Value="10000"/>
 																	</PropertyList>
 																	<PointList>
 																		<Point>
@@ -2192,7 +2231,7 @@
 																</Path2D>
 																<Path2D Name="Scrapped_Music_Level_01_Part_A_Synth_Pad_Path_02" ID="{EEC76DAE-6BBA-433D-A328-096A413E12F1}">
 																	<PropertyList>
-																		<Property Name="Duration" Type="int32" Value="10000"/>
+																		<Property Name="Duration" Type="Uint32" Value="10000"/>
 																	</PropertyList>
 																	<PointList>
 																		<Point>
@@ -2282,12 +2321,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Part_A_Synth_Pulse" ID="{2123078F-AC04-4BA1-B823-A9D6C7AF9E37}" ShortID="1009265335">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Part_A_Synth_Pulse" ID="{2123078F-AC04-4BA1-B823-A9D6C7AF9E37}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Part A\Scrapped_Music_Level_01_Part_A_Synth_Pulse.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="863450489"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="863450489"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<PositioningInfo>
@@ -2299,7 +2338,7 @@
 															<ChildrenList>
 																<Path2D Name="Scrapped_Music_Level_01_Part_A_Synth_Pulse_Path" ID="{8131CE4B-3E38-4890-AF84-B1FD60B07105}">
 																	<PropertyList>
-																		<Property Name="Duration" Type="int32" Value="10000"/>
+																		<Property Name="Duration" Type="Uint32" Value="10000"/>
 																	</PropertyList>
 																	<PointList>
 																		<Point>
@@ -2330,7 +2369,7 @@
 																</Path2D>
 																<Path2D Name="Scrapped_Music_Level_01_Part_A_Synth_Pulse_Path_01" ID="{1BB3C180-964A-446B-8E6A-BDB9FEDB7684}">
 																	<PropertyList>
-																		<Property Name="Duration" Type="int32" Value="10000"/>
+																		<Property Name="Duration" Type="Uint32" Value="10000"/>
 																	</PropertyList>
 																	<PointList>
 																		<Point>
@@ -2367,7 +2406,7 @@
 																</Path2D>
 																<Path2D Name="Scrapped_Music_Level_01_Part_A_Synth_Pulse_Path_02" ID="{51815FEE-2380-4062-BB01-77523A12A6CE}">
 																	<PropertyList>
-																		<Property Name="Duration" Type="int32" Value="10000"/>
+																		<Property Name="Duration" Type="Uint32" Value="10000"/>
 																	</PropertyList>
 																	<PointList>
 																		<Point>
@@ -2582,12 +2621,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Part_A_Synth_Strings" ID="{B118FD07-C207-4B9C-B256-36E98C303E43}" ShortID="293959110">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Part_A_Synth_Strings" ID="{B118FD07-C207-4B9C-B256-36E98C303E43}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Part A\Scrapped_Music_Level_01_Part_A_Synth_Strings.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="777876974"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="777876974"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -2703,7 +2742,7 @@
 																		<Property Name="EndTrimOffset" Type="Real64" Value="32000"/>
 																		<Property Name="FadeInDuration" Type="Real64" Value="382.834528002206"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																		<Property Name="PlayAt" Type="Real64" Value="-1.81898940354586E-012"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-1.81898940354586E-12"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="Scrapped_Music_Level_01_Part_A_Synth_Strings" ID="{B118FD07-C207-4B9C-B256-36E98C303E43}"/>
 																	<PropertyCurveList>
@@ -2772,11 +2811,11 @@
 															<ClipList>
 																<MusicClip Name="Scrapped_Music_Level_01_Part_A_Synth_Strings" ID="{73B6361A-A7D6-48CB-B71C-DF14222AF786}">
 																	<PropertyList>
-																		<Property Name="BeginTrimOffset" Type="Real64" Value="1.81898940354586E-012"/>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="1.81898940354586E-12"/>
 																		<Property Name="EndTrimOffset" Type="Real64" Value="32000"/>
 																		<Property Name="FadeInDuration" Type="Real64" Value="205.482071474831"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																		<Property Name="PlayAt" Type="Real64" Value="-1.81898940354586E-012"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-1.81898940354586E-12"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="Scrapped_Music_Level_01_Part_A_Synth_Strings" ID="{B118FD07-C207-4B9C-B256-36E98C303E43}"/>
 																	<PropertyCurveList>
@@ -2907,12 +2946,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Part_B_Drums" ID="{5193F451-2142-44CE-B0F1-83CBA662702E}" ShortID="100146332">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Part_B_Drums" ID="{5193F451-2142-44CE-B0F1-83CBA662702E}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Part B\Scrapped_Music_Level_01_Part_B_Drums.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="411628306"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="411628306"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -2966,12 +3005,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Part_B_Shaker" ID="{43E8F859-3ADD-4E9B-B74D-4E35F3641557}" ShortID="992747763">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Part_B_Shaker" ID="{43E8F859-3ADD-4E9B-B74D-4E35F3641557}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Part B\Scrapped_Music_Level_01_Part_B_Shaker.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="353572133"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="353572133"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -3036,12 +3075,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Part_B_Synth_Melody" ID="{86A9F09B-C8F4-4E6A-B7CB-9F42F6535AAE}" ShortID="836189882">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Part_B_Synth_Melody" ID="{86A9F09B-C8F4-4E6A-B7CB-9F42F6535AAE}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Part B\Scrapped_Music_Level_01_Part_B_Synth_Melody.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="459564703"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="459564703"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<PositioningInfo>
@@ -3053,7 +3092,7 @@
 															<ChildrenList>
 																<Path2D Name="Scrapped_Music_Level_01_Part_B_Synth_Melody_Path" ID="{71199516-2715-449B-B8F3-1A96B191F366}">
 																	<PropertyList>
-																		<Property Name="Duration" Type="int32" Value="10000"/>
+																		<Property Name="Duration" Type="Uint32" Value="10000"/>
 																	</PropertyList>
 																	<PointList>
 																		<Point>
@@ -3084,7 +3123,7 @@
 																</Path2D>
 																<Path2D Name="Scrapped_Music_Level_01_Part_B_Synth_Melody_Path_01" ID="{C2BD1F64-33DF-4741-8ACB-C1ADF9BC0B7D}">
 																	<PropertyList>
-																		<Property Name="Duration" Type="int32" Value="10000"/>
+																		<Property Name="Duration" Type="Uint32" Value="10000"/>
 																	</PropertyList>
 																	<PointList>
 																		<Point>
@@ -3208,12 +3247,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Part_B_Synth_Organ" ID="{0E0C87BC-2945-437E-92E7-2E1562CF060B}" ShortID="314831309">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Part_B_Synth_Organ" ID="{0E0C87BC-2945-437E-92E7-2E1562CF060B}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Part B\Scrapped_Music_Level_01_Part_B_Synth_Organ.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="871344325"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="871344325"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -3272,12 +3311,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Part_B_Synth_Pulse" ID="{2BEF1FB2-FE3A-4C34-9E7D-2BB8F1A7AD25}" ShortID="34800943">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Part_B_Synth_Pulse" ID="{2BEF1FB2-FE3A-4C34-9E7D-2BB8F1A7AD25}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Part B\Scrapped_Music_Level_01_Part_B_Synth_Pulse.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="288814551"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="288814551"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<PositioningInfo>
@@ -3289,7 +3328,7 @@
 															<ChildrenList>
 																<Path2D Name="Scrapped_Music_Level_01_Part_B_Synth_Pulse_Path" ID="{5B54C2C1-EFDA-4520-A63F-8C0154885772}">
 																	<PropertyList>
-																		<Property Name="Duration" Type="int32" Value="10000"/>
+																		<Property Name="Duration" Type="Uint32" Value="10000"/>
 																	</PropertyList>
 																	<PointList>
 																		<Point>
@@ -3366,7 +3405,7 @@
 																</Path2D>
 																<Path2D Name="Scrapped_Music_Level_01_Part_B_Synth_Pulse_Path_02" ID="{5F54DFB9-EE58-40C7-B292-4C3792E4F983}">
 																	<PropertyList>
-																		<Property Name="Duration" Type="int32" Value="10000"/>
+																		<Property Name="Duration" Type="Uint32" Value="10000"/>
 																	</PropertyList>
 																	<PointList>
 																		<Point>
@@ -3446,12 +3485,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Part_B_Synth_Strings" ID="{426EB999-FDE6-443B-BE48-5DB270CC19B5}" ShortID="294076005">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Part_B_Synth_Strings" ID="{426EB999-FDE6-443B-BE48-5DB270CC19B5}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Part B\Scrapped_Music_Level_01_Part_B_Synth_Strings.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="73759974"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="73759974"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -3505,12 +3544,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Part_A_Synth_Bass" ID="{DD040741-CCB8-47D6-A0B3-D237F58CD380}" ShortID="664909295">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Part_A_Synth_Bass" ID="{DD040741-CCB8-47D6-A0B3-D237F58CD380}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Part A\Scrapped_Music_Level_01_Part_A_Synth_Bass.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="735914143"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="735914143"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -3591,12 +3630,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Part_C_Drums" ID="{A459C762-DA5E-4BAD-98BA-B77FD507C96A}" ShortID="663923879">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Part_C_Drums" ID="{A459C762-DA5E-4BAD-98BA-B77FD507C96A}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Part C\Scrapped_Music_Level_01_Part_C_Drums.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="804010825"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="804010825"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -3653,12 +3692,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Part_C_Guitar" ID="{640EE908-E23E-4614-A7C3-8784AC5E8B91}" ShortID="1018998515">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Part_C_Guitar" ID="{640EE908-E23E-4614-A7C3-8784AC5E8B91}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Part C\Scrapped_Music_Level_01_Part_C_Guitar.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="783438050"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="783438050"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -3712,12 +3751,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Part_C_Shaker" ID="{E12A04C2-1B0E-459E-8F31-86F75CE71C8D}" ShortID="593175749">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Part_C_Shaker" ID="{E12A04C2-1B0E-459E-8F31-86F75CE71C8D}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Part C\Scrapped_Music_Level_01_Part_C_Shaker.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="383530873"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="383530873"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -3775,12 +3814,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Part_C_Synth_Bass" ID="{79897899-3A4A-4F32-A9DA-4E3434ED6FA6}" ShortID="847848229">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Part_C_Synth_Bass" ID="{79897899-3A4A-4F32-A9DA-4E3434ED6FA6}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Part C\Scrapped_Music_Level_01_Part_C_Synth_Bass.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="579213974"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="579213974"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -3837,12 +3876,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Part_C_Synth_Strings_01" ID="{3B67AF64-541F-492F-A6E1-4D937C6A014E}" ShortID="85350901">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Part_C_Synth_Strings_01" ID="{3B67AF64-541F-492F-A6E1-4D937C6A014E}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Part C\Scrapped_Music_Level_01_Part_C_Synth_Strings_01.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="990543440"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="990543440"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -3899,12 +3938,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Part_C_Synth_Strings_02" ID="{FC0CD14E-436C-4474-B1E9-3ED7982AE284}" ShortID="836761208">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Part_C_Synth_Strings_02" ID="{FC0CD14E-436C-4474-B1E9-3ED7982AE284}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Part C\Scrapped_Music_Level_01_Part_C_Synth_Strings_02.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="397351779"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="397351779"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<PositioningInfo>
@@ -3917,7 +3956,7 @@
 															<ChildrenList>
 																<Path2D Name="Scrapped_Music_Level_01_Part_C_Synth_Strings_02_Path" ID="{9AF9C83F-20A4-4556-888A-6AB5CDF2E137}">
 																	<PropertyList>
-																		<Property Name="Duration" Type="int32" Value="8000"/>
+																		<Property Name="Duration" Type="Uint32" Value="8000"/>
 																	</PropertyList>
 																	<PointList>
 																		<Point>
@@ -3952,7 +3991,7 @@
 																</Path2D>
 																<Path2D Name="Scrapped_Music_Level_01_Part_C_Synth_Strings_02_Path_02" ID="{BA82C432-1025-40BE-9737-17F84123B0E2}">
 																	<PropertyList>
-																		<Property Name="Duration" Type="int32" Value="10000"/>
+																		<Property Name="Duration" Type="Uint32" Value="10000"/>
 																	</PropertyList>
 																	<PointList>
 																		<Point>
@@ -4059,12 +4098,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Intro_Drums" ID="{0EE0225D-1224-4CA0-A3D2-CA1B9EB891F9}" ShortID="73931552">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Intro_Drums" ID="{0EE0225D-1224-4CA0-A3D2-CA1B9EB891F9}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Intro\Scrapped_Music_Level_01_Intro_Drums.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="355545655"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="355545655"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -4178,12 +4217,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Intro_Shaker" ID="{5E35D0F7-88F1-4335-B1A5-4476D0A2455E}" ShortID="413247573">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Intro_Shaker" ID="{5E35D0F7-88F1-4335-B1A5-4476D0A2455E}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Intro\Scrapped_Music_Level_01_Intro_Shaker.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="82434683"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="82434683"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -4297,12 +4336,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Intro_Synth_Bass" ID="{F6C7E1B4-5CB3-4980-A109-5536B64718F4}" ShortID="418430196">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Intro_Synth_Bass" ID="{F6C7E1B4-5CB3-4980-A109-5536B64718F4}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Intro\Scrapped_Music_Level_01_Intro_Synth_Bass.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="112109973"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="112109973"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -4417,12 +4456,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Intro_Synth_Low" ID="{CB893A15-4D5C-4EC0-99BC-49810BEC598C}" ShortID="360345394">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Intro_Synth_Low" ID="{CB893A15-4D5C-4EC0-99BC-49810BEC598C}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Intro\Scrapped_Music_Level_01_Intro_Synth_Low.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="771953391"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="771953391"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -4455,10 +4494,10 @@
 															<ClipList>
 																<MusicClip Name="Scrapped_Music_Level_01_Intro_Synth_Low" ID="{399D3358-48E8-4CEC-A26E-0E2D810FFE3D}">
 																	<PropertyList>
-																		<Property Name="BeginTrimOffset" Type="Real64" Value="3.63797880709171E-011"/>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="3.63797880709171E-11"/>
 																		<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																		<Property Name="PlayAt" Type="Real64" Value="-3.63797880709171E-011"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-3.63797880709171E-11"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="Scrapped_Music_Level_01_Intro_Synth_Low" ID="{CB893A15-4D5C-4EC0-99BC-49810BEC598C}"/>
 																	<PropertyCurveList>
@@ -4601,9 +4640,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Intro_Synth_Pad" ID="{9267A1A2-430D-4349-8BB2-AC135C3AB369}" ShortID="238950815">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Intro_Synth_Pad" ID="{9267A1A2-430D-4349-8BB2-AC135C3AB369}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Intro\Scrapped_Music_Level_01_Intro_Synth_Pad.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="238950815"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -4640,11 +4682,11 @@
 															<ClipList>
 																<MusicClip Name="Scrapped_Music_Level_01_Intro_Synth_Pad" ID="{5FAAE45C-6ABB-433A-9ED5-976814369229}">
 																	<PropertyList>
-																		<Property Name="BeginTrimOffset" Type="Real64" Value="2.36468622460961E-011"/>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="2.36468622460961E-11"/>
 																		<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																		<Property Name="PlayAt" Type="Real64" Value="-2.36468622460961E-011"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-2.36468622460961E-11"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="Scrapped_Music_Level_01_Intro_Synth_Pad" ID="{9267A1A2-430D-4349-8BB2-AC135C3AB369}"/>
 																	<PropertyCurveList>
@@ -4792,12 +4834,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Intro_Synth_Pulse" ID="{262CFF6F-558A-4812-A697-F64C256AAC5F}" ShortID="254139212">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Intro_Synth_Pulse" ID="{262CFF6F-558A-4812-A697-F64C256AAC5F}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Intro\Scrapped_Music_Level_01_Intro_Synth_Pulse.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="965725758"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="965725758"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<PositioningInfo>
@@ -4917,11 +4959,11 @@
 															<ClipList>
 																<MusicClip Name="Scrapped_Music_Level_01_Intro_Synth_Pulse" ID="{9B68C890-CB6C-43AE-84A5-7F9DC7342795}">
 																	<PropertyList>
-																		<Property Name="BeginTrimOffset" Type="Real64" Value="7.27595761418343E-012"/>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="7.27595761418343E-12"/>
 																		<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																		<Property Name="PlayAt" Type="Real64" Value="-7.27595761418343E-012"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-7.27595761418343E-12"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="Scrapped_Music_Level_01_Intro_Synth_Pulse" ID="{262CFF6F-558A-4812-A697-F64C256AAC5F}"/>
 																	<PropertyCurveList>
@@ -5064,12 +5106,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Scrapped_Music_Level_01_Intro_Synth_Strings" ID="{09930DF8-DA08-4023-A974-F37DABAA724C}" ShortID="360203872">
+														<AudioFileSource Name="Scrapped_Music_Level_01_Intro_Synth_Strings" ID="{09930DF8-DA08-4023-A974-F37DABAA724C}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level_01\Intro\Scrapped_Music_Level_01_Intro_Synth_Strings.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="808777457"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="808777457"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -5110,11 +5152,11 @@
 															<ClipList>
 																<MusicClip Name="Scrapped_Music_Level_01_Intro_Synth_Strings" ID="{9242D6C3-55D0-4B81-8A7A-46E35981A2C8}">
 																	<PropertyList>
-																		<Property Name="BeginTrimOffset" Type="Real64" Value="7.27595761418343E-012"/>
+																		<Property Name="BeginTrimOffset" Type="Real64" Value="7.27595761418343E-12"/>
 																		<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
 																		<Property Name="FadeInMode" Type="int16" Value="0"/>
 																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																		<Property Name="PlayAt" Type="Real64" Value="-7.27595761418343E-012"/>
+																		<Property Name="PlayAt" Type="Real64" Value="-7.27595761418343E-12"/>
 																	</PropertyList>
 																	<AudioSourceRef Name="Scrapped_Music_Level_01_Intro_Synth_Strings" ID="{09930DF8-DA08-4023-A974-F37DABAA724C}"/>
 																	<PropertyCurveList>
@@ -5408,9 +5450,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_02_Intense_PartA_Bass_01" ID="{2787ED48-AF9C-47EE-B544-17656630E89D}" ShortID="164971740">
+														<AudioFileSource Name="Mus_Level_02_Intense_PartA_Bass_01" ID="{2787ED48-AF9C-47EE-B544-17656630E89D}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 2_120bpm\Intense\Part A\Mus_Level_02_Intense_PartA_Bass_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="164971740"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -5468,9 +5513,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_02_Intense_PartA_CrayDrum_01" ID="{4BC7D15D-BB2F-48D6-9889-ED7D397079B7}" ShortID="911400489">
+														<AudioFileSource Name="Mus_Level_02_Intense_PartA_CrayDrum_01" ID="{4BC7D15D-BB2F-48D6-9889-ED7D397079B7}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 2_120bpm\Intense\Part A\Mus_Level_02_Intense_PartA_CrayDrum_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="911400489"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -5528,9 +5576,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_02_Intense_PartA_HappyLead_01" ID="{17F20433-54C8-4C9F-AEFF-EC88DF9DD348}" ShortID="89580551">
+														<AudioFileSource Name="Mus_Level_02_Intense_PartA_HappyLead_01" ID="{17F20433-54C8-4C9F-AEFF-EC88DF9DD348}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 2_120bpm\Intense\Part A\Mus_Level_02_Intense_PartA_HappyLead_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="89580551"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<TransitionList>
@@ -5570,9 +5621,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_02_Intense_PartA_LeadSynth_01" ID="{DE7F70E7-77F6-4675-90FD-B3C5E8AE4AF6}" ShortID="700705415">
+														<AudioFileSource Name="Mus_Level_02_Intense_PartA_LeadSynth_01" ID="{DE7F70E7-77F6-4675-90FD-B3C5E8AE4AF6}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 2_120bpm\Intense\Part A\Mus_Level_02_Intense_PartA_LeadSynth_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="700705415"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<PositioningInfo>
@@ -5586,7 +5640,7 @@
 															<ChildrenList>
 																<Path2D Name="Mus_Level_02_Intense_PartA_LeadSynth_01_Path" ID="{D0C766F0-FA42-4D0D-A01E-93A6192B8E26}">
 																	<PropertyList>
-																		<Property Name="Duration" Type="int32" Value="7000"/>
+																		<Property Name="Duration" Type="Uint32" Value="7000"/>
 																	</PropertyList>
 																	<PointList>
 																		<Point>
@@ -5687,9 +5741,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_02_Intense_PartA_LowDrum_01" ID="{40CE6055-8AFC-4518-BF0F-7DC9838A75D8}" ShortID="447919339">
+														<AudioFileSource Name="Mus_Level_02_Intense_PartA_LowDrum_01" ID="{40CE6055-8AFC-4518-BF0F-7DC9838A75D8}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 2_120bpm\Intense\Part A\Mus_Level_02_Intense_PartA_LowDrum_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="447919339"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<TransitionList>
@@ -5725,9 +5782,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_02_Intense_PartA_Megabeat_01" ID="{6A78FD07-88F8-4A87-994A-609B900BE663}" ShortID="459227480">
+														<AudioFileSource Name="Mus_Level_02_Intense_PartA_Megabeat_01" ID="{6A78FD07-88F8-4A87-994A-609B900BE663}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 2_120bpm\Intense\Part A\Mus_Level_02_Intense_PartA_Megabeat_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="459227480"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -5838,9 +5898,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_02_Intense_PartA_Bass_01" ID="{20847E0D-34B5-48F7-BC64-69C210875DDE}" ShortID="290954364">
+														<AudioFileSource Name="Mus_Level_02_Intense_PartA_Bass_01" ID="{20847E0D-34B5-48F7-BC64-69C210875DDE}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 2_120bpm\Intense\Part B\Mus_Level_02_Intense_PartA_Bass_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="290954364"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -5898,9 +5961,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_02_Intense_PartA_CrayDrum_01" ID="{E10F00C2-CA20-49CC-B9D3-6493EAC2460C}" ShortID="53062405">
+														<AudioFileSource Name="Mus_Level_02_Intense_PartA_CrayDrum_01" ID="{E10F00C2-CA20-49CC-B9D3-6493EAC2460C}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 2_120bpm\Intense\Part B\Mus_Level_02_Intense_PartA_CrayDrum_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="53062405"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -5960,9 +6026,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_02_Intense_PartA_LeadSynth_01" ID="{AB680D58-E953-48E7-AAB1-473BE80518DB}" ShortID="1032147514">
+														<AudioFileSource Name="Mus_Level_02_Intense_PartA_LeadSynth_01" ID="{AB680D58-E953-48E7-AAB1-473BE80518DB}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 2_120bpm\Intense\Part B\Mus_Level_02_Intense_PartA_LeadSynth_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1032147514"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<PositioningInfo>
@@ -6072,9 +6141,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_02_Intense_PartA_LowDrum_01" ID="{0D0EF85A-D8E2-4920-BE7B-907FFD372B2B}" ShortID="485174828">
+														<AudioFileSource Name="Mus_Level_02_Intense_PartA_LowDrum_01" ID="{0D0EF85A-D8E2-4920-BE7B-907FFD372B2B}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 2_120bpm\Intense\Part B\Mus_Level_02_Intense_PartA_LowDrum_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="485174828"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<TransitionList>
@@ -6110,9 +6182,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_02_Intense_PartA_Megabeat_01" ID="{E38E32E2-60D6-430E-9CD0-5B796D101B69}" ShortID="360951780">
+														<AudioFileSource Name="Mus_Level_02_Intense_PartA_Megabeat_01" ID="{E38E32E2-60D6-430E-9CD0-5B796D101B69}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 2_120bpm\Intense\Part B\Mus_Level_02_Intense_PartA_Megabeat_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="360951780"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<StateInfo>
@@ -6174,9 +6249,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_02_Intense_PartB_DiscoLead_01" ID="{A2E413D9-3106-4E99-BAC5-E0248820BCC7}" ShortID="84393476">
+														<AudioFileSource Name="Mus_Level_02_Intense_PartB_DiscoLead_01" ID="{A2E413D9-3106-4E99-BAC5-E0248820BCC7}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 2_120bpm\Intense\Part B\Mus_Level_02_Intense_PartB_DiscoLead_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="84393476"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<TransitionList>
@@ -6213,9 +6291,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_02_Intense_PartB_MysteryLead_01" ID="{A27E0A11-E2AD-4177-B567-B9A638AD744B}" ShortID="678945357">
+														<AudioFileSource Name="Mus_Level_02_Intense_PartB_MysteryLead_01" ID="{A27E0A11-E2AD-4177-B567-B9A638AD744B}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 2_120bpm\Intense\Part B\Mus_Level_02_Intense_PartB_MysteryLead_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="678945357"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<TransitionList>
@@ -6294,9 +6375,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_02_Calm_Intro_AirSweep_01" ID="{7266B7AD-C8B3-4576-9EA3-05611FA80C8E}" ShortID="945672667">
+														<AudioFileSource Name="Mus_Level_02_Calm_Intro_AirSweep_01" ID="{7266B7AD-C8B3-4576-9EA3-05611FA80C8E}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 2_120bpm\Calm\Intro\Mus_Level_02_Calm_Intro_AirSweep_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="945672667"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<TransitionList>
@@ -6388,9 +6472,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Mus_Level_02_Calm_Intro_LeadSynth_01" ID="{695CBD48-F25F-4143-A6F2-6BAEC8EE543F}" ShortID="435941138">
+														<AudioFileSource Name="Mus_Level_02_Calm_Intro_LeadSynth_01" ID="{695CBD48-F25F-4143-A6F2-6BAEC8EE543F}">
 															<Language>SFX</Language>
 															<AudioFile>Music\Level 2_120bpm\Calm\Intro\Mus_Level_02_Calm_Intro_LeadSynth_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="435941138"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<TransitionList>
@@ -6711,9 +6798,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Mus_Menu_RoboJazz_01" ID="{8A2FCD32-FBA5-43DA-A6F3-50094853B0E9}" ShortID="354614496">
+												<AudioFileSource Name="Mus_Menu_RoboJazz_01" ID="{8A2FCD32-FBA5-43DA-A6F3-50094853B0E9}">
 													<Language>SFX</Language>
 													<AudioFile>Music\Menu_RoboJazz\Mus_Menu_RoboJazz_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="354614496"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -6933,29 +7023,47 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Scrapped_Music_Level_01_Drum_Fill_01" ID="{D51167DB-9596-4C50-AAD8-8EE82C6C74F2}" ShortID="365327731">
+										<AudioFileSource Name="Scrapped_Music_Level_01_Drum_Fill_01" ID="{D51167DB-9596-4C50-AAD8-8EE82C6C74F2}">
 											<Language>SFX</Language>
 											<AudioFile>Music\Level_01\Drum Fill\Scrapped_Music_Level_01_Drum_Fill_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="365327731"/>
+											</MediaIDList>
 										</AudioFileSource>
-										<AudioFileSource Name="Scrapped_Music_Level_01_Drum_Fill_3" ID="{3EBB1FF1-69B8-4CCA-BF9C-B5F1393E87B4}" ShortID="118997454">
+										<AudioFileSource Name="Scrapped_Music_Level_01_Drum_Fill_3" ID="{3EBB1FF1-69B8-4CCA-BF9C-B5F1393E87B4}">
 											<Language>SFX</Language>
 											<AudioFile>Music\Level_01\Drum Fill\Scrapped_Music_Level_01_Drum_Fill_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="118997454"/>
+											</MediaIDList>
 										</AudioFileSource>
-										<AudioFileSource Name="Scrapped_Music_Level_01_Drum_Fill_4" ID="{4219A71D-34B1-4D2E-89B4-241A1FCA5D17}" ShortID="612053424">
+										<AudioFileSource Name="Scrapped_Music_Level_01_Drum_Fill_4" ID="{4219A71D-34B1-4D2E-89B4-241A1FCA5D17}">
 											<Language>SFX</Language>
 											<AudioFile>Music\Level_01\Drum Fill\Scrapped_Music_Level_01_Drum_Fill_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="612053424"/>
+											</MediaIDList>
 										</AudioFileSource>
-										<AudioFileSource Name="Scrapped_Music_Level_01_Drum_Fill_5" ID="{62AC656B-F36D-4CAE-8A8A-DC56D9509B88}" ShortID="175552273">
+										<AudioFileSource Name="Scrapped_Music_Level_01_Drum_Fill_5" ID="{62AC656B-F36D-4CAE-8A8A-DC56D9509B88}">
 											<Language>SFX</Language>
 											<AudioFile>Music\Level_01\Drum Fill\Scrapped_Music_Level_01_Drum_Fill_5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="175552273"/>
+											</MediaIDList>
 										</AudioFileSource>
-										<AudioFileSource Name="Scrapped_Music_Level_01_Drum_Fill_6" ID="{07C05D87-4416-4E87-B948-072C4789E163}" ShortID="764609093">
+										<AudioFileSource Name="Scrapped_Music_Level_01_Drum_Fill_6" ID="{07C05D87-4416-4E87-B948-072C4789E163}">
 											<Language>SFX</Language>
 											<AudioFile>Music\Level_01\Drum Fill\Scrapped_Music_Level_01_Drum_Fill_6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="764609093"/>
+											</MediaIDList>
 										</AudioFileSource>
-										<AudioFileSource Name="Scrapped_Music_Level_01_Drum_Fill_2" ID="{FDE2B869-C4DD-4294-B7E3-5BE7E85DF0F3}" ShortID="469073331">
+										<AudioFileSource Name="Scrapped_Music_Level_01_Drum_Fill_2" ID="{FDE2B869-C4DD-4294-B7E3-5BE7E85DF0F3}">
 											<Language>SFX</Language>
 											<AudioFile>Music\Level_01\Drum Fill\Scrapped_Music_Level_01_Drum_Fill_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="469073331"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
@@ -6974,7 +7082,7 @@
 														<Property Name="EndTrimOffset" Type="Real64" Value="1500"/>
 														<Property Name="FadeInMode" Type="int16" Value="0"/>
 														<Property Name="FadeOutDuration" Type="Real64" Value="285.698841698842"/>
-														<Property Name="PlayAt" Type="Real64" Value="4.2632564145606E-014"/>
+														<Property Name="PlayAt" Type="Real64" Value="4.2632564145606E-14"/>
 													</PropertyList>
 													<AudioSourceRef Name="Scrapped_Music_Level_01_Drum_Fill_01" ID="{D51167DB-9596-4C50-AAD8-8EE82C6C74F2}"/>
 													<PropertyCurveList>

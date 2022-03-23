@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}" SchemaVersion="97">
 	<AudioObjects>
 		<WorkUnit Name="Dexter" ID="{1C164DAC-94D1-488F-B1EB-315505F56CB3}" PersistMode="Standalone">
 			<ChildrenList>
@@ -53,9 +53,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Dexter_Bash_01" ID="{A2FD9614-D898-4D6A-B64D-49149C38AFEE}" ShortID="123629925">
+												<AudioFileSource Name="Sfx_Dexter_Bash_01" ID="{A2FD9614-D898-4D6A-B64D-49149C38AFEE}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Bash\Sfx_Dexter_Bash_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="123629925"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -105,12 +108,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Dexter_Pneumatic_01" ID="{FF672401-07FC-4F87-B530-707731A23177}" ShortID="214255361">
+												<AudioFileSource Name="Sfx_Dexter_Pneumatic_01" ID="{FF672401-07FC-4F87-B530-707731A23177}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Pneumatic\Sfx_Dexter_Pneumatic_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="390642152"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="390642152"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -243,9 +246,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Metal_Hit_01" ID="{C0C9E072-1576-49BD-8048-E4047AE60DBF}" ShortID="405405191">
+														<AudioFileSource Name="Sfx_Dexter_Metal_Hit_01" ID="{C0C9E072-1576-49BD-8048-E4047AE60DBF}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Metal_Hit\Sfx_Dexter_Metal_Hit_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="405405191"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -281,9 +287,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Rock_Impact_01" ID="{A5452417-884B-4698-889E-A088AF184F8E}" ShortID="750290503">
+														<AudioFileSource Name="Sfx_Dexter_Rock_Impact_01" ID="{A5452417-884B-4698-889E-A088AF184F8E}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Rock_Hit\Sfx_Dexter_Rock_Impact_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="750290503"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -360,12 +369,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_01" ID="{DA24CB9F-D37D-4207-AD4E-235E362AC99D}" ShortID="341939515">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_01" ID="{DA24CB9F-D37D-4207-AD4E-235E362AC99D}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="63636401"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="63636401"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -382,12 +391,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_02" ID="{7CDA74FC-D989-486A-9530-8D4EED14359B}" ShortID="415469305">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_02" ID="{7CDA74FC-D989-486A-9530-8D4EED14359B}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="615238044"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="615238044"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -404,12 +413,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_03" ID="{48F4138D-F262-4ABE-8AEA-1FA86107BA45}" ShortID="899913324">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_03" ID="{48F4138D-F262-4ABE-8AEA-1FA86107BA45}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_03.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="250925219"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="250925219"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -426,12 +435,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_04" ID="{6C81C6BE-AFC9-4B52-BF68-08AE327B3A47}" ShortID="432843652">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_04" ID="{6C81C6BE-AFC9-4B52-BF68-08AE327B3A47}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_04.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="1658567"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="1658567"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -448,12 +457,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_05" ID="{28CE99D1-336A-46B4-8529-5BA79B6CAF72}" ShortID="444660697">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_05" ID="{28CE99D1-336A-46B4-8529-5BA79B6CAF72}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_05.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="160604878"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="160604878"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -470,12 +479,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_06" ID="{B54E8F5B-195D-49CC-B3B4-F123FE74B1A0}" ShortID="870771088">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_06" ID="{B54E8F5B-195D-49CC-B3B4-F123FE74B1A0}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_06.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="983804364"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="983804364"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -492,12 +501,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_07" ID="{83BF8804-059D-46D2-B50B-E16E52DB6332}" ShortID="1017820428">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_07" ID="{83BF8804-059D-46D2-B50B-E16E52DB6332}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_07.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="899639867"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="899639867"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -514,12 +523,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_08" ID="{F9D08284-4C10-4DDE-8FFF-DEA2AA113455}" ShortID="241186894">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_08" ID="{F9D08284-4C10-4DDE-8FFF-DEA2AA113455}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_08.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="826015900"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="826015900"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -536,12 +545,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_09" ID="{0250004C-FC36-4C5A-8A91-0F4EB4E12C97}" ShortID="98126224">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_09" ID="{0250004C-FC36-4C5A-8A91-0F4EB4E12C97}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_09.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="842466088"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="842466088"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -558,12 +567,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_10" ID="{92F6F2D2-5374-4A32-8614-7BA7CEDA2096}" ShortID="604508549">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_10" ID="{92F6F2D2-5374-4A32-8614-7BA7CEDA2096}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_10.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="828748722"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="828748722"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -580,12 +589,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_11" ID="{D12B8650-2045-4873-8E86-63133AE5DB21}" ShortID="760229830">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_11" ID="{D12B8650-2045-4873-8E86-63133AE5DB21}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_11.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="507918854"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="507918854"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -602,12 +611,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_12" ID="{52B86499-C16D-4A34-8E94-3BBB4EA6715F}" ShortID="621176996">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_12" ID="{52B86499-C16D-4A34-8E94-3BBB4EA6715F}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_12.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="881251131"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="881251131"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -624,12 +633,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_13" ID="{75A50BD4-D055-4A6D-A601-0E9E84CCA089}" ShortID="397195111">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_13" ID="{75A50BD4-D055-4A6D-A601-0E9E84CCA089}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_13.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="127536197"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="127536197"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -646,12 +655,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_14" ID="{5C724DC6-BA72-4CAD-94A3-9843A9482162}" ShortID="598950804">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_14" ID="{5C724DC6-BA72-4CAD-94A3-9843A9482162}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_14.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="727129423"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="727129423"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -731,14 +740,17 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footstep_Gravel_01" ID="{3B19952C-2422-4C63-AEBB-4B97392B62F9}" ShortID="1035439567">
+														<AudioFileSource Name="Sfx_Dexter_Footstep_Gravel_01" ID="{3B19952C-2422-4C63-AEBB-4B97392B62F9}">
 															<PropertyList>
 																<Property Name="FadeInDuration" Type="Real64" Value="0.013818"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="1.68886666666667E-02"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0168886666666667"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Gravel\Sfx_Dexter_Footstep_Gravel_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1035439567"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -755,11 +767,11 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footstep_Gravel_02" ID="{82C6519B-249B-47A8-9AA8-BCC2F4185DD7}" ShortID="177026281">
+														<AudioFileSource Name="Sfx_Dexter_Footstep_Gravel_02" ID="{82C6519B-249B-47A8-9AA8-BCC2F4185DD7}">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="7.51714285714286E-03"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00751714285714286"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="1.27791428571429E-02"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0127791428571429"/>
 																<Property Name="VolumeOffset" Type="Real64">
 																	<ValueList>
 																		<Value>6</Value>
@@ -768,6 +780,9 @@
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Gravel\Sfx_Dexter_Footstep_Gravel_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="177026281"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -784,14 +799,17 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footstep_Gravel_03" ID="{6440F190-F030-424C-A098-F02BC38BCAED}" ShortID="812524944">
+														<AudioFileSource Name="Sfx_Dexter_Footstep_Gravel_03" ID="{6440F190-F030-424C-A098-F02BC38BCAED}">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="6.94971428571428E-03"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00694971428571428"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="1.00384761904762E-02"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0100384761904762"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Gravel\Sfx_Dexter_Footstep_Gravel_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="812524944"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -808,14 +826,17 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footstep_Gravel_04" ID="{D660CACC-5F0F-4BD7-9B84-12B745191C4C}" ShortID="268348714">
+														<AudioFileSource Name="Sfx_Dexter_Footstep_Gravel_04" ID="{D660CACC-5F0F-4BD7-9B84-12B745191C4C}">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="7.63333333333334E-03"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00763333333333334"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="9.92333333333333E-03"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.00992333333333333"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Gravel\Sfx_Dexter_Footstep_Gravel_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="268348714"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -832,16 +853,19 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footstep_Gravel_05" ID="{39CA1283-5324-48E0-B6E7-6F32475F25A8}" ShortID="368955835">
+														<AudioFileSource Name="Sfx_Dexter_Footstep_Gravel_05" ID="{39CA1283-5324-48E0-B6E7-6F32475F25A8}">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="1.11346666666667E-02"/>
-																<Property Name="FadeOutDuration" Type="Real64" Value="4.13573333333333E-02"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0111346666666667"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0413573333333333"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="1.11346666666667E-02"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0111346666666667"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.258483333333333"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Gravel\Sfx_Dexter_Footstep_Gravel_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="368955835"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -890,12 +914,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Servo_04" ID="{D0B46515-4AB1-4624-BF3D-838250610C46}" ShortID="1064534487">
+														<AudioFileSource Name="SFX_Dexter_Servo_04" ID="{D0B46515-4AB1-4624-BF3D-838250610C46}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Servo\SFX_Dexter_Servo_04.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="573681441"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="573681441"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -912,12 +936,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Servo_05" ID="{C44BFE6B-CA37-492E-AA56-2830E238DD4A}" ShortID="117950124">
+														<AudioFileSource Name="SFX_Dexter_Servo_05" ID="{C44BFE6B-CA37-492E-AA56-2830E238DD4A}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Servo\SFX_Dexter_Servo_05.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="869073530"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="869073530"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -953,9 +977,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_01" ID="{42CB2FE3-2881-4015-8553-05D2D2E1DC81}" ShortID="147250222">
+														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_01" ID="{42CB2FE3-2881-4015-8553-05D2D2E1DC81}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Grass\Sfx_Dexter_Footsteps_Grass_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="147250222"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -972,9 +999,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_02" ID="{A7166918-E725-4B31-A19D-22E3C7930141}" ShortID="129864264">
+														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_02" ID="{A7166918-E725-4B31-A19D-22E3C7930141}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Grass\Sfx_Dexter_Footsteps_Grass_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="129864264"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -991,9 +1021,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_03" ID="{C2D9679A-D1A1-49AF-9DD2-69A401523CF8}" ShortID="538257722">
+														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_03" ID="{C2D9679A-D1A1-49AF-9DD2-69A401523CF8}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Grass\Sfx_Dexter_Footsteps_Grass_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="538257722"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1010,9 +1043,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_04" ID="{E191766B-6A14-435E-9DEA-A63153CCE9F9}" ShortID="154272433">
+														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_04" ID="{E191766B-6A14-435E-9DEA-A63153CCE9F9}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Grass\Sfx_Dexter_Footsteps_Grass_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="154272433"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1029,9 +1065,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_05" ID="{9D1D198F-4559-4C5F-AC70-449F65799E12}" ShortID="67314558">
+														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_05" ID="{9D1D198F-4559-4C5F-AC70-449F65799E12}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Grass\Sfx_Dexter_Footsteps_Grass_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="67314558"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1048,9 +1087,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_06" ID="{FEA98496-2B09-4E66-AC21-8F87C206EC0C}" ShortID="488691876">
+														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_06" ID="{FEA98496-2B09-4E66-AC21-8F87C206EC0C}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Grass\Sfx_Dexter_Footsteps_Grass_06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="488691876"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1067,9 +1109,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_07" ID="{DD1340FC-C98C-4C6A-BE5E-3C42C836E066}" ShortID="5149490">
+														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_07" ID="{DD1340FC-C98C-4C6A-BE5E-3C42C836E066}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Grass\Sfx_Dexter_Footsteps_Grass_07.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="5149490"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1086,9 +1131,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_08" ID="{EB9356C5-429D-42F1-AB3F-CE9DBE2FBD33}" ShortID="1028832989">
+														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_08" ID="{EB9356C5-429D-42F1-AB3F-CE9DBE2FBD33}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Grass\Sfx_Dexter_Footsteps_Grass_08.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1028832989"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1148,9 +1196,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="Concrete_Walk_Left_01" ID="{A7470F2E-364D-42E4-9C65-ED5A5625F25F}" ShortID="169156747">
+																		<AudioFileSource Name="Concrete_Walk_Left_01" ID="{A7470F2E-364D-42E4-9C65-ED5A5625F25F}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Concrete\Concrete_Walk_Left\Concrete_Walk_Left_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="169156747"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1167,9 +1218,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="Concrete_Walk_Left_02" ID="{B4178015-3975-4056-8B0A-E2E8C3B883B8}" ShortID="977815984">
+																		<AudioFileSource Name="Concrete_Walk_Left_02" ID="{B4178015-3975-4056-8B0A-E2E8C3B883B8}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Concrete\Concrete_Walk_Left\Concrete_Walk_Left_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="977815984"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1186,9 +1240,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="Concrete_Walk_Left_03" ID="{05036E24-B8FB-4512-B0AD-3B0CC9E9554B}" ShortID="350695459">
+																		<AudioFileSource Name="Concrete_Walk_Left_03" ID="{05036E24-B8FB-4512-B0AD-3B0CC9E9554B}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Concrete\Concrete_Walk_Left\Concrete_Walk_Left_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="350695459"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1205,9 +1262,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="Concrete_Walk_Left_04" ID="{B2D4728C-8A01-4A63-9521-8EBA2E88AA8B}" ShortID="736468559">
+																		<AudioFileSource Name="Concrete_Walk_Left_04" ID="{B2D4728C-8A01-4A63-9521-8EBA2E88AA8B}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Concrete\Concrete_Walk_Left\Concrete_Walk_Left_04.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="736468559"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1224,9 +1284,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="Concrete_Walk_Left_05" ID="{D7AEE208-C78A-4A05-913C-7A5777CC938B}" ShortID="885969316">
+																		<AudioFileSource Name="Concrete_Walk_Left_05" ID="{D7AEE208-C78A-4A05-913C-7A5777CC938B}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Concrete\Concrete_Walk_Left\Concrete_Walk_Left_05.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="885969316"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1255,9 +1318,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_01" ID="{E094ED1C-1562-4923-96C4-D97581CE6149}" ShortID="660348972">
+																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_01" ID="{E094ED1C-1562-4923-96C4-D97581CE6149}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="660348972"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1274,9 +1340,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_02" ID="{93DC6773-4124-4351-B9F4-AE4995530615}" ShortID="274557358">
+																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_02" ID="{93DC6773-4124-4351-B9F4-AE4995530615}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="274557358"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1293,9 +1362,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_03" ID="{EB9ABAA9-0D29-42A7-AA79-78590CC8B178}" ShortID="961260994">
+																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_03" ID="{EB9ABAA9-0D29-42A7-AA79-78590CC8B178}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="961260994"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1312,9 +1384,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_04" ID="{A319A1EE-0B50-47A0-B909-83E37020541A}" ShortID="399834824">
+																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_04" ID="{A319A1EE-0B50-47A0-B909-83E37020541A}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_04.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="399834824"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1331,9 +1406,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_05" ID="{5650081E-63BD-48F6-9761-3645615D1072}" ShortID="82441582">
+																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_05" ID="{5650081E-63BD-48F6-9761-3645615D1072}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_05.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="82441582"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1350,9 +1428,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_06" ID="{CC1F9E76-EE93-404B-A578-B7FFC1C47348}" ShortID="677905240">
+																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_06" ID="{CC1F9E76-EE93-404B-A578-B7FFC1C47348}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_06.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="677905240"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1369,9 +1450,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_07" ID="{B2904D6F-1529-403B-AE70-4D60E4B69FA6}" ShortID="756215191">
+																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_07" ID="{B2904D6F-1529-403B-AE70-4D60E4B69FA6}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_07.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="756215191"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1388,9 +1472,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_08" ID="{FB17446D-08E5-4AD8-B08B-F6CC42AE6F26}" ShortID="635014355">
+																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_08" ID="{FB17446D-08E5-4AD8-B08B-F6CC42AE6F26}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_08.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="635014355"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1407,9 +1494,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_09" ID="{DE498D30-45E8-447F-A58E-D4BE3D498A39}" ShortID="313408568">
+																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_09" ID="{DE498D30-45E8-447F-A58E-D4BE3D498A39}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_09.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="313408568"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1426,9 +1516,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_10" ID="{58FAD609-0A05-48D4-BECC-CD94E1D1EDDD}" ShortID="202921476">
+																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_10" ID="{58FAD609-0A05-48D4-BECC-CD94E1D1EDDD}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_10.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="202921476"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1472,9 +1565,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="Concrete_Walk_Right_01" ID="{0F471D8E-722B-44BA-A728-64D2C2775FA0}" ShortID="1044962006">
+																		<AudioFileSource Name="Concrete_Walk_Right_01" ID="{0F471D8E-722B-44BA-A728-64D2C2775FA0}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Concrete\Concrete_Walk_Right\Concrete_Walk_Right_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="1044962006"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1491,9 +1587,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="Concrete_Walk_Right_02" ID="{9C84F91B-80C8-4A6A-8F2F-11C8967E2FFD}" ShortID="320119584">
+																		<AudioFileSource Name="Concrete_Walk_Right_02" ID="{9C84F91B-80C8-4A6A-8F2F-11C8967E2FFD}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Concrete\Concrete_Walk_Right\Concrete_Walk_Right_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="320119584"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1510,9 +1609,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="Concrete_Walk_Right_03" ID="{B95C7BC1-5206-462F-8A28-D47200F087FF}" ShortID="100995644">
+																		<AudioFileSource Name="Concrete_Walk_Right_03" ID="{B95C7BC1-5206-462F-8A28-D47200F087FF}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Concrete\Concrete_Walk_Right\Concrete_Walk_Right_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="100995644"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1529,9 +1631,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="Concrete_Walk_Right_04" ID="{7C73A508-A7DD-43E8-8285-E238162AB385}" ShortID="954822406">
+																		<AudioFileSource Name="Concrete_Walk_Right_04" ID="{7C73A508-A7DD-43E8-8285-E238162AB385}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Concrete\Concrete_Walk_Right\Concrete_Walk_Right_04.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="954822406"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1548,9 +1653,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="Concrete_Walk_Right_05" ID="{823F7D4D-701E-4ED4-B067-5D3ECC6A07B6}" ShortID="969805400">
+																		<AudioFileSource Name="Concrete_Walk_Right_05" ID="{823F7D4D-701E-4ED4-B067-5D3ECC6A07B6}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Concrete\Concrete_Walk_Right\Concrete_Walk_Right_05.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="969805400"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1579,12 +1687,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_01" ID="{00F02253-1E4B-4FC8-BA47-C706C7A73307}" ShortID="1042854262">
+																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_01" ID="{00F02253-1E4B-4FC8-BA47-C706C7A73307}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_01.wav</AudioFile>
-																			<ConvertedFileIDList>
-																				<File ID="660348972"/>
-																			</ConvertedFileIDList>
+																			<MediaIDList>
+																				<MediaID ID="660348972"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1601,12 +1709,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_02" ID="{53EBB6A1-C809-4263-9906-EBAEF3D76D38}" ShortID="664106223">
+																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_02" ID="{53EBB6A1-C809-4263-9906-EBAEF3D76D38}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_02.wav</AudioFile>
-																			<ConvertedFileIDList>
-																				<File ID="274557358"/>
-																			</ConvertedFileIDList>
+																			<MediaIDList>
+																				<MediaID ID="274557358"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1623,12 +1731,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_03" ID="{CB4FF957-9E24-493A-AA0A-9F585BC53214}" ShortID="844428389">
+																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_03" ID="{CB4FF957-9E24-493A-AA0A-9F585BC53214}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_03.wav</AudioFile>
-																			<ConvertedFileIDList>
-																				<File ID="961260994"/>
-																			</ConvertedFileIDList>
+																			<MediaIDList>
+																				<MediaID ID="961260994"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1645,12 +1753,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_04" ID="{9BC91E80-964B-4997-9CAA-22A4B9652169}" ShortID="450177275">
+																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_04" ID="{9BC91E80-964B-4997-9CAA-22A4B9652169}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_04.wav</AudioFile>
-																			<ConvertedFileIDList>
-																				<File ID="399834824"/>
-																			</ConvertedFileIDList>
+																			<MediaIDList>
+																				<MediaID ID="399834824"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1667,12 +1775,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_05" ID="{6E91D555-54B4-4EC1-82FE-093BB64E6A0D}" ShortID="721368845">
+																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_05" ID="{6E91D555-54B4-4EC1-82FE-093BB64E6A0D}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_05.wav</AudioFile>
-																			<ConvertedFileIDList>
-																				<File ID="82441582"/>
-																			</ConvertedFileIDList>
+																			<MediaIDList>
+																				<MediaID ID="82441582"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1689,12 +1797,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_06" ID="{81003459-0FA0-480B-8FBA-ED5D6E68AFD6}" ShortID="133267085">
+																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_06" ID="{81003459-0FA0-480B-8FBA-ED5D6E68AFD6}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_06.wav</AudioFile>
-																			<ConvertedFileIDList>
-																				<File ID="677905240"/>
-																			</ConvertedFileIDList>
+																			<MediaIDList>
+																				<MediaID ID="677905240"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1711,12 +1819,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_07" ID="{A6E59B99-E00C-4833-94C9-FFE31F664F0B}" ShortID="426672874">
+																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_07" ID="{A6E59B99-E00C-4833-94C9-FFE31F664F0B}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_07.wav</AudioFile>
-																			<ConvertedFileIDList>
-																				<File ID="756215191"/>
-																			</ConvertedFileIDList>
+																			<MediaIDList>
+																				<MediaID ID="756215191"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1733,12 +1841,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_08" ID="{CA26A547-4D2D-456D-9781-99DA4E91F760}" ShortID="1056547788">
+																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_08" ID="{CA26A547-4D2D-456D-9781-99DA4E91F760}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_08.wav</AudioFile>
-																			<ConvertedFileIDList>
-																				<File ID="635014355"/>
-																			</ConvertedFileIDList>
+																			<MediaIDList>
+																				<MediaID ID="635014355"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1755,12 +1863,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_09" ID="{C24B43D5-D9F2-414F-B17B-EB65756E9205}" ShortID="1039518418">
+																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_09" ID="{C24B43D5-D9F2-414F-B17B-EB65756E9205}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_09.wav</AudioFile>
-																			<ConvertedFileIDList>
-																				<File ID="313408568"/>
-																			</ConvertedFileIDList>
+																			<MediaIDList>
+																				<MediaID ID="313408568"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1777,12 +1885,12 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_10" ID="{479FDE4F-6BF2-4854-821F-BD9B1A63E39C}" ShortID="268287208">
+																		<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_10" ID="{479FDE4F-6BF2-4854-821F-BD9B1A63E39C}">
 																			<Language>SFX</Language>
 																			<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_10.wav</AudioFile>
-																			<ConvertedFileIDList>
-																				<File ID="202921476"/>
-																			</ConvertedFileIDList>
+																			<MediaIDList>
+																				<MediaID ID="202921476"/>
+																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
@@ -1826,12 +1934,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_01" ID="{E63B6195-417A-46E0-B253-6A2E57D2BE92}" ShortID="754434932">
+														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_01" ID="{E63B6195-417A-46E0-B253-6A2E57D2BE92}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_01.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="660348972"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="660348972"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1848,12 +1956,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_02" ID="{9BD68CC0-5F5E-438C-AF6A-B9C533A6A996}" ShortID="100940163">
+														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_02" ID="{9BD68CC0-5F5E-438C-AF6A-B9C533A6A996}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_02.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="274557358"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="274557358"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1870,12 +1978,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_03" ID="{84502A89-EC14-4534-B32F-7B9C172D8A7C}" ShortID="247274316">
+														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_03" ID="{84502A89-EC14-4534-B32F-7B9C172D8A7C}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_03.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="961260994"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="961260994"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1892,12 +2000,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_04" ID="{8E492F47-A479-47C2-B828-ED45DB5D94AD}" ShortID="990138863">
+														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_04" ID="{8E492F47-A479-47C2-B828-ED45DB5D94AD}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_04.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="399834824"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="399834824"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1914,12 +2022,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_05" ID="{A16F45E6-98B9-47DC-8DDD-0ADBA7EF6DA2}" ShortID="572087463">
+														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_05" ID="{A16F45E6-98B9-47DC-8DDD-0ADBA7EF6DA2}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_05.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="82441582"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="82441582"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1936,12 +2044,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_06" ID="{BC192388-9837-40B0-8413-50AD6A2A9D90}" ShortID="429277078">
+														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_06" ID="{BC192388-9837-40B0-8413-50AD6A2A9D90}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_06.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="677905240"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="677905240"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1958,12 +2066,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_07" ID="{1C57DDA2-B91B-4285-8144-30907B165EA4}" ShortID="819454647">
+														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_07" ID="{1C57DDA2-B91B-4285-8144-30907B165EA4}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_07.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="756215191"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="756215191"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1980,12 +2088,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_08" ID="{91EEDF00-75FF-49D2-B18B-09A2046ABBBF}" ShortID="1012350707">
+														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_08" ID="{91EEDF00-75FF-49D2-B18B-09A2046ABBBF}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_08.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="635014355"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="635014355"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2002,12 +2110,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_09" ID="{2BEAD7B7-6658-4C0E-8475-8AD1625C4525}" ShortID="106611562">
+														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_09" ID="{2BEAD7B7-6658-4C0E-8475-8AD1625C4525}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_09.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="313408568"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="313408568"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2024,12 +2132,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_10" ID="{A112A1A9-DDD3-467B-B0F6-10E94F39494E}" ShortID="587750221">
+														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_10" ID="{A112A1A9-DDD3-467B-B0F6-10E94F39494E}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_10.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="202921476"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="202921476"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2143,14 +2251,17 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Jump_Gravel_01" ID="{352924DB-BD6A-4920-A57C-6C3DDA16D76A}" ShortID="362121676">
+														<AudioFileSource Name="Sfx_Dexter_Jump_Gravel_01" ID="{352924DB-BD6A-4920-A57C-6C3DDA16D76A}">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="9.24485714285706E-03"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00924485714285706"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="8.22305714285714E-02"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0822305714285714"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Jump\Gravel\Sfx_Dexter_Jump_Gravel_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="362121676"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2167,7 +2278,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Jump_Gravel_02" ID="{1A0465BC-430C-482B-A38F-A07E2BD3C3AB}" ShortID="954187826">
+														<AudioFileSource Name="Sfx_Dexter_Jump_Gravel_02" ID="{1A0465BC-430C-482B-A38F-A07E2BD3C3AB}">
 															<PropertyList>
 																<Property Name="FadeInDuration" Type="Real64" Value="0.024872857142857"/>
 																<Property Name="LoopBegin" Type="Real64" Value="0.196279285714286"/>
@@ -2176,6 +2287,9 @@
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Jump\Gravel\Sfx_Dexter_Jump_Gravel_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="954187826"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2192,14 +2306,17 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Jump_Gravel_03" ID="{614FEA60-4364-4C39-8398-6A04E954811A}" ShortID="90885134">
+														<AudioFileSource Name="Sfx_Dexter_Jump_Gravel_03" ID="{614FEA60-4364-4C39-8398-6A04E954811A}">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="2.13931666666667E-02"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0213931666666667"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="8.29530952380951E-02"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0829530952380951"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Jump\Gravel\Sfx_Dexter_Jump_Gravel_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="90885134"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2216,14 +2333,17 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Jump_Gravel_04" ID="{1059E63F-A291-4E18-AA63-A9444A2AFDE2}" ShortID="286645539">
+														<AudioFileSource Name="Sfx_Dexter_Jump_Gravel_04" ID="{1059E63F-A291-4E18-AA63-A9444A2AFDE2}">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="1.66907142857143E-02"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0166907142857143"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.120173142857143"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Jump\Gravel\Sfx_Dexter_Jump_Gravel_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="286645539"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2240,14 +2360,17 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Jump_Gravel_05" ID="{DCB0FD2E-9B24-42A0-83A3-A3A1093F74B8}" ShortID="559439343">
+														<AudioFileSource Name="Sfx_Dexter_Jump_Gravel_05" ID="{DCB0FD2E-9B24-42A0-83A3-A3A1093F74B8}">
 															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="3.63971354166676E-02"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0363971354166676"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.377393231150793"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Jump\Gravel\Sfx_Dexter_Jump_Gravel_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="559439343"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2276,9 +2399,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Jump_Grass_01" ID="{61A679EF-D24C-45A8-A0D3-D7E0B0930960}" ShortID="172340180">
+														<AudioFileSource Name="Sfx_Dexter_Jump_Grass_01" ID="{61A679EF-D24C-45A8-A0D3-D7E0B0930960}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Jump\Grass\Sfx_Dexter_Jump_Grass_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="172340180"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2295,9 +2421,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Jump_Grass_02" ID="{5BF84469-A2C6-470C-AF9D-8F9BFCAAC154}" ShortID="141269984">
+														<AudioFileSource Name="Sfx_Dexter_Jump_Grass_02" ID="{5BF84469-A2C6-470C-AF9D-8F9BFCAAC154}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Jump\Grass\Sfx_Dexter_Jump_Grass_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="141269984"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2314,9 +2443,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Jump_Grass_03" ID="{A5A56FC3-215F-4C16-89A8-F7599DD6EB54}" ShortID="141152756">
+														<AudioFileSource Name="Sfx_Dexter_Jump_Grass_03" ID="{A5A56FC3-215F-4C16-89A8-F7599DD6EB54}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Jump\Grass\Sfx_Dexter_Jump_Grass_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="141152756"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2333,9 +2465,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Jump_Grass_04" ID="{E0DE75D7-F4F6-4541-B2B5-0B72BEAE89CD}" ShortID="400077760">
+														<AudioFileSource Name="Sfx_Dexter_Jump_Grass_04" ID="{E0DE75D7-F4F6-4541-B2B5-0B72BEAE89CD}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Jump\Grass\Sfx_Dexter_Jump_Grass_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="400077760"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2371,9 +2506,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Concrete_Jump_01" ID="{356E743D-C22D-4345-BADB-BBB377E5C103}" ShortID="791075457">
+														<AudioFileSource Name="Concrete_Jump_01" ID="{356E743D-C22D-4345-BADB-BBB377E5C103}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Jump\Concrete\Concrete_Jump_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="791075457"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2390,9 +2528,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Concrete_Jump_02" ID="{B97B3427-445B-4F87-80CD-EC8A40920412}" ShortID="160312837">
+														<AudioFileSource Name="Concrete_Jump_02" ID="{B97B3427-445B-4F87-80CD-EC8A40920412}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Jump\Concrete\Concrete_Jump_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="160312837"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2409,9 +2550,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Concrete_Jump_03" ID="{44026704-591B-4001-A028-9AFF9D0F166B}" ShortID="409115334">
+														<AudioFileSource Name="Concrete_Jump_03" ID="{44026704-591B-4001-A028-9AFF9D0F166B}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Jump\Concrete\Concrete_Jump_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="409115334"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2428,9 +2572,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Concrete_Jump_04" ID="{C5375A62-AAE8-4A13-9636-8A7C602C16E4}" ShortID="605672756">
+														<AudioFileSource Name="Concrete_Jump_04" ID="{C5375A62-AAE8-4A13-9636-8A7C602C16E4}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Jump\Concrete\Concrete_Jump_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="605672756"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2447,9 +2594,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Concrete_Jump_05" ID="{B57E7E17-4995-40DD-A04F-F7F52B2698E8}" ShortID="454122396">
+														<AudioFileSource Name="Concrete_Jump_05" ID="{B57E7E17-4995-40DD-A04F-F7F52B2698E8}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Jump\Concrete\Concrete_Jump_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="454122396"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2558,9 +2708,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Landing_Gravel_01" ID="{C1265821-2BEC-4258-9BC6-E3C967006B9E}" ShortID="919497452">
+														<AudioFileSource Name="Sfx_Dexter_Landing_Gravel_01" ID="{C1265821-2BEC-4258-9BC6-E3C967006B9E}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Landing\Gravel\Sfx_Dexter_Landing_Gravel_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="919497452"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2577,9 +2730,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Landing_Gravel_02" ID="{D67AF226-7905-4AF7-98A0-77B7EA7C9494}" ShortID="743489885">
+														<AudioFileSource Name="Sfx_Dexter_Landing_Gravel_02" ID="{D67AF226-7905-4AF7-98A0-77B7EA7C9494}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Landing\Gravel\Sfx_Dexter_Landing_Gravel_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="743489885"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2596,9 +2752,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Landing_Gravel_03" ID="{29A3EEDA-817E-4944-8533-AB68278E5966}" ShortID="43822877">
+														<AudioFileSource Name="Sfx_Dexter_Landing_Gravel_03" ID="{29A3EEDA-817E-4944-8533-AB68278E5966}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Landing\Gravel\Sfx_Dexter_Landing_Gravel_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="43822877"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2615,9 +2774,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Landing_Gravel_04" ID="{20CBF678-6D2F-4856-893F-05CF6D039D3C}" ShortID="821357161">
+														<AudioFileSource Name="Sfx_Dexter_Landing_Gravel_04" ID="{20CBF678-6D2F-4856-893F-05CF6D039D3C}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Landing\Gravel\Sfx_Dexter_Landing_Gravel_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="821357161"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2634,9 +2796,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Landing_Gravel_05" ID="{177AFD82-4F77-4F7B-9549-B6BA3AE5050A}" ShortID="421828404">
+														<AudioFileSource Name="Sfx_Dexter_Landing_Gravel_05" ID="{177AFD82-4F77-4F7B-9549-B6BA3AE5050A}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Landing\Gravel\Sfx_Dexter_Landing_Gravel_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="421828404"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2665,12 +2830,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_01" ID="{9363B017-A5EE-4854-A2C9-42901E1295EA}" ShortID="346332931">
+														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_01" ID="{9363B017-A5EE-4854-A2C9-42901E1295EA}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Grass\Sfx_Dexter_Footsteps_Grass_01.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="147250222"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="147250222"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2687,12 +2852,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_02" ID="{6110FED0-CD48-4E28-89F7-8F51C01A8C47}" ShortID="455309829">
+														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_02" ID="{6110FED0-CD48-4E28-89F7-8F51C01A8C47}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Grass\Sfx_Dexter_Footsteps_Grass_02.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="129864264"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="129864264"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2709,12 +2874,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_03" ID="{07B6284B-DED0-481C-AF0E-1A76F050EE05}" ShortID="622746736">
+														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_03" ID="{07B6284B-DED0-481C-AF0E-1A76F050EE05}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Grass\Sfx_Dexter_Footsteps_Grass_03.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="538257722"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="538257722"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2731,12 +2896,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_04" ID="{8C3318D6-924C-49E8-BA64-27ACF80C5E20}" ShortID="343727449">
+														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_04" ID="{8C3318D6-924C-49E8-BA64-27ACF80C5E20}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Grass\Sfx_Dexter_Footsteps_Grass_04.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="154272433"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="154272433"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2753,12 +2918,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_05" ID="{0469D0F2-8667-496D-B630-63BD2CFC240D}" ShortID="155650579">
+														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_05" ID="{0469D0F2-8667-496D-B630-63BD2CFC240D}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Grass\Sfx_Dexter_Footsteps_Grass_05.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="67314558"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="67314558"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2775,12 +2940,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_06" ID="{3A98E4F2-FF3B-47F2-81C6-E7D67771A8B4}" ShortID="46271884">
+														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_06" ID="{3A98E4F2-FF3B-47F2-81C6-E7D67771A8B4}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Grass\Sfx_Dexter_Footsteps_Grass_06.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="488691876"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="488691876"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2797,12 +2962,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_07" ID="{E0B367D6-EB23-4867-86F0-C7554034F995}" ShortID="17698102">
+														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_07" ID="{E0B367D6-EB23-4867-86F0-C7554034F995}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Grass\Sfx_Dexter_Footsteps_Grass_07.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="5149490"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="5149490"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2819,12 +2984,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_08" ID="{8EF2056D-8C0D-41AD-A5E3-BD1FF9C6F77D}" ShortID="447276417">
+														<AudioFileSource Name="Sfx_Dexter_Footsteps_Grass_08" ID="{8EF2056D-8C0D-41AD-A5E3-BD1FF9C6F77D}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Grass\Sfx_Dexter_Footsteps_Grass_08.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="1028832989"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="1028832989"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2870,9 +3035,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Concrete_Landing_01" ID="{14D8CE73-A29B-42F3-8CAF-35813A4C759F}" ShortID="728109225">
+																<AudioFileSource Name="Concrete_Landing_01" ID="{14D8CE73-A29B-42F3-8CAF-35813A4C759F}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Landing\Concrete\Concrete_Landing_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="728109225"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -2889,9 +3057,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Concrete_Landing_02" ID="{AE111C38-BBBA-40B2-9C74-B7C93A6F3AEE}" ShortID="955594488">
+																<AudioFileSource Name="Concrete_Landing_02" ID="{AE111C38-BBBA-40B2-9C74-B7C93A6F3AEE}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Landing\Concrete\Concrete_Landing_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="955594488"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -2908,9 +3079,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Concrete_Landing_03" ID="{F9285816-6C3A-4C68-ABFB-9EED9E347403}" ShortID="752387364">
+																<AudioFileSource Name="Concrete_Landing_03" ID="{F9285816-6C3A-4C68-ABFB-9EED9E347403}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Landing\Concrete\Concrete_Landing_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="752387364"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -2927,9 +3101,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Concrete_Landing_04" ID="{C13D808D-C80F-4500-AC8C-42B0241CAFD7}" ShortID="553661574">
+																<AudioFileSource Name="Concrete_Landing_04" ID="{C13D808D-C80F-4500-AC8C-42B0241CAFD7}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Landing\Concrete\Concrete_Landing_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="553661574"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -2946,9 +3123,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Concrete_Landing_05" ID="{44E28EAC-2947-4209-AA07-1CDF977795D8}" ShortID="724625546">
+																<AudioFileSource Name="Concrete_Landing_05" ID="{44E28EAC-2947-4209-AA07-1CDF977795D8}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Landing\Concrete\Concrete_Landing_05.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="724625546"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -2984,12 +3164,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_01" ID="{98006136-5F2E-469C-8910-944E6D6BD538}" ShortID="287233160">
+																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_01" ID="{98006136-5F2E-469C-8910-944E6D6BD538}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_01.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="660348972"/>
-																	</ConvertedFileIDList>
+																	<MediaIDList>
+																		<MediaID ID="660348972"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3006,12 +3186,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_02" ID="{A926A98F-709D-4CCE-BFA2-E0E2EC31C0FA}" ShortID="754359067">
+																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_02" ID="{A926A98F-709D-4CCE-BFA2-E0E2EC31C0FA}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_02.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="274557358"/>
-																	</ConvertedFileIDList>
+																	<MediaIDList>
+																		<MediaID ID="274557358"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3028,12 +3208,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_03" ID="{72845F41-A444-4EC5-B665-6D95E4F77079}" ShortID="551282291">
+																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_03" ID="{72845F41-A444-4EC5-B665-6D95E4F77079}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_03.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="961260994"/>
-																	</ConvertedFileIDList>
+																	<MediaIDList>
+																		<MediaID ID="961260994"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3050,12 +3230,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_04" ID="{D287409E-9771-41E2-A089-17299DC69E82}" ShortID="607160491">
+																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_04" ID="{D287409E-9771-41E2-A089-17299DC69E82}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_04.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="399834824"/>
-																	</ConvertedFileIDList>
+																	<MediaIDList>
+																		<MediaID ID="399834824"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3072,12 +3252,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_05" ID="{D4303EFC-F6FF-42EE-A627-0606B0258164}" ShortID="654057313">
+																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_05" ID="{D4303EFC-F6FF-42EE-A627-0606B0258164}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_05.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="82441582"/>
-																	</ConvertedFileIDList>
+																	<MediaIDList>
+																		<MediaID ID="82441582"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3094,12 +3274,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_06" ID="{8BC087FE-6768-41D1-B242-C1FBF81815D2}" ShortID="243976984">
+																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_06" ID="{8BC087FE-6768-41D1-B242-C1FBF81815D2}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_06.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="677905240"/>
-																	</ConvertedFileIDList>
+																	<MediaIDList>
+																		<MediaID ID="677905240"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3116,12 +3296,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_07" ID="{2D5449FA-DF9A-497D-BE02-46816067B51F}" ShortID="380064070">
+																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_07" ID="{2D5449FA-DF9A-497D-BE02-46816067B51F}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_07.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="756215191"/>
-																	</ConvertedFileIDList>
+																	<MediaIDList>
+																		<MediaID ID="756215191"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3138,12 +3318,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_08" ID="{C5B59C98-8561-4FCD-A935-55828ADFDB17}" ShortID="348724921">
+																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_08" ID="{C5B59C98-8561-4FCD-A935-55828ADFDB17}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_08.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="635014355"/>
-																	</ConvertedFileIDList>
+																	<MediaIDList>
+																		<MediaID ID="635014355"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3160,12 +3340,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_09" ID="{E616660A-DE07-461D-920D-6B9F81AF5968}" ShortID="346635609">
+																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_09" ID="{E616660A-DE07-461D-920D-6B9F81AF5968}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_09.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="313408568"/>
-																	</ConvertedFileIDList>
+																	<MediaIDList>
+																		<MediaID ID="313408568"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3182,12 +3362,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_10" ID="{14B6D3B6-4B12-4912-B966-C679EF28F45C}" ShortID="446179562">
+																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_10" ID="{14B6D3B6-4B12-4912-B966-C679EF28F45C}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_10.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="202921476"/>
-																	</ConvertedFileIDList>
+																	<MediaIDList>
+																		<MediaID ID="202921476"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3235,9 +3415,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Sfx_Bounce_Over_Enemies_01" ID="{8E0CA1E9-DEA2-4BD1-BCA1-93340609000C}" ShortID="37902176">
+																<AudioFileSource Name="Sfx_Bounce_Over_Enemies_01" ID="{8E0CA1E9-DEA2-4BD1-BCA1-93340609000C}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Landing\Enemies\Sfx_Bounce_Over_Enemies_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="37902176"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3254,9 +3437,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Sfx_Bounce_Over_Enemies_02" ID="{DDE48800-98EE-4DAF-B940-544A540F49D7}" ShortID="525805839">
+																<AudioFileSource Name="Sfx_Bounce_Over_Enemies_02" ID="{DDE48800-98EE-4DAF-B940-544A540F49D7}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Landing\Enemies\Sfx_Bounce_Over_Enemies_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="525805839"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3273,9 +3459,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Sfx_Bounce_Over_Enemies_03" ID="{9A5836C2-AA12-4AC2-98CC-3C6671E8C314}" ShortID="953028882">
+																<AudioFileSource Name="Sfx_Bounce_Over_Enemies_03" ID="{9A5836C2-AA12-4AC2-98CC-3C6671E8C314}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Landing\Enemies\Sfx_Bounce_Over_Enemies_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="953028882"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3292,9 +3481,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Sfx_Bounce_Over_Enemies_04" ID="{25E78EE8-96B4-4587-AA23-19767152FD22}" ShortID="345115065">
+																<AudioFileSource Name="Sfx_Bounce_Over_Enemies_04" ID="{25E78EE8-96B4-4587-AA23-19767152FD22}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Landing\Enemies\Sfx_Bounce_Over_Enemies_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="345115065"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3330,14 +3522,17 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_01" ID="{345BAF33-3D33-4D84-A651-9BC12A27C28F}" ShortID="382246387">
+																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_01" ID="{345BAF33-3D33-4D84-A651-9BC12A27C28F}">
 																	<PropertyList>
-																		<Property Name="FadeInDuration" Type="Real64" Value="4.77083333333333E-03"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00477083333333333"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="9.54166666666667E-03"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.00954166666666667"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="382246387"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3354,12 +3549,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_02" ID="{839BFB06-1AD1-4E10-8868-8AA202077ABF}" ShortID="398073398">
+																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_02" ID="{839BFB06-1AD1-4E10-8868-8AA202077ABF}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_02.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="274557358"/>
-																	</ConvertedFileIDList>
+																	<MediaIDList>
+																		<MediaID ID="274557358"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3376,12 +3571,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_03" ID="{0C1FEE5D-747D-4722-AEE1-6EF092DE37B2}" ShortID="908391721">
+																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_03" ID="{0C1FEE5D-747D-4722-AEE1-6EF092DE37B2}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_03.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="961260994"/>
-																	</ConvertedFileIDList>
+																	<MediaIDList>
+																		<MediaID ID="961260994"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3398,12 +3593,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_04" ID="{25558250-F213-499D-A629-B9A8F9563140}" ShortID="771959998">
+																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_04" ID="{25558250-F213-499D-A629-B9A8F9563140}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_04.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="399834824"/>
-																	</ConvertedFileIDList>
+																	<MediaIDList>
+																		<MediaID ID="399834824"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3420,12 +3615,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_05" ID="{D88288BA-9BD0-419F-A90C-CE40F7012A00}" ShortID="4466083">
+																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_05" ID="{D88288BA-9BD0-419F-A90C-CE40F7012A00}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_05.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="82441582"/>
-																	</ConvertedFileIDList>
+																	<MediaIDList>
+																		<MediaID ID="82441582"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3442,12 +3637,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_06" ID="{FFC9575C-61FC-424B-9DD3-D691235D1230}" ShortID="184655576">
+																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_06" ID="{FFC9575C-61FC-424B-9DD3-D691235D1230}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_06.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="677905240"/>
-																	</ConvertedFileIDList>
+																	<MediaIDList>
+																		<MediaID ID="677905240"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3464,12 +3659,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_07" ID="{E15F965D-5BE3-4CB4-BC32-66C5CA12C848}" ShortID="245338989">
+																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_07" ID="{E15F965D-5BE3-4CB4-BC32-66C5CA12C848}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_07.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="756215191"/>
-																	</ConvertedFileIDList>
+																	<MediaIDList>
+																		<MediaID ID="756215191"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3486,12 +3681,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_08" ID="{91EF991D-6B00-442A-97DD-347A6DF84BFC}" ShortID="892516904">
+																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_08" ID="{91EF991D-6B00-442A-97DD-347A6DF84BFC}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_08.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="635014355"/>
-																	</ConvertedFileIDList>
+																	<MediaIDList>
+																		<MediaID ID="635014355"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3508,12 +3703,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_09" ID="{61BEDAD3-4AB6-4AD6-9808-05279A227807}" ShortID="420647476">
+																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_09" ID="{61BEDAD3-4AB6-4AD6-9808-05279A227807}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_09.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="313408568"/>
-																	</ConvertedFileIDList>
+																	<MediaIDList>
+																		<MediaID ID="313408568"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3530,12 +3725,12 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_10" ID="{2388AECD-758C-4220-9DA6-DC848E217710}" ShortID="514387055">
+																<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_10" ID="{2388AECD-758C-4220-9DA6-DC848E217710}">
 																	<Language>SFX</Language>
 																	<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_10.wav</AudioFile>
-																	<ConvertedFileIDList>
-																		<File ID="202921476"/>
-																	</ConvertedFileIDList>
+																	<MediaIDList>
+																		<MediaID ID="202921476"/>
+																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -3573,12 +3768,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_01" ID="{BB857ED5-E5C0-4B00-9E2F-A535213C3F25}" ShortID="421730625">
+														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_01" ID="{BB857ED5-E5C0-4B00-9E2F-A535213C3F25}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_01.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="660348972"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="660348972"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -3595,12 +3790,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_02" ID="{EF120CB0-F0D3-4ACE-AE3D-115D1C0808FE}" ShortID="448046642">
+														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_02" ID="{EF120CB0-F0D3-4ACE-AE3D-115D1C0808FE}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_02.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="274557358"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="274557358"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -3617,12 +3812,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_03" ID="{66F9B292-8CB3-40C4-90BA-0B9D64F45417}" ShortID="211779270">
+														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_03" ID="{66F9B292-8CB3-40C4-90BA-0B9D64F45417}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_03.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="961260994"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="961260994"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -3639,12 +3834,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_04" ID="{74AB276A-0246-45F8-AD6B-A9CB0F883D18}" ShortID="296558055">
+														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_04" ID="{74AB276A-0246-45F8-AD6B-A9CB0F883D18}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_04.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="399834824"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="399834824"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -3661,12 +3856,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_05" ID="{26F6AF23-25F0-405D-904E-EB6DCC4F74B9}" ShortID="940165182">
+														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_05" ID="{26F6AF23-25F0-405D-904E-EB6DCC4F74B9}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_05.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="82441582"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="82441582"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -3683,12 +3878,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_06" ID="{7B97F6F1-BD68-4BD3-9E16-1F56EBD1C097}" ShortID="959383802">
+														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_06" ID="{7B97F6F1-BD68-4BD3-9E16-1F56EBD1C097}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_06.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="677905240"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="677905240"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -3705,12 +3900,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_07" ID="{BC69ABCC-E170-4DAC-BF8A-86A55D00F2B3}" ShortID="812498292">
+														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_07" ID="{BC69ABCC-E170-4DAC-BF8A-86A55D00F2B3}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_07.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="756215191"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="756215191"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -3727,12 +3922,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_08" ID="{38F45696-8864-420F-82CB-E8D2999793D4}" ShortID="881867979">
+														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_08" ID="{38F45696-8864-420F-82CB-E8D2999793D4}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_08.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="635014355"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="635014355"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -3749,12 +3944,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_09" ID="{E6384435-784B-4E3F-A38F-44939E35C20D}" ShortID="619953099">
+														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_09" ID="{E6384435-784B-4E3F-A38F-44939E35C20D}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_09.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="313408568"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="313408568"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -3771,12 +3966,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_10" ID="{CCDB8DE5-B111-4840-80CC-54DFF7EC3E5C}" ShortID="1020336771">
+														<AudioFileSource Name="SFX_Dexter_Footsteps_Metal_10" ID="{CCDB8DE5-B111-4840-80CC-54DFF7EC3E5C}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Feet\Footsteps\Metal\SFX_Dexter_Footsteps_Metal_10.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="202921476"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="202921476"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -3887,9 +4082,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_01" ID="{7BE2C9E4-0BDB-4EF3-9C48-01993165D6B9}" ShortID="63636401">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_01" ID="{7BE2C9E4-0BDB-4EF3-9C48-01993165D6B9}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="63636401"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3913,9 +4111,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_02" ID="{011F8121-59B1-46E8-98D5-7FA1775F1C67}" ShortID="615238044">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_02" ID="{011F8121-59B1-46E8-98D5-7FA1775F1C67}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="615238044"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3939,9 +4140,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_03" ID="{07CBFFFA-5337-42FF-87DB-F53477F4FECF}" ShortID="250925219">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_03" ID="{07CBFFFA-5337-42FF-87DB-F53477F4FECF}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="250925219"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3965,9 +4169,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_04" ID="{2CB7A37A-0DE2-435F-8D68-18B4617584B5}" ShortID="1658567">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_04" ID="{2CB7A37A-0DE2-435F-8D68-18B4617584B5}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1658567"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3991,9 +4198,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_05" ID="{EB9A911F-0926-4398-A97C-E3F609DF6599}" ShortID="160604878">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_05" ID="{EB9A911F-0926-4398-A97C-E3F609DF6599}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="160604878"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4017,9 +4227,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_06" ID="{62B4F80B-D413-4AC1-9E74-9481E824EE4E}" ShortID="983804364">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_06" ID="{62B4F80B-D413-4AC1-9E74-9481E824EE4E}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="983804364"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4043,9 +4256,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_07" ID="{808AAE9E-DDA3-42D4-8C26-472BDA58A42D}" ShortID="899639867">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_07" ID="{808AAE9E-DDA3-42D4-8C26-472BDA58A42D}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="899639867"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4069,9 +4285,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_08" ID="{83AB71D7-D2CB-433B-B1C5-73ED80518441}" ShortID="826015900">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_08" ID="{83AB71D7-D2CB-433B-B1C5-73ED80518441}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="826015900"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4095,9 +4314,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_09" ID="{334B0CEC-30BE-4D92-B7C7-D238FD4B802E}" ShortID="842466088">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_09" ID="{334B0CEC-30BE-4D92-B7C7-D238FD4B802E}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="842466088"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4121,9 +4343,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_10" ID="{63204A10-3767-4F02-A91F-5F45AB8167EA}" ShortID="828748722">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_10" ID="{63204A10-3767-4F02-A91F-5F45AB8167EA}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="828748722"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4147,9 +4372,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_11" ID="{D2D6848B-E878-4765-B070-0BD90A565B27}" ShortID="507918854">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_11" ID="{D2D6848B-E878-4765-B070-0BD90A565B27}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="507918854"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4173,9 +4401,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_12" ID="{B6645770-79CB-4157-A45D-E059AB14252A}" ShortID="881251131">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_12" ID="{B6645770-79CB-4157-A45D-E059AB14252A}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_12.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="881251131"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4199,9 +4430,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_13" ID="{ADE2949C-07AA-417A-8003-66EBFD8064F4}" ShortID="127536197">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_13" ID="{ADE2949C-07AA-417A-8003-66EBFD8064F4}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_13.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="127536197"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4225,9 +4459,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_14" ID="{5A6CB2B2-8A08-4B86-A23B-57D4A1630B6D}" ShortID="727129423">
+												<AudioFileSource Name="SFX_Dexter_Footsteps_Gak_14" ID="{5A6CB2B2-8A08-4B86-A23B-57D4A1630B6D}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Feet\GAK\SFX_Dexter_Footsteps_Gak_14.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="727129423"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4366,12 +4603,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Dexter_Metal_Hit_01" ID="{2DCE8D7B-7DC9-4639-833A-8CFFF7CEF8E0}" ShortID="852128933">
+												<AudioFileSource Name="Sfx_Dexter_Metal_Hit_01" ID="{2DCE8D7B-7DC9-4639-833A-8CFFF7CEF8E0}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Metal_Hit\Sfx_Dexter_Metal_Hit_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="405405191"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="405405191"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4437,9 +4674,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Grapple_Laser_Loop_01" ID="{C8CDA2D0-8B56-4D03-8E6E-E5ADF22678B7}" ShortID="345508640">
+												<AudioFileSource Name="Sfx_Grapple_Laser_Loop_01" ID="{C8CDA2D0-8B56-4D03-8E6E-E5ADF22678B7}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Grapple\Sfx_Grapple_Laser_Loop_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="345508640"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4488,12 +4728,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Grapple_Whoosh_01" ID="{77B7F0DC-C3E2-472F-9DD5-D4AC725D6EB2}" ShortID="1067058986">
+												<AudioFileSource Name="SFX_Dexter_Grapple_Whoosh_01" ID="{77B7F0DC-C3E2-472F-9DD5-D4AC725D6EB2}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Grapple\Grapple_Whoosh\SFX_Dexter_Grapple_Whoosh_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="539662866"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="539662866"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4542,9 +4782,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Grapple_Laser_End_01" ID="{18B6D95E-95D5-4620-8916-E1AE4A38C532}" ShortID="588105948">
+												<AudioFileSource Name="Sfx_Grapple_Laser_End_01" ID="{18B6D95E-95D5-4620-8916-E1AE4A38C532}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Grapple\Sfx_Grapple_Laser_End_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="588105948"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4593,9 +4836,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Grapple_Laser_Start_01" ID="{50325212-7CE0-42B6-B8ED-160EA24B34C0}" ShortID="643980436">
+												<AudioFileSource Name="Sfx_Grapple_Laser_Start_01" ID="{50325212-7CE0-42B6-B8ED-160EA24B34C0}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Grapple\Sfx_Grapple_Laser_Start_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="643980436"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4746,9 +4992,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Pickup_Health" ID="{8D29EBB4-6B7A-476D-BF52-A46369CDD84C}" ShortID="961678308">
+														<AudioFileSource Name="Sfx_Pickup_Health" ID="{8D29EBB4-6B7A-476D-BF52-A46369CDD84C}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Pickup\Sfx_Pickup_Health.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="961678308"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4768,9 +5017,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Dexter_Pickup_Health_02" ID="{7CB17B86-F55C-4A00-9774-0BE1426271DA}" ShortID="536967091">
+														<AudioFileSource Name="Dexter_Pickup_Health_02" ID="{7CB17B86-F55C-4A00-9774-0BE1426271DA}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Pickup\Dexter_Pickup_Health_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="536967091"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4808,9 +5060,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Pickup_Energy" ID="{B65E44E1-B6B9-4B49-A759-1E8BCFC86629}" ShortID="242500505">
+														<AudioFileSource Name="SFX_Dexter_Pickup_Energy" ID="{B65E44E1-B6B9-4B49-A759-1E8BCFC86629}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Pickup\SFX_Dexter_Pickup_Energy.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="242500505"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4848,9 +5103,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Dexter_Pickup_Upgrade" ID="{C239FBA9-26F3-4A2B-B375-E3F3755E27CE}" ShortID="706305946">
+														<AudioFileSource Name="SFX_Dexter_Pickup_Upgrade" ID="{C239FBA9-26F3-4A2B-B375-E3F3755E27CE}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Pickup\SFX_Dexter_Pickup_Upgrade.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="706305946"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4977,9 +5235,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Grapple_Upgrade_01" ID="{DC50EF95-D4ED-4C50-991D-A2C359F0F8B5}" ShortID="229463145">
+												<AudioFileSource Name="Sfx_Grapple_Upgrade_01" ID="{DC50EF95-D4ED-4C50-991D-A2C359F0F8B5}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Pickup\Sfx_Grapple_Upgrade_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="229463145"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -5060,9 +5321,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Bash_Upgrade_01" ID="{BD585085-CD31-4824-84CE-0D4B209E1C75}" ShortID="568433987">
+												<AudioFileSource Name="Sfx_Bash_Upgrade_01" ID="{BD585085-CD31-4824-84CE-0D4B209E1C75}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Pickup\Sfx_Bash_Upgrade_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="568433987"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -5147,9 +5411,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Gunshot_01" ID="{A5F73EE8-E87C-413E-98C2-F99F06B81D4C}" ShortID="81679085">
+														<AudioFileSource Name="Sfx_Dexter_Gunshot_01" ID="{A5F73EE8-E87C-413E-98C2-F99F06B81D4C}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Weapon\Sfx_Dexter_Gunshot_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="81679085"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -5215,9 +5482,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Sfx_Dexter_Gunshot_01" ID="{EA02DB4A-EBB3-4FF9-BCF3-DDBBC75A878B}" ShortID="1058635977">
+														<AudioFileSource Name="Sfx_Dexter_Gunshot_01" ID="{EA02DB4A-EBB3-4FF9-BCF3-DDBBC75A878B}">
 															<Language>SFX</Language>
 															<AudioFile>Characters\Dexter\Weapon\Sfx_Dexter_Gunshot_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1058635977"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -5297,9 +5567,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Gunshot_Hit_05" ID="{D51AA462-846C-412B-B2EF-4AF922D3B36D}" ShortID="253860856">
+												<AudioFileSource Name="Sfx_Gunshot_Hit_05" ID="{D51AA462-846C-412B-B2EF-4AF922D3B36D}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Weapon\Gunshot_Hit\Sfx_Gunshot_Hit_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="253860856"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -5316,9 +5589,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Gunshot_Hit_04" ID="{AFE62362-99D9-43DB-85CA-CD4130467536}" ShortID="19102827">
+												<AudioFileSource Name="Sfx_Gunshot_Hit_04" ID="{AFE62362-99D9-43DB-85CA-CD4130467536}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Weapon\Gunshot_Hit\Sfx_Gunshot_Hit_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="19102827"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -5335,9 +5611,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Gunshot_Hit_03" ID="{691C3F86-9966-4F5B-947A-7CC25A8EAF12}" ShortID="578031440">
+												<AudioFileSource Name="Sfx_Gunshot_Hit_03" ID="{691C3F86-9966-4F5B-947A-7CC25A8EAF12}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Weapon\Gunshot_Hit\Sfx_Gunshot_Hit_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="578031440"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -5354,9 +5633,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Gunshot_Hit_02" ID="{26DA1311-A870-47C4-A9A3-FEA403AA668F}" ShortID="902497357">
+												<AudioFileSource Name="Sfx_Gunshot_Hit_02" ID="{26DA1311-A870-47C4-A9A3-FEA403AA668F}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Weapon\Gunshot_Hit\Sfx_Gunshot_Hit_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="902497357"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -5373,9 +5655,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Gunshot_Hit_01" ID="{C71DF97B-C8F8-4294-8860-54C07B6B0A40}" ShortID="307481341">
+												<AudioFileSource Name="Sfx_Gunshot_Hit_01" ID="{C71DF97B-C8F8-4294-8860-54C07B6B0A40}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Weapon\Gunshot_Hit\Sfx_Gunshot_Hit_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="307481341"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -5426,7 +5711,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Power_Down_02" ID="{C2CF082A-87CC-42F1-9075-34FEAE65F8E0}" ShortID="982002547">
+												<AudioFileSource Name="SFX_Dexter_Power_Down_02" ID="{C2CF082A-87CC-42F1-9075-34FEAE65F8E0}">
 													<PropertyList>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.456824074074074"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -5434,6 +5719,9 @@
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Death\Power_Down\SFX_Dexter_Power_Down_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="982002547"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -5471,9 +5759,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="SFX_Dexter_Servo_01" ID="{AD194563-B174-4C2C-9841-883835F4893D}" ShortID="137321744">
+										<AudioFileSource Name="SFX_Dexter_Servo_01" ID="{AD194563-B174-4C2C-9841-883835F4893D}">
 											<Language>SFX</Language>
 											<AudioFile>Characters\Dexter\Servo\SFX_Dexter_Servo_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="137321744"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5490,9 +5781,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="SFX_Dexter_Servo_02" ID="{8A767FB9-520C-4B82-8429-CB89659BA700}" ShortID="995896472">
+										<AudioFileSource Name="SFX_Dexter_Servo_02" ID="{8A767FB9-520C-4B82-8429-CB89659BA700}">
 											<Language>SFX</Language>
 											<AudioFile>Characters\Dexter\Servo\SFX_Dexter_Servo_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="995896472"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5509,9 +5803,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="SFX_Dexter_Servo_03" ID="{46A730BA-7F1F-48F5-9516-BD5E9B71A7EB}" ShortID="900830443">
+										<AudioFileSource Name="SFX_Dexter_Servo_03" ID="{46A730BA-7F1F-48F5-9516-BD5E9B71A7EB}">
 											<Language>SFX</Language>
 											<AudioFile>Characters\Dexter\Servo\SFX_Dexter_Servo_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="900830443"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5528,9 +5825,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="SFX_Dexter_Servo_04" ID="{75EAEA9E-B3F9-42FA-93A3-2679E4DE4D7B}" ShortID="573681441">
+										<AudioFileSource Name="SFX_Dexter_Servo_04" ID="{75EAEA9E-B3F9-42FA-93A3-2679E4DE4D7B}">
 											<Language>SFX</Language>
 											<AudioFile>Characters\Dexter\Servo\SFX_Dexter_Servo_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="573681441"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5547,9 +5847,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="SFX_Dexter_Servo_05" ID="{04F3A301-FBA0-4285-82E2-065C22DA6272}" ShortID="869073530">
+										<AudioFileSource Name="SFX_Dexter_Servo_05" ID="{04F3A301-FBA0-4285-82E2-065C22DA6272}">
 											<Language>SFX</Language>
 											<AudioFile>Characters\Dexter\Servo\SFX_Dexter_Servo_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="869073530"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5566,9 +5869,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="SFX_Dexter_Servo_06" ID="{2FDBF425-C23C-4729-8047-75212725D038}" ShortID="175547214">
+										<AudioFileSource Name="SFX_Dexter_Servo_06" ID="{2FDBF425-C23C-4729-8047-75212725D038}">
 											<Language>SFX</Language>
 											<AudioFile>Characters\Dexter\Servo\SFX_Dexter_Servo_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="175547214"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5617,9 +5923,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="SFX_Dexter_Power_Up_01" ID="{37857B62-3C6A-4C44-9950-D4CBE8D3957D}" ShortID="767430401">
+												<AudioFileSource Name="SFX_Dexter_Power_Up_01" ID="{37857B62-3C6A-4C44-9950-D4CBE8D3957D}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\Death\Power_Up\SFX_Dexter_Power_Up_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="767430401"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -5672,14 +5981,17 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Dexter_Whoosh_01" ID="{64EF7417-8401-423F-AB98-56D46BDD8452}" ShortID="230896381">
+										<AudioFileSource Name="Sfx_Dexter_Whoosh_01" ID="{64EF7417-8401-423F-AB98-56D46BDD8452}">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="1.81596029018709E-02"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0181596029018709"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.080356242840779"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Characters\Dexter\Whooshes\Sfx_Dexter_Whoosh_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="230896381"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5696,14 +6008,17 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Dexter_Whoosh_02" ID="{0BE2BF1B-0627-4836-B52D-E6795842F460}" ShortID="71011491">
+										<AudioFileSource Name="Sfx_Dexter_Whoosh_02" ID="{0BE2BF1B-0627-4836-B52D-E6795842F460}">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="1.60483486063383E-02"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0160483486063383"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="6.14422489499809E-02"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0614422489499809"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Characters\Dexter\Whooshes\Sfx_Dexter_Whoosh_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="71011491"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5720,14 +6035,17 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Dexter_Whoosh_03" ID="{D2A846E3-B013-4479-BF7B-1719E0144D0C}" ShortID="485367322">
+										<AudioFileSource Name="Sfx_Dexter_Whoosh_03" ID="{D2A846E3-B013-4479-BF7B-1719E0144D0C}">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="1.45592783505155E-02"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0145592783505155"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="5.50017182130584E-02"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0550017182130584"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Characters\Dexter\Whooshes\Sfx_Dexter_Whoosh_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="485367322"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5744,14 +6062,17 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Dexter_Whoosh_04" ID="{E369CB28-7D89-4605-9475-20CE74317A55}" ShortID="16278740">
+										<AudioFileSource Name="Sfx_Dexter_Whoosh_04" ID="{E369CB28-7D89-4605-9475-20CE74317A55}">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="1.06576937762505E-02"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0106576937762505"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="2.39798109965636E-02"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0239798109965636"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Characters\Dexter\Whooshes\Sfx_Dexter_Whoosh_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="16278740"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5768,14 +6089,17 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Dexter_Whoosh_05" ID="{05AE582E-37E1-456C-9E10-7049AB62FF5B}" ShortID="76636547">
+										<AudioFileSource Name="Sfx_Dexter_Whoosh_05" ID="{05AE582E-37E1-456C-9E10-7049AB62FF5B}">
 											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="2.77331042382589E-02"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0277331042382589"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.04454104620084"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Characters\Dexter\Whooshes\Sfx_Dexter_Whoosh_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="76636547"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5811,9 +6135,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Dexter_Pneumatic_01" ID="{2862117F-733E-46E0-B3C5-C687A87218E0}" ShortID="390642152">
+										<AudioFileSource Name="Sfx_Dexter_Pneumatic_01" ID="{2862117F-733E-46E0-B3C5-C687A87218E0}">
 											<Language>SFX</Language>
 											<AudioFile>Characters\Dexter\Pneumatic\Sfx_Dexter_Pneumatic_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="390642152"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5889,12 +6216,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Hurt_Ow_04" ID="{B5A56A93-0BA4-4018-A4EB-7BF4CE3B7C35}" ShortID="1028950792">
+												<AudioFileSource Name="Dexter_VO_Hurt_Ow_04" ID="{B5A56A93-0BA4-4018-A4EB-7BF4CE3B7C35}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Hurt\Dexter_VO_Hurt_Ow_04.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="689305095"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="689305095"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -5911,12 +6238,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Hurt_Ow_01" ID="{68D40EF5-4DD5-4D9C-8D46-E19FAF542B96}" ShortID="500293305">
+												<AudioFileSource Name="Dexter_VO_Hurt_Ow_01" ID="{68D40EF5-4DD5-4D9C-8D46-E19FAF542B96}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Hurt\Dexter_VO_Hurt_Ow_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="266374344"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="266374344"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -5933,12 +6260,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Hurt_Bzzz_01" ID="{CFD242D0-0648-475C-99DB-303E8DAE8AB7}" ShortID="646544855">
+												<AudioFileSource Name="Dexter_VO_Hurt_Bzzz_01" ID="{CFD242D0-0648-475C-99DB-303E8DAE8AB7}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Hurt\Dexter_VO_Hurt_Bzzz_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="975566203"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="975566203"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -5955,12 +6282,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Hurt_Ow_03" ID="{233C287B-FC1F-42AB-AB7C-49EE4684BFD0}" ShortID="122106747">
+												<AudioFileSource Name="Dexter_VO_Hurt_Ow_03" ID="{233C287B-FC1F-42AB-AB7C-49EE4684BFD0}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Hurt\Dexter_VO_Hurt_Ow_03.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="387325528"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="387325528"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -5977,12 +6304,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Hurt_Ow_02" ID="{3E383E48-1321-49FD-9F24-69782F47661D}" ShortID="676196560">
+												<AudioFileSource Name="Dexter_VO_Hurt_Ow_02" ID="{3E383E48-1321-49FD-9F24-69782F47661D}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Hurt\Dexter_VO_Hurt_Ow_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="278746058"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="278746058"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6040,12 +6367,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Joy_Awesome_02" ID="{06A6032A-25B6-4068-A413-241F4BCAF993}" ShortID="999486886">
+												<AudioFileSource Name="Dexter_VO_Joy_Awesome_02" ID="{06A6032A-25B6-4068-A413-241F4BCAF993}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Joy\Dexter_VO_Joy_Awesome_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="40370275"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="40370275"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6074,12 +6401,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Joy_Superb_01" ID="{0C2E191D-BD53-4642-B82C-CA630C1145B8}" ShortID="878520462">
+												<AudioFileSource Name="Dexter_VO_Joy_Superb_01" ID="{0C2E191D-BD53-4642-B82C-CA630C1145B8}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Joy\Dexter_VO_Joy_Superb_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="33299524"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="33299524"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6103,12 +6430,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Joy_Yeah_02" ID="{1E1E192C-0FE5-45BF-8D22-7A91F93D4014}" ShortID="343625574">
+												<AudioFileSource Name="Dexter_VO_Joy_Yeah_02" ID="{1E1E192C-0FE5-45BF-8D22-7A91F93D4014}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Joy\Dexter_VO_Joy_Yeah_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="879877777"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="879877777"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6132,12 +6459,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Joy_Cool_01" ID="{1DAA354A-C5FA-46FB-907B-7B68BCFB725B}" ShortID="347851763">
+												<AudioFileSource Name="Dexter_VO_Joy_Cool_01" ID="{1DAA354A-C5FA-46FB-907B-7B68BCFB725B}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Joy\Dexter_VO_Joy_Cool_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="406855498"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="406855498"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6161,12 +6488,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Joy_Cool_02" ID="{53D76CA7-3007-4726-B2D1-6E581612D616}" ShortID="845241246">
+												<AudioFileSource Name="Dexter_VO_Joy_Cool_02" ID="{53D76CA7-3007-4726-B2D1-6E581612D616}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Joy\Dexter_VO_Joy_Cool_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="839933066"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="839933066"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6190,12 +6517,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Joy_Cool_03" ID="{DCFA4805-68C1-4A17-8508-5A0063888D9F}" ShortID="809952169">
+												<AudioFileSource Name="Dexter_VO_Joy_Cool_03" ID="{DCFA4805-68C1-4A17-8508-5A0063888D9F}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Joy\Dexter_VO_Joy_Cool_03.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="184993627"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="184993627"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6219,12 +6546,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Joy_Excellent_01" ID="{F9547651-E8EE-4C83-B0FD-1B1DF9E1B880}" ShortID="47150346">
+												<AudioFileSource Name="Dexter_VO_Joy_Excellent_01" ID="{F9547651-E8EE-4C83-B0FD-1B1DF9E1B880}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Joy\Dexter_VO_Joy_Excellent_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="691315150"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="691315150"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6248,12 +6575,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Joy_AlphaNumeric_01" ID="{E7EFD690-5314-4191-8F53-83FD1EF8A777}" ShortID="673703585">
+												<AudioFileSource Name="Dexter_VO_Joy_AlphaNumeric_01" ID="{E7EFD690-5314-4191-8F53-83FD1EF8A777}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Joy\Dexter_VO_Joy_AlphaNumeric_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="1067961583"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="1067961583"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6282,12 +6609,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Joy_Excellent_02" ID="{1264DC7D-969B-478B-ABDB-96A920F6F3F9}" ShortID="41977853">
+												<AudioFileSource Name="Dexter_VO_Joy_Excellent_02" ID="{1264DC7D-969B-478B-ABDB-96A920F6F3F9}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Joy\Dexter_VO_Joy_Excellent_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="26417064"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="26417064"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6316,12 +6643,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Joy_Excellent_03" ID="{5E8CAF0F-F96A-43A1-B8FC-2920C1E84681}" ShortID="16543094">
+												<AudioFileSource Name="Dexter_VO_Joy_Excellent_03" ID="{5E8CAF0F-F96A-43A1-B8FC-2920C1E84681}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Joy\Dexter_VO_Joy_Excellent_03.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="345556127"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="345556127"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6345,12 +6672,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Joy_Woo_03" ID="{03E55B55-86FB-4F83-8B26-AC7F93D6633D}" ShortID="875823976">
+												<AudioFileSource Name="Dexter_VO_Joy_Woo_03" ID="{03E55B55-86FB-4F83-8B26-AC7F93D6633D}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Joy\Dexter_VO_Joy_Woo_03.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="1043417693"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="1043417693"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6374,12 +6701,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Joy_Awesome_01" ID="{724E4848-4D50-40E1-8707-7FD474909FC7}" ShortID="35367039">
+												<AudioFileSource Name="Dexter_VO_Joy_Awesome_01" ID="{724E4848-4D50-40E1-8707-7FD474909FC7}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Joy\Dexter_VO_Joy_Awesome_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="378398302"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="378398302"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6403,12 +6730,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Joy_Woo_01" ID="{DC32606F-B804-45F9-BF60-355FBE660686}" ShortID="260507231">
+												<AudioFileSource Name="Dexter_VO_Joy_Woo_01" ID="{DC32606F-B804-45F9-BF60-355FBE660686}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Joy\Dexter_VO_Joy_Woo_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="1042081558"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="1042081558"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6432,12 +6759,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Joy_Woo_02" ID="{1208FC6B-653D-4944-B678-0BB32E4FD216}" ShortID="918548568">
+												<AudioFileSource Name="Dexter_VO_Joy_Woo_02" ID="{1208FC6B-653D-4944-B678-0BB32E4FD216}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Joy\Dexter_VO_Joy_Woo_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="889565500"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="889565500"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6461,12 +6788,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Joy_Yeah_01" ID="{62338AC8-C9B0-4888-8887-FD5B270D10F4}" ShortID="877968412">
+												<AudioFileSource Name="Dexter_VO_Joy_Yeah_01" ID="{62338AC8-C9B0-4888-8887-FD5B270D10F4}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Joy\Dexter_VO_Joy_Yeah_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="836292256"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="836292256"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6490,12 +6817,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Joy_Yeah_03" ID="{9652B52E-564A-4076-A3A2-1CB8A46F1277}" ShortID="454086865">
+												<AudioFileSource Name="Dexter_VO_Joy_Yeah_03" ID="{9652B52E-564A-4076-A3A2-1CB8A46F1277}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Joy\Dexter_VO_Joy_Yeah_03.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="977230911"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="977230911"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6693,12 +7020,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Fear_AyYaiYai_02" ID="{3C7105FF-4BF7-4B05-B30E-58EB41166A05}" ShortID="958257204">
+												<AudioFileSource Name="Dexter_VO_Fear_AyYaiYai_02" ID="{3C7105FF-4BF7-4B05-B30E-58EB41166A05}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Fear\Dexter_VO_Fear_AyYaiYai_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="15988661"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="15988661"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6722,12 +7049,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Fear_AyYaiYai_01" ID="{FBEDB31F-9F54-4957-B720-CF4E4136BF2A}" ShortID="118489990">
+												<AudioFileSource Name="Dexter_VO_Fear_AyYaiYai_01" ID="{FBEDB31F-9F54-4957-B720-CF4E4136BF2A}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Fear\Dexter_VO_Fear_AyYaiYai_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="931685737"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="931685737"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6751,12 +7078,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Fear_AyYaiYai_03" ID="{CAA3170D-CCC2-4659-8458-E791C204A696}" ShortID="1015710216">
+												<AudioFileSource Name="Dexter_VO_Fear_AyYaiYai_03" ID="{CAA3170D-CCC2-4659-8458-E791C204A696}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Fear\Dexter_VO_Fear_AyYaiYai_03.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="107355179"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="107355179"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6780,12 +7107,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Fear_AyYaiYai_04" ID="{E1AB8DFA-590B-425B-BAD8-A2A4F3D47EF8}" ShortID="947465853">
+												<AudioFileSource Name="Dexter_VO_Fear_AyYaiYai_04" ID="{E1AB8DFA-590B-425B-BAD8-A2A4F3D47EF8}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Fear\Dexter_VO_Fear_AyYaiYai_04.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="64570287"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="64570287"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6814,7 +7141,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Fear_Random_01" ID="{8143518B-7157-4307-BCD4-AAF5B71C9976}" ShortID="250051672">
+												<AudioFileSource Name="Dexter_VO_Fear_Random_01" ID="{8143518B-7157-4307-BCD4-AAF5B71C9976}">
 													<PropertyList>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.4301171875"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -6823,9 +7150,9 @@
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Fear\Dexter_VO_Fear_Random_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="511813099"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="511813099"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6854,7 +7181,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Fear_Random_02" ID="{B2C305C0-DBE6-4DBC-A819-31568F7FC3A6}" ShortID="909504007">
+												<AudioFileSource Name="Dexter_VO_Fear_Random_02" ID="{B2C305C0-DBE6-4DBC-A819-31568F7FC3A6}">
 													<PropertyList>
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.682105034722221"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -6862,9 +7189,9 @@
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Fear\Dexter_VO_Fear_Random_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="932154681"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="932154681"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6888,12 +7215,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Fear_Uhoh_01" ID="{529B97AC-B406-4118-A80D-A8BCD2A56ACC}" ShortID="766567372">
+												<AudioFileSource Name="Dexter_VO_Fear_Uhoh_01" ID="{529B97AC-B406-4118-A80D-A8BCD2A56ACC}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Fear\Dexter_VO_Fear_Uhoh_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="874410042"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="874410042"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6917,12 +7244,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Fear_Uhoh_02" ID="{56362842-4D17-432D-BB9C-5EFC91357616}" ShortID="824500609">
+												<AudioFileSource Name="Dexter_VO_Fear_Uhoh_02" ID="{56362842-4D17-432D-BB9C-5EFC91357616}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Fear\Dexter_VO_Fear_Uhoh_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="303282020"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="303282020"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6946,12 +7273,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Fear_Uhoh_03" ID="{4E678B56-A270-48A9-964D-5827A30BB3EB}" ShortID="267510777">
+												<AudioFileSource Name="Dexter_VO_Fear_Uhoh_03" ID="{4E678B56-A270-48A9-964D-5827A30BB3EB}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Fear\Dexter_VO_Fear_Uhoh_03.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="329433847"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="329433847"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -6975,12 +7302,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Fear_Uhoh_04" ID="{855F0A7A-11C8-400E-A020-05AA6DDA2379}" ShortID="29410094">
+												<AudioFileSource Name="Dexter_VO_Fear_Uhoh_04" ID="{855F0A7A-11C8-400E-A020-05AA6DDA2379}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Fear\Dexter_VO_Fear_Uhoh_04.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="738348114"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="738348114"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -7004,12 +7331,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Fear_Uhoh_05" ID="{4BA41EA3-D487-4B51-A601-B2F40403D3D1}" ShortID="383623256">
+												<AudioFileSource Name="Dexter_VO_Fear_Uhoh_05" ID="{4BA41EA3-D487-4B51-A601-B2F40403D3D1}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Fear\Dexter_VO_Fear_Uhoh_05.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="1050447620"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="1050447620"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -7120,9 +7447,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Dexter_VO_Grapple_Temp" ID="{3F56169F-0BBB-48A8-8BD4-655AE42938CF}" ShortID="394621621">
+												<AudioFileSource Name="Sfx_Dexter_VO_Grapple_Temp" ID="{3F56169F-0BBB-48A8-8BD4-655AE42938CF}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\VO_Grapple\Sfx_Dexter_VO_Grapple_Temp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="394621621"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -7139,9 +7469,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Grapple_01" ID="{3E8D8D97-5D6F-4634-B3D7-04EFAA7A15E9}" ShortID="445198756">
+												<AudioFileSource Name="Dexter_VO_Grapple_01" ID="{3E8D8D97-5D6F-4634-B3D7-04EFAA7A15E9}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Grapple\Dexter_VO_Grapple_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="445198756"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -7158,9 +7491,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Grapple_02" ID="{41AC7A80-45F1-4F3A-9466-DFE6ACF87B77}" ShortID="921365686">
+												<AudioFileSource Name="Dexter_VO_Grapple_02" ID="{41AC7A80-45F1-4F3A-9466-DFE6ACF87B77}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Grapple\Dexter_VO_Grapple_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="921365686"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -7177,9 +7513,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Grapple_03" ID="{F002F20C-6B27-41F3-B3A9-BBF8188CBE21}" ShortID="284123596">
+												<AudioFileSource Name="Dexter_VO_Grapple_03" ID="{F002F20C-6B27-41F3-B3A9-BBF8188CBE21}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Grapple\Dexter_VO_Grapple_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="284123596"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -7196,9 +7535,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Grapple_05" ID="{CD579E5E-F39D-4C0A-8F21-E4ED447B024D}" ShortID="133778816">
+												<AudioFileSource Name="Dexter_VO_Grapple_05" ID="{CD579E5E-F39D-4C0A-8F21-E4ED447B024D}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Grapple\Dexter_VO_Grapple_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="133778816"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -7234,9 +7576,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Dexter_VO_Bash_Temp" ID="{CCFF5BE8-15D3-41C4-808F-3F3C52D2E449}" ShortID="272203561">
+												<AudioFileSource Name="Sfx_Dexter_VO_Bash_Temp" ID="{CCFF5BE8-15D3-41C4-808F-3F3C52D2E449}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\VO_Bash\Sfx_Dexter_VO_Bash_Temp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="272203561"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -7253,9 +7598,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Bash_01" ID="{5A7247EA-0062-4ECF-92B5-EEAC88A19388}" ShortID="1008806044">
+												<AudioFileSource Name="Dexter_VO_Bash_01" ID="{5A7247EA-0062-4ECF-92B5-EEAC88A19388}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Bash\Dexter_VO_Bash_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1008806044"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -7272,9 +7620,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Bash_02" ID="{0D7175AA-A4BB-43FD-9B6E-D276BBE271D2}" ShortID="772624080">
+												<AudioFileSource Name="Dexter_VO_Bash_02" ID="{0D7175AA-A4BB-43FD-9B6E-D276BBE271D2}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Bash\Dexter_VO_Bash_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="772624080"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -7291,9 +7642,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Bash_03" ID="{B96C9E32-23E9-4C2A-9BB9-0D30A7BE96B7}" ShortID="75928685">
+												<AudioFileSource Name="Dexter_VO_Bash_03" ID="{B96C9E32-23E9-4C2A-9BB9-0D30A7BE96B7}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Bash\Dexter_VO_Bash_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="75928685"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -7310,9 +7664,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Bash_04" ID="{CCE58D87-3A15-4BEF-9A56-156867885A04}" ShortID="53494969">
+												<AudioFileSource Name="Dexter_VO_Bash_04" ID="{CCE58D87-3A15-4BEF-9A56-156867885A04}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Bash\Dexter_VO_Bash_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="53494969"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -7329,9 +7686,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Bash_05" ID="{19296048-7F4F-4FB7-84DD-EAC1E7692B55}" ShortID="547760170">
+												<AudioFileSource Name="Dexter_VO_Bash_05" ID="{19296048-7F4F-4FB7-84DD-EAC1E7692B55}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Bash\Dexter_VO_Bash_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="547760170"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -7360,9 +7720,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Death_Bzzz_01" ID="{D471BA37-DA36-4FFD-B4E2-FD29650930A6}" ShortID="214756079">
+												<AudioFileSource Name="Dexter_VO_Death_Bzzz_01" ID="{D471BA37-DA36-4FFD-B4E2-FD29650930A6}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Death\Dexter_VO_Death_Bzzz_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="214756079"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -7379,9 +7742,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Death_Bzzz_02" ID="{B637956B-EE59-4A1F-A04A-B848FAA54D64}" ShortID="142375725">
+												<AudioFileSource Name="Dexter_VO_Death_Bzzz_02" ID="{B637956B-EE59-4A1F-A04A-B848FAA54D64}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Death\Dexter_VO_Death_Bzzz_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="142375725"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -7398,9 +7764,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Death_GodHelpMe_01" ID="{169D04BD-6903-4F2A-8030-A86543DB2CEE}" ShortID="754511796">
+												<AudioFileSource Name="Dexter_VO_Death_GodHelpMe_01" ID="{169D04BD-6903-4F2A-8030-A86543DB2CEE}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Death\Dexter_VO_Death_GodHelpMe_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="754511796"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -7417,9 +7786,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Death_GodHelpMe_02" ID="{24844583-2CF7-4B3C-A647-EF3D930CC977}" ShortID="758455565">
+												<AudioFileSource Name="Dexter_VO_Death_GodHelpMe_02" ID="{24844583-2CF7-4B3C-A647-EF3D930CC977}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Death\Dexter_VO_Death_GodHelpMe_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="758455565"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -7436,9 +7808,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Death_SystemFailure_01" ID="{874ACD3A-03CB-41A0-B986-F4C7956290EB}" ShortID="38173914">
+												<AudioFileSource Name="Dexter_VO_Death_SystemFailure_01" ID="{874ACD3A-03CB-41A0-B986-F4C7956290EB}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Death\Dexter_VO_Death_SystemFailure_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="38173914"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -7455,9 +7830,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dexter_VO_Death_SystemFailure_02" ID="{C8E1B497-8F45-4545-BF59-244DE83A1564}" ShortID="561755191">
+												<AudioFileSource Name="Dexter_VO_Death_SystemFailure_02" ID="{C8E1B497-8F45-4545-BF59-244DE83A1564}">
 													<Language>SFX</Language>
 													<AudioFile>Characters\Dexter\VO\Dexter_VO_Death\Dexter_VO_Death_SystemFailure_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="561755191"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>

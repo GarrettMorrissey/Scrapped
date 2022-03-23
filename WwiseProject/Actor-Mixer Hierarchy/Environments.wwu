@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}" SchemaVersion="97">
 	<AudioObjects>
 		<WorkUnit Name="Environments" ID="{C47A5B62-6027-4F7F-92B4-25972BED9D23}" PersistMode="Standalone">
 			<ChildrenList>
@@ -85,9 +85,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Badlands_Loop_01" ID="{22FF0165-7CFD-40D6-9B0C-919286CAB584}" ShortID="544191527">
+										<AudioFileSource Name="Amb_Badlands_Loop_01" ID="{22FF0165-7CFD-40D6-9B0C-919286CAB584}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Badlands\Amb_Badlands_Loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="544191527"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -132,9 +135,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Badlands_Loop_02" ID="{8AA678F7-3E5D-4693-9C0C-15FC23523B32}" ShortID="735933581">
+										<AudioFileSource Name="Amb_Badlands_Loop_02" ID="{8AA678F7-3E5D-4693-9C0C-15FC23523B32}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Badlands\Amb_Badlands_Loop_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="735933581"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -170,9 +176,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Badlands_Loop_03" ID="{0F2876F0-00AC-4055-B7FC-10A4526708D2}" ShortID="485669303">
+										<AudioFileSource Name="Amb_Badlands_Loop_03" ID="{0F2876F0-00AC-4055-B7FC-10A4526708D2}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Badlands\Amb_Badlands_Loop_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="485669303"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -256,7 +265,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Crickets_Chorus_01" ID="{3D78158E-5594-4611-92CB-DFF5433987AB}" ShortID="838985392">
+														<AudioFileSource Name="Amb_Specs_Crickets_Chorus_01" ID="{3D78158E-5594-4611-92CB-DFF5433987AB}">
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="1.18184798177083"/>
 																<Property Name="LoopBegin" Type="Real64" Value="0"/>
@@ -264,6 +273,9 @@
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Crickets_Chorus\Amb_Specs_Crickets_Chorus_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="838985392"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -280,7 +292,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Crickets_Chorus_02" ID="{798FCF79-9F39-436F-84F6-16B8334012A8}" ShortID="1034175794">
+														<AudioFileSource Name="Amb_Specs_Crickets_Chorus_02" ID="{798FCF79-9F39-436F-84F6-16B8334012A8}">
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="1.19976851851852"/>
 																<Property Name="LoopBegin" Type="Real64" Value="0"/>
@@ -288,6 +300,9 @@
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Crickets_Chorus\Amb_Specs_Crickets_Chorus_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1034175794"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -304,13 +319,16 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Crickets_Chorus_03" ID="{A1C6199B-2B28-4172-B89F-052C4C04093B}" ShortID="386763605">
+														<AudioFileSource Name="Amb_Specs_Crickets_Chorus_03" ID="{A1C6199B-2B28-4172-B89F-052C4C04093B}">
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.665844762731481"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Crickets_Chorus\Amb_Specs_Crickets_Chorus_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="386763605"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -444,12 +462,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Eeerie_Bird_01" ID="{980CE21F-8CA0-4989-87D6-795C31CFB403}" ShortID="813599552">
+														<AudioFileSource Name="Amb_Specs_Eeerie_Bird_01" ID="{980CE21F-8CA0-4989-87D6-795C31CFB403}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Eerie_Bird\Amb_Specs_Eeerie_Bird_01.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="92733587"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="92733587"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -466,12 +484,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Eeerie_Bird_02" ID="{43A417C4-0ECC-4DF4-BD89-CC95C84A15BC}" ShortID="485680241">
+														<AudioFileSource Name="Amb_Specs_Eeerie_Bird_02" ID="{43A417C4-0ECC-4DF4-BD89-CC95C84A15BC}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Eerie_Bird\Amb_Specs_Eeerie_Bird_02.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="423403361"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="423403361"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -614,12 +632,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Raven_01" ID="{CC59FAF3-29B0-4262-9975-170913F9D5E7}" ShortID="735602117">
+														<AudioFileSource Name="Amb_Specs_Raven_01" ID="{CC59FAF3-29B0-4262-9975-170913F9D5E7}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Raven\Amb_Specs_Raven_01.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="587851283"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="587851283"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -636,12 +654,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Raven_02" ID="{833948B0-C789-4CAC-ABF2-68DCA7D4FE55}" ShortID="807993434">
+														<AudioFileSource Name="Amb_Specs_Raven_02" ID="{833948B0-C789-4CAC-ABF2-68DCA7D4FE55}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Raven\Amb_Specs_Raven_02.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="1031924563"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="1031924563"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -786,12 +804,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Wolf_01" ID="{F8E249F8-AC0F-4097-895D-1D60B1B70A10}" ShortID="79157942">
+														<AudioFileSource Name="Amb_Specs_Wolf_01" ID="{F8E249F8-AC0F-4097-895D-1D60B1B70A10}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Wolf\Amb_Specs_Wolf_01.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="869019877"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="869019877"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -808,12 +826,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Wolf_02" ID="{59350543-168B-491B-B71D-E724515769B6}" ShortID="831803058">
+														<AudioFileSource Name="Amb_Specs_Wolf_02" ID="{59350543-168B-491B-B71D-E724515769B6}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Wolf\Amb_Specs_Wolf_02.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="114481973"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="114481973"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -830,12 +848,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Wolf_03" ID="{EB17C8A9-E555-4A97-8D00-B286C3ADF9AE}" ShortID="182892000">
+														<AudioFileSource Name="Amb_Specs_Wolf_03" ID="{EB17C8A9-E555-4A97-8D00-B286C3ADF9AE}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Wolf\Amb_Specs_Wolf_03.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="858720766"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="858720766"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -852,12 +870,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Wolf_04" ID="{B4EF8191-3FA7-43EC-BDBC-EB4B5E056A77}" ShortID="709263038">
+														<AudioFileSource Name="Amb_Specs_Wolf_04" ID="{B4EF8191-3FA7-43EC-BDBC-EB4B5E056A77}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Wolf\Amb_Specs_Wolf_04.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="72596592"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="72596592"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -874,12 +892,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Wolf_05" ID="{08351A8D-2C2D-4063-8878-57A56A6C9D22}" ShortID="907785162">
+														<AudioFileSource Name="Amb_Specs_Wolf_05" ID="{08351A8D-2C2D-4063-8878-57A56A6C9D22}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Wolf\Amb_Specs_Wolf_05.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="729138005"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="729138005"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -896,12 +914,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Wolf_06" ID="{F8F05D0E-059B-4A01-9DC9-37F5437CC8C6}" ShortID="632965463">
+														<AudioFileSource Name="Amb_Specs_Wolf_06" ID="{F8F05D0E-059B-4A01-9DC9-37F5437CC8C6}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Wolf\Amb_Specs_Wolf_06.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="631068449"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="631068449"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -995,9 +1013,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Badlands_Loop_04" ID="{ACE246B9-9C67-40DA-8C9A-4898449D1F07}" ShortID="650885432">
+										<AudioFileSource Name="Amb_Badlands_Loop_04" ID="{ACE246B9-9C67-40DA-8C9A-4898449D1F07}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Badlands\Amb_Badlands_Loop_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="650885432"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
@@ -1065,9 +1086,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Forest_Loop_01" ID="{AC200087-29AD-4538-8B3D-110E8832284C}" ShortID="770268173">
+										<AudioFileSource Name="Amb_Forest_Loop_01" ID="{AC200087-29AD-4538-8B3D-110E8832284C}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Forest\Amb_Forest_Loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="770268173"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
@@ -1121,9 +1145,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Forest_Loop_02" ID="{A4471711-3C91-4666-BF11-14ABDAA35413}" ShortID="1018284349">
+										<AudioFileSource Name="Amb_Forest_Loop_02" ID="{A4471711-3C91-4666-BF11-14ABDAA35413}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Forest\Amb_Forest_Loop_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1018284349"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
@@ -1218,12 +1245,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Cicada_Chorus_01" ID="{5AEAA9D8-C450-4401-A9C9-A94E559A8EC7}" ShortID="571316703">
+														<AudioFileSource Name="Amb_Specs_Cicada_Chorus_01" ID="{5AEAA9D8-C450-4401-A9C9-A94E559A8EC7}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Cicada_Chorus\Amb_Specs_Cicada_Chorus_01.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="454340393"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="454340393"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1240,12 +1267,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Cicada_Chorus_02" ID="{0F621A00-D9E9-4D5F-A78F-CEAF28FD63D5}" ShortID="804904516">
+														<AudioFileSource Name="Amb_Specs_Cicada_Chorus_02" ID="{0F621A00-D9E9-4D5F-A78F-CEAF28FD63D5}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Cicada_Chorus\Amb_Specs_Cicada_Chorus_02.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="612119000"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="612119000"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1262,12 +1289,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Cicada_Chorus_03" ID="{D5676C1C-4F7C-4CA1-82A5-1EB9787547DE}" ShortID="308694726">
+														<AudioFileSource Name="Amb_Specs_Cicada_Chorus_03" ID="{D5676C1C-4F7C-4CA1-82A5-1EB9787547DE}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Cicada_Chorus\Amb_Specs_Cicada_Chorus_03.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="799619796"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="799619796"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1390,12 +1417,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Cicadas_Single_01" ID="{81A08C51-6E4D-4C0A-A62D-C94444A98A57}" ShortID="650910334">
+														<AudioFileSource Name="Amb_Specs_Cicadas_Single_01" ID="{81A08C51-6E4D-4C0A-A62D-C94444A98A57}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Cicadas_Single\Amb_Specs_Cicadas_Single_01.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="35010702"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="35010702"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1412,12 +1439,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Cicadas_Single_02" ID="{E88FFAC7-5ABB-481E-A248-7ECAF5F7DE5B}" ShortID="735257889">
+														<AudioFileSource Name="Amb_Specs_Cicadas_Single_02" ID="{E88FFAC7-5ABB-481E-A248-7ECAF5F7DE5B}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Cicadas_Single\Amb_Specs_Cicadas_Single_02.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="995279350"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="995279350"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1434,12 +1461,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Cicadas_Single_03" ID="{1008615E-B78A-4063-8C7F-08D31AABA948}" ShortID="587280825">
+														<AudioFileSource Name="Amb_Specs_Cicadas_Single_03" ID="{1008615E-B78A-4063-8C7F-08D31AABA948}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Cicadas_Single\Amb_Specs_Cicadas_Single_03.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="712141055"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="712141055"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1456,12 +1483,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Cicadas_Single_04" ID="{A13B3F2D-FEEC-48A9-AA65-1B35C038F6B9}" ShortID="29860469">
+														<AudioFileSource Name="Amb_Specs_Cicadas_Single_04" ID="{A13B3F2D-FEEC-48A9-AA65-1B35C038F6B9}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Cicadas_Single\Amb_Specs_Cicadas_Single_04.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="32459793"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="32459793"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1478,12 +1505,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Cicadas_Single_05" ID="{8FCD3469-5E66-40FB-9FB3-E72352FA51DF}" ShortID="646122161">
+														<AudioFileSource Name="Amb_Specs_Cicadas_Single_05" ID="{8FCD3469-5E66-40FB-9FB3-E72352FA51DF}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Cicadas_Single\Amb_Specs_Cicadas_Single_05.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="832505289"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="832505289"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1606,12 +1633,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Cricket_Single_01" ID="{7C48E1DD-B34A-40C9-8A3C-6A118D176B88}" ShortID="747712570">
+														<AudioFileSource Name="Amb_Specs_Cricket_Single_01" ID="{7C48E1DD-B34A-40C9-8A3C-6A118D176B88}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Cricket_Single\Amb_Specs_Cricket_Single_01.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="329653435"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="329653435"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1628,12 +1655,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Cricket_Single_02" ID="{C20DFF25-F4B2-49D6-8F25-944CAC13A2B9}" ShortID="809034200">
+														<AudioFileSource Name="Amb_Specs_Cricket_Single_02" ID="{C20DFF25-F4B2-49D6-8F25-944CAC13A2B9}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Cricket_Single\Amb_Specs_Cricket_Single_02.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="288913037"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="288913037"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1650,12 +1677,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Cricket_Single_04" ID="{6D4AD645-D96D-42BE-AEF3-63387B9CD3E2}" ShortID="330927570">
+														<AudioFileSource Name="Amb_Specs_Cricket_Single_04" ID="{6D4AD645-D96D-42BE-AEF3-63387B9CD3E2}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Cricket_Single\Amb_Specs_Cricket_Single_04.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="873581825"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="873581825"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1672,12 +1699,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Cricket_Single_05" ID="{B7F70917-D370-4C2C-9DAB-3F884EE791B6}" ShortID="813897478">
+														<AudioFileSource Name="Amb_Specs_Cricket_Single_05" ID="{B7F70917-D370-4C2C-9DAB-3F884EE791B6}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Cricket_Single\Amb_Specs_Cricket_Single_05.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="1068340502"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="1068340502"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1694,12 +1721,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Cricket_Single_3" ID="{4A6FA2F3-EF22-4965-9F80-FBBCA1272B22}" ShortID="812325747">
+														<AudioFileSource Name="Amb_Specs_Cricket_Single_3" ID="{4A6FA2F3-EF22-4965-9F80-FBBCA1272B22}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Cricket_Single\Amb_Specs_Cricket_Single_3.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="593292701"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="593292701"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1822,9 +1849,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Owl_01" ID="{BD4D6139-8E97-47B1-9178-3482C2CC9111}" ShortID="374335401">
+														<AudioFileSource Name="Amb_Specs_Owl_01" ID="{BD4D6139-8E97-47B1-9178-3482C2CC9111}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Owl\Amb_Specs_Owl_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="374335401"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1841,9 +1871,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Owl_02" ID="{7671513F-E998-4E08-9D61-027E167DDD0C}" ShortID="842416042">
+														<AudioFileSource Name="Amb_Specs_Owl_02" ID="{7671513F-E998-4E08-9D61-027E167DDD0C}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Owl\Amb_Specs_Owl_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="842416042"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1935,9 +1968,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Forest_Loop_03" ID="{EF9D8C23-A996-4A45-B377-B4DC3FE1A1CC}" ShortID="684856855">
+										<AudioFileSource Name="Amb_Forest_Loop_03" ID="{EF9D8C23-A996-4A45-B377-B4DC3FE1A1CC}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Forest\Amb_Forest_Loop_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="684856855"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
@@ -2009,9 +2045,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Village_Loop_01" ID="{B71CA17E-3427-42F8-A14D-CB07BA0A270F}" ShortID="560785868">
+										<AudioFileSource Name="Amb_Village_Loop_01" ID="{B71CA17E-3427-42F8-A14D-CB07BA0A270F}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Village\Amb_Village_Loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="560785868"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
@@ -2108,12 +2147,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Frog_Single_01" ID="{C9DFB48C-979B-479E-9F70-BD4AFCCD5EA5}" ShortID="777750072">
+														<AudioFileSource Name="Amb_Specs_Frog_Single_01" ID="{C9DFB48C-979B-479E-9F70-BD4AFCCD5EA5}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Frog_Single\Amb_Specs_Frog_Single_01.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="867288007"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="867288007"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2130,12 +2169,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Frog_Single_02" ID="{A1B6728A-D763-47CD-A7E4-2D099FC4FDD0}" ShortID="826604436">
+														<AudioFileSource Name="Amb_Specs_Frog_Single_02" ID="{A1B6728A-D763-47CD-A7E4-2D099FC4FDD0}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Frog_Single\Amb_Specs_Frog_Single_02.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="415147389"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="415147389"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2152,12 +2191,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Frog_Single_03" ID="{F21FE410-94B2-4A76-8B7F-AE40D0701577}" ShortID="816184931">
+														<AudioFileSource Name="Amb_Specs_Frog_Single_03" ID="{F21FE410-94B2-4A76-8B7F-AE40D0701577}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Frog_Single\Amb_Specs_Frog_Single_03.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="364179492"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="364179492"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2174,12 +2213,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Frog_Single_04" ID="{7736DC45-B90D-4758-B53B-D0006CAECD0D}" ShortID="944859654">
+														<AudioFileSource Name="Amb_Specs_Frog_Single_04" ID="{7736DC45-B90D-4758-B53B-D0006CAECD0D}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Frog_Single\Amb_Specs_Frog_Single_04.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="577170700"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="577170700"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2196,12 +2235,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Frog_Single_05" ID="{8F55320A-2AA3-4232-8990-DD4F106EE0B8}" ShortID="1055038251">
+														<AudioFileSource Name="Amb_Specs_Frog_Single_05" ID="{8F55320A-2AA3-4232-8990-DD4F106EE0B8}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Frog_Single\Amb_Specs_Frog_Single_05.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="1020407397"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="1020407397"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2319,12 +2358,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Frogs_Chorus_01" ID="{4C483982-D034-470D-A342-379F95FB4CA4}" ShortID="294156184">
+														<AudioFileSource Name="Amb_Specs_Frogs_Chorus_01" ID="{4C483982-D034-470D-A342-379F95FB4CA4}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Frogs_Chorus\Amb_Specs_Frogs_Chorus_01.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="245949536"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="245949536"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2341,12 +2380,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Frogs_Chorus_02" ID="{DDA1FFFC-A14E-4D4B-B51B-9B7FA147FEB3}" ShortID="602084453">
+														<AudioFileSource Name="Amb_Specs_Frogs_Chorus_02" ID="{DDA1FFFC-A14E-4D4B-B51B-9B7FA147FEB3}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Frogs_Chorus\Amb_Specs_Frogs_Chorus_02.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="1000912641"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="1000912641"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2363,12 +2402,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Frogs_Chorus_03" ID="{11223F7F-7008-4186-9B20-4EAA977C108C}" ShortID="356796168">
+														<AudioFileSource Name="Amb_Specs_Frogs_Chorus_03" ID="{11223F7F-7008-4186-9B20-4EAA977C108C}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Frogs_Chorus\Amb_Specs_Frogs_Chorus_03.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="672279064"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="672279064"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2385,12 +2424,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Frogs_Chorus_4" ID="{CD54E7B3-F547-493D-ABCD-705CD395263B}" ShortID="83985432">
+														<AudioFileSource Name="Amb_Specs_Frogs_Chorus_4" ID="{CD54E7B3-F547-493D-ABCD-705CD395263B}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Frogs_Chorus\Amb_Specs_Frogs_Chorus_4.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="812826236"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="812826236"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2529,12 +2568,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Loon_01" ID="{47A37F97-5146-4A2D-BDA8-1C45BA47F4F0}" ShortID="443779303">
+														<AudioFileSource Name="Amb_Specs_Loon_01" ID="{47A37F97-5146-4A2D-BDA8-1C45BA47F4F0}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Loon\Amb_Specs_Loon_01.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="617971947"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="617971947"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2551,12 +2590,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Loon_02" ID="{F6AE7A9A-E774-4BBD-83EF-180AAEA3E8F7}" ShortID="710660376">
+														<AudioFileSource Name="Amb_Specs_Loon_02" ID="{F6AE7A9A-E774-4BBD-83EF-180AAEA3E8F7}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Loon\Amb_Specs_Loon_02.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="453999202"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="453999202"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2573,12 +2612,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Loon_03" ID="{48604315-C867-4018-AF39-2E367640FBB8}" ShortID="949772669">
+														<AudioFileSource Name="Amb_Specs_Loon_03" ID="{48604315-C867-4018-AF39-2E367640FBB8}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Loon\Amb_Specs_Loon_03.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="663618669"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="663618669"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2595,12 +2634,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Loon_04" ID="{953CD2C1-8A8B-42A0-BA6B-CB32C7D0BF4C}" ShortID="1060819928">
+														<AudioFileSource Name="Amb_Specs_Loon_04" ID="{953CD2C1-8A8B-42A0-BA6B-CB32C7D0BF4C}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Loon\Amb_Specs_Loon_04.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="558199302"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="558199302"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2617,12 +2656,12 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Amb_Specs_Loon_05" ID="{322B4F5A-2A05-4F74-8D4F-EF21A8B875EB}" ShortID="559740869">
+														<AudioFileSource Name="Amb_Specs_Loon_05" ID="{322B4F5A-2A05-4F74-8D4F-EF21A8B875EB}">
 															<Language>SFX</Language>
 															<AudioFile>Environments\BG Specs\Loon\Amb_Specs_Loon_05.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="506952772"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="506952772"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -2870,29 +2909,47 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Green_Fog_Loop_01" ID="{DE923EE4-C61E-4EFA-966E-5FC52FA6F022}" ShortID="426752557">
+										<AudioFileSource Name="Sfx_Green_Fog_Loop_01" ID="{DE923EE4-C61E-4EFA-966E-5FC52FA6F022}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Green_Fog\Loops\Sfx_Green_Fog_Loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="426752557"/>
+											</MediaIDList>
 										</AudioFileSource>
-										<AudioFileSource Name="Sfx_Green_Fog_Stingers_01" ID="{67910DEB-95C2-4C67-B51C-F5A3D7B377B4}" ShortID="614094150">
+										<AudioFileSource Name="Sfx_Green_Fog_Stingers_01" ID="{67910DEB-95C2-4C67-B51C-F5A3D7B377B4}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Green_Fog\Stingers\Sfx_Green_Fog_Stingers_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="614094150"/>
+											</MediaIDList>
 										</AudioFileSource>
-										<AudioFileSource Name="Sfx_Green_Fog_Stingers_02" ID="{F786E984-C9E2-479B-8035-542EE4AA6A66}" ShortID="681837907">
+										<AudioFileSource Name="Sfx_Green_Fog_Stingers_02" ID="{F786E984-C9E2-479B-8035-542EE4AA6A66}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Green_Fog\Stingers\Sfx_Green_Fog_Stingers_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="681837907"/>
+											</MediaIDList>
 										</AudioFileSource>
-										<AudioFileSource Name="Sfx_Green_Fog_Stingers_03" ID="{82515A9D-F70C-42BD-BA99-357380DA4712}" ShortID="169667754">
+										<AudioFileSource Name="Sfx_Green_Fog_Stingers_03" ID="{82515A9D-F70C-42BD-BA99-357380DA4712}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Green_Fog\Stingers\Sfx_Green_Fog_Stingers_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="169667754"/>
+											</MediaIDList>
 										</AudioFileSource>
-										<AudioFileSource Name="Sfx_Green_Fog_Stingers_04" ID="{DF27BF12-D088-4535-8A0E-0B384B96C08D}" ShortID="224023477">
+										<AudioFileSource Name="Sfx_Green_Fog_Stingers_04" ID="{DF27BF12-D088-4535-8A0E-0B384B96C08D}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Green_Fog\Stingers\Sfx_Green_Fog_Stingers_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="224023477"/>
+											</MediaIDList>
 										</AudioFileSource>
-										<AudioFileSource Name="Sfx_Green_Fog_Stingers_05" ID="{D07AE667-EC79-47B2-96FF-400E1E24FED8}" ShortID="532185958">
+										<AudioFileSource Name="Sfx_Green_Fog_Stingers_05" ID="{D07AE667-EC79-47B2-96FF-400E1E24FED8}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Green_Fog\Stingers\Sfx_Green_Fog_Stingers_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="532185958"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2917,9 +2974,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Green_Fog_Loop_02" ID="{BE5B480F-0B23-4178-ACC5-D928B2CBDAEC}" ShortID="296908791">
+										<AudioFileSource Name="Sfx_Green_Fog_Loop_02" ID="{BE5B480F-0B23-4178-ACC5-D928B2CBDAEC}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Green_Fog\Loops\Sfx_Green_Fog_Loop_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="296908791"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2982,9 +3042,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Green_Fog_Stingers_01" ID="{474F0989-A76E-40EB-8108-C8F23C4D33B1}" ShortID="310499528">
+												<AudioFileSource Name="Sfx_Green_Fog_Stingers_01" ID="{474F0989-A76E-40EB-8108-C8F23C4D33B1}">
 													<Language>SFX</Language>
 													<AudioFile>Environments\Green_Fog\Stingers\Sfx_Green_Fog_Stingers_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="310499528"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3001,9 +3064,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Green_Fog_Stingers_02" ID="{82CFB6A3-995B-4818-AD42-724BBBBA4A35}" ShortID="616079692">
+												<AudioFileSource Name="Sfx_Green_Fog_Stingers_02" ID="{82CFB6A3-995B-4818-AD42-724BBBBA4A35}">
 													<Language>SFX</Language>
 													<AudioFile>Environments\Green_Fog\Stingers\Sfx_Green_Fog_Stingers_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="616079692"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3020,9 +3086,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Green_Fog_Stingers_03" ID="{FFFA44B6-E692-4BB5-9DEF-7ADAA9981073}" ShortID="738715398">
+												<AudioFileSource Name="Sfx_Green_Fog_Stingers_03" ID="{FFFA44B6-E692-4BB5-9DEF-7ADAA9981073}">
 													<Language>SFX</Language>
 													<AudioFile>Environments\Green_Fog\Stingers\Sfx_Green_Fog_Stingers_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="738715398"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3039,9 +3108,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Green_Fog_Stingers_04" ID="{3CF08D9C-65C6-4443-AA77-E2FC7D81DC23}" ShortID="910445868">
+												<AudioFileSource Name="Sfx_Green_Fog_Stingers_04" ID="{3CF08D9C-65C6-4443-AA77-E2FC7D81DC23}">
 													<Language>SFX</Language>
 													<AudioFile>Environments\Green_Fog\Stingers\Sfx_Green_Fog_Stingers_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="910445868"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3058,9 +3130,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Green_Fog_Stingers_05" ID="{ECDECF3B-DD21-4719-A232-1034C5DDE4DD}" ShortID="40613961">
+												<AudioFileSource Name="Sfx_Green_Fog_Stingers_05" ID="{ECDECF3B-DD21-4719-A232-1034C5DDE4DD}">
 													<Language>SFX</Language>
 													<AudioFile>Environments\Green_Fog\Stingers\Sfx_Green_Fog_Stingers_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="40613961"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3129,9 +3204,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Green_Fog_Damage_01" ID="{325B31C9-1405-4688-9703-EF3AB7CFAE94}" ShortID="460004538">
+										<AudioFileSource Name="Sfx_Green_Fog_Damage_01" ID="{325B31C9-1405-4688-9703-EF3AB7CFAE94}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Green_Fog\Damage\Sfx_Green_Fog_Damage_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="460004538"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -3148,9 +3226,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Green_Fog_Damage_02" ID="{61BB065C-02FF-4037-8F80-80B5DDF2D249}" ShortID="43031746">
+										<AudioFileSource Name="Sfx_Green_Fog_Damage_02" ID="{61BB065C-02FF-4037-8F80-80B5DDF2D249}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Green_Fog\Damage\Sfx_Green_Fog_Damage_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="43031746"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -3167,9 +3248,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Green_Fog_Damage_03" ID="{F7EAB82D-F277-47B1-9645-7AD77FF1DC3D}" ShortID="163835441">
+										<AudioFileSource Name="Sfx_Green_Fog_Damage_03" ID="{F7EAB82D-F277-47B1-9645-7AD77FF1DC3D}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Green_Fog\Damage\Sfx_Green_Fog_Damage_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="163835441"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -3186,9 +3270,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Green_Fog_Damage_04" ID="{389CE960-F878-4DB5-94C6-6988918AD9F5}" ShortID="1044834083">
+										<AudioFileSource Name="Sfx_Green_Fog_Damage_04" ID="{389CE960-F878-4DB5-94C6-6988918AD9F5}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Green_Fog\Damage\Sfx_Green_Fog_Damage_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1044834083"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -3205,9 +3292,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Green_Fog_Damage_05" ID="{9C01C275-F87A-4C9B-B160-D225D2705469}" ShortID="260960873">
+										<AudioFileSource Name="Sfx_Green_Fog_Damage_05" ID="{9C01C275-F87A-4C9B-B160-D225D2705469}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Green_Fog\Damage\Sfx_Green_Fog_Damage_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="260960873"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -3224,9 +3314,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Green_Fog_Damage_06" ID="{DBFCF3EA-E624-46A0-8807-2B69FC00B8E8}" ShortID="679445828">
+										<AudioFileSource Name="Sfx_Green_Fog_Damage_06" ID="{DBFCF3EA-E624-46A0-8807-2B69FC00B8E8}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Green_Fog\Damage\Sfx_Green_Fog_Damage_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="679445828"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -3243,9 +3336,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Green_Fog_Damage_07" ID="{FB5A6601-BBC0-4FF2-911F-C91CD0F7B37C}" ShortID="141837943">
+										<AudioFileSource Name="Sfx_Green_Fog_Damage_07" ID="{FB5A6601-BBC0-4FF2-911F-C91CD0F7B37C}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\Green_Fog\Damage\Sfx_Green_Fog_Damage_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="141837943"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -3343,9 +3439,12 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Sfx_Spaceship_Fire_Loop_01" ID="{0C3F6508-338F-4C02-9CE3-28561B275382}" ShortID="382631899">
+								<AudioFileSource Name="Sfx_Spaceship_Fire_Loop_01" ID="{0C3F6508-338F-4C02-9CE3-28561B275382}">
 									<Language>SFX</Language>
 									<AudioFile>Environments\Spaceship_Fire\Sfx_Spaceship_Fire_Loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="382631899"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
@@ -3384,9 +3483,12 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Sfx_Checkpoint_01" ID="{646F106E-D95A-4505-886E-07520B5CD40F}" ShortID="983234173">
+								<AudioFileSource Name="Sfx_Checkpoint_01" ID="{646F106E-D95A-4505-886E-07520B5CD40F}">
 									<Language>SFX</Language>
 									<AudioFile>Environments\Checkpoint\Sfx_Checkpoint_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="983234173"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
@@ -3486,9 +3588,12 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Sfx_Spawn_Portal_01" ID="{201EE61F-1F92-41C2-BCB2-26537E4A59AF}" ShortID="362644207">
+								<AudioFileSource Name="Sfx_Spawn_Portal_01" ID="{201EE61F-1F92-41C2-BCB2-26537E4A59AF}">
 									<Language>SFX</Language>
 									<AudioFile>Environments\Spawn_Portal\Sfx_Spawn_Portal_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="362644207"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
@@ -3523,9 +3628,12 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Sfx_Checkpoint_Loop_01" ID="{CB929276-5B5F-4095-A777-A111DC309F35}" ShortID="495657064">
+								<AudioFileSource Name="Sfx_Checkpoint_Loop_01" ID="{CB929276-5B5F-4095-A777-A111DC309F35}">
 									<Language>SFX</Language>
 									<AudioFile>Environments\Checkpoint\Sfx_Checkpoint_Loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="495657064"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
@@ -3599,7 +3707,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Moving_Platform_Hit_06" ID="{FC5B5963-2263-4D38-A9F8-E70AC5341EA1}" ShortID="533352934">
+										<AudioFileSource Name="Sfx_Moving_Platform_Hit_06" ID="{FC5B5963-2263-4D38-A9F8-E70AC5341EA1}">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.293845486111111"/>
 												<Property Name="LoopBegin" Type="Real64" Value="0"/>
@@ -3607,6 +3715,9 @@
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Environments\Moving_Platform\Platform_Hits\Sfx_Moving_Platform_Hit_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="533352934"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -3623,13 +3734,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Moving_Platform_Hit_05" ID="{D1FB6679-6418-4D42-8C7D-79E62C846EA4}" ShortID="551230307">
+										<AudioFileSource Name="Sfx_Moving_Platform_Hit_05" ID="{D1FB6679-6418-4D42-8C7D-79E62C846EA4}">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.180892541956019"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Environments\Moving_Platform\Platform_Hits\Sfx_Moving_Platform_Hit_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="551230307"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -3646,13 +3760,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Moving_Platform_Hit_04" ID="{509A3E17-F99B-42C2-AC0E-9CA715D1957F}" ShortID="848634119">
+										<AudioFileSource Name="Sfx_Moving_Platform_Hit_04" ID="{509A3E17-F99B-42C2-AC0E-9CA715D1957F}">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.332864583333333"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Environments\Moving_Platform\Platform_Hits\Sfx_Moving_Platform_Hit_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="848634119"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -3669,7 +3786,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Moving_Platform_Hit_03" ID="{3BBD25F5-499B-429A-BDDC-7A012A3FDAD7}" ShortID="752635624">
+										<AudioFileSource Name="Sfx_Moving_Platform_Hit_03" ID="{3BBD25F5-499B-429A-BDDC-7A012A3FDAD7}">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.293901909722222"/>
 												<Property Name="LoopBegin" Type="Real64" Value="0"/>
@@ -3677,6 +3794,9 @@
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Environments\Moving_Platform\Platform_Hits\Sfx_Moving_Platform_Hit_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="752635624"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -3693,7 +3813,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Moving_Platform_Hit_02" ID="{0E33FEB8-3ADE-42B6-A2B7-DBDC797DBE33}" ShortID="679186176">
+										<AudioFileSource Name="Sfx_Moving_Platform_Hit_02" ID="{0E33FEB8-3ADE-42B6-A2B7-DBDC797DBE33}">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.208419415509259"/>
 												<Property Name="LoopBegin" Type="Real64" Value="0"/>
@@ -3701,6 +3821,9 @@
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Environments\Moving_Platform\Platform_Hits\Sfx_Moving_Platform_Hit_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="679186176"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -3717,13 +3840,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Sfx_Moving_Platform_Hit_01" ID="{BC114BCB-5844-4A6A-8ABE-1CC0DDEFA967}" ShortID="999101082">
+										<AudioFileSource Name="Sfx_Moving_Platform_Hit_01" ID="{BC114BCB-5844-4A6A-8ABE-1CC0DDEFA967}">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.163082573784722"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Environments\Moving_Platform\Platform_Hits\Sfx_Moving_Platform_Hit_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="999101082"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -3827,9 +3953,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Moving_Platform_Loop_03" ID="{9D56A86E-EC6C-4FFF-97F1-4C079E71EF14}" ShortID="921585243">
+												<AudioFileSource Name="Sfx_Moving_Platform_Loop_03" ID="{9D56A86E-EC6C-4FFF-97F1-4C079E71EF14}">
 													<Language>SFX</Language>
 													<AudioFile>Environments\Moving_Platform\Sfx_Moving_Platform_Loop_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="921585243"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3876,9 +4005,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Moving_Platform_Loop_02" ID="{03FF9A53-D756-4264-8D64-A37945821A10}" ShortID="102413835">
+												<AudioFileSource Name="Sfx_Moving_Platform_Loop_02" ID="{03FF9A53-D756-4264-8D64-A37945821A10}">
 													<Language>SFX</Language>
 													<AudioFile>Environments\Moving_Platform\Sfx_Moving_Platform_Loop_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="102413835"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3959,12 +4091,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Moving_Platform_Loop_03" ID="{8AE578F0-15EA-4248-9DFA-AA67A8F33F1D}" ShortID="415957315">
+												<AudioFileSource Name="Sfx_Moving_Platform_Loop_03" ID="{8AE578F0-15EA-4248-9DFA-AA67A8F33F1D}">
 													<Language>SFX</Language>
 													<AudioFile>Environments\Moving_Platform\Sfx_Moving_Platform_Loop_03.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="921585243"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="921585243"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4011,12 +4143,12 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Sfx_Moving_Platform_Loop_02" ID="{FABFE14F-B229-4B84-8890-663FD347ED19}" ShortID="45387019">
+												<AudioFileSource Name="Sfx_Moving_Platform_Loop_02" ID="{FABFE14F-B229-4B84-8890-663FD347ED19}">
 													<Language>SFX</Language>
 													<AudioFile>Environments\Moving_Platform\Sfx_Moving_Platform_Loop_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="102413835"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="102413835"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4092,9 +4224,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Cicadas_Single_01" ID="{E0EEB246-914A-4696-ADA6-58F45C76F7B9}" ShortID="35010702">
+										<AudioFileSource Name="Amb_Specs_Cicadas_Single_01" ID="{E0EEB246-914A-4696-ADA6-58F45C76F7B9}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Cicadas_Single\Amb_Specs_Cicadas_Single_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="35010702"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4111,9 +4246,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Cicadas_Single_02" ID="{1854FD06-4D0B-4038-B75E-28A7F4F04ED1}" ShortID="995279350">
+										<AudioFileSource Name="Amb_Specs_Cicadas_Single_02" ID="{1854FD06-4D0B-4038-B75E-28A7F4F04ED1}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Cicadas_Single\Amb_Specs_Cicadas_Single_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="995279350"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4130,9 +4268,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Cicadas_Single_03" ID="{94C67CE7-915B-4159-A3A4-C77F5EAC04D6}" ShortID="712141055">
+										<AudioFileSource Name="Amb_Specs_Cicadas_Single_03" ID="{94C67CE7-915B-4159-A3A4-C77F5EAC04D6}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Cicadas_Single\Amb_Specs_Cicadas_Single_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="712141055"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4149,9 +4290,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Cicadas_Single_04" ID="{7247174D-3C34-42E9-8BB4-B7F461F0CB6E}" ShortID="32459793">
+										<AudioFileSource Name="Amb_Specs_Cicadas_Single_04" ID="{7247174D-3C34-42E9-8BB4-B7F461F0CB6E}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Cicadas_Single\Amb_Specs_Cicadas_Single_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="32459793"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4168,9 +4312,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Cicadas_Single_05" ID="{76A1BFBB-5A86-4508-A5AD-0EE7C434C0BA}" ShortID="832505289">
+										<AudioFileSource Name="Amb_Specs_Cicadas_Single_05" ID="{76A1BFBB-5A86-4508-A5AD-0EE7C434C0BA}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Cicadas_Single\Amb_Specs_Cicadas_Single_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="832505289"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4239,9 +4386,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Cicada_Chorus_01" ID="{52700589-88D1-4BF6-A544-D0CB826EBBE0}" ShortID="454340393">
+										<AudioFileSource Name="Amb_Specs_Cicada_Chorus_01" ID="{52700589-88D1-4BF6-A544-D0CB826EBBE0}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Cicada_Chorus\Amb_Specs_Cicada_Chorus_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="454340393"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4258,9 +4408,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Cicada_Chorus_02" ID="{DD6C2D1C-21BE-46E2-8A7F-861F42FB2618}" ShortID="612119000">
+										<AudioFileSource Name="Amb_Specs_Cicada_Chorus_02" ID="{DD6C2D1C-21BE-46E2-8A7F-861F42FB2618}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Cicada_Chorus\Amb_Specs_Cicada_Chorus_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="612119000"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4277,9 +4430,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Cicada_Chorus_03" ID="{86C46557-F47F-40B2-A612-34DAF17E3CD3}" ShortID="799619796">
+										<AudioFileSource Name="Amb_Specs_Cicada_Chorus_03" ID="{86C46557-F47F-40B2-A612-34DAF17E3CD3}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Cicada_Chorus\Amb_Specs_Cicada_Chorus_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="799619796"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4348,9 +4504,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Crickets_Chorus_01" ID="{75B2B6D5-BE91-481B-92B5-6328064D7874}" ShortID="467482352">
+										<AudioFileSource Name="Amb_Specs_Crickets_Chorus_01" ID="{75B2B6D5-BE91-481B-92B5-6328064D7874}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Crickets_Chorus\Amb_Specs_Crickets_Chorus_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="467482352"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4367,9 +4526,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Crickets_Chorus_02" ID="{35F093B5-7CCC-45AB-9083-21CA68FD338E}" ShortID="334472632">
+										<AudioFileSource Name="Amb_Specs_Crickets_Chorus_02" ID="{35F093B5-7CCC-45AB-9083-21CA68FD338E}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Crickets_Chorus\Amb_Specs_Crickets_Chorus_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="334472632"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4386,9 +4548,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Crickets_Chorus_03" ID="{E6771D89-CC0D-4AFA-8745-4F58EF345271}" ShortID="1042400329">
+										<AudioFileSource Name="Amb_Specs_Crickets_Chorus_03" ID="{E6771D89-CC0D-4AFA-8745-4F58EF345271}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Crickets_Chorus\Amb_Specs_Crickets_Chorus_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1042400329"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4457,9 +4622,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Cricket_Single_01" ID="{4731C83E-CDCE-4751-B5A4-4FC5A762505D}" ShortID="329653435">
+										<AudioFileSource Name="Amb_Specs_Cricket_Single_01" ID="{4731C83E-CDCE-4751-B5A4-4FC5A762505D}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Cricket_Single\Amb_Specs_Cricket_Single_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="329653435"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4476,9 +4644,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Cricket_Single_02" ID="{0C9998DA-70BA-4AE1-A3E5-6A1D68A3DB67}" ShortID="288913037">
+										<AudioFileSource Name="Amb_Specs_Cricket_Single_02" ID="{0C9998DA-70BA-4AE1-A3E5-6A1D68A3DB67}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Cricket_Single\Amb_Specs_Cricket_Single_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="288913037"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4495,9 +4666,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Cricket_Single_04" ID="{EC0B55D8-F5E1-4B2D-B7D9-8D0F8CC106E6}" ShortID="873581825">
+										<AudioFileSource Name="Amb_Specs_Cricket_Single_04" ID="{EC0B55D8-F5E1-4B2D-B7D9-8D0F8CC106E6}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Cricket_Single\Amb_Specs_Cricket_Single_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="873581825"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4514,9 +4688,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Cricket_Single_05" ID="{0C2783D1-CBAA-4125-9652-DDF7F6C4E8BD}" ShortID="1068340502">
+										<AudioFileSource Name="Amb_Specs_Cricket_Single_05" ID="{0C2783D1-CBAA-4125-9652-DDF7F6C4E8BD}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Cricket_Single\Amb_Specs_Cricket_Single_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1068340502"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4533,9 +4710,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Cricket_Single_3" ID="{3511FC1B-0CCE-4AEF-B6C8-43F79117E4D9}" ShortID="593292701">
+										<AudioFileSource Name="Amb_Specs_Cricket_Single_3" ID="{3511FC1B-0CCE-4AEF-B6C8-43F79117E4D9}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Cricket_Single\Amb_Specs_Cricket_Single_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="593292701"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4604,9 +4784,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Desert_Bird_01" ID="{B4D721C7-CD1E-46DD-B907-EE03363B11B5}" ShortID="299666105">
+										<AudioFileSource Name="Amb_Specs_Desert_Bird_01" ID="{B4D721C7-CD1E-46DD-B907-EE03363B11B5}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Desert_Bird\Amb_Specs_Desert_Bird_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="299666105"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4623,9 +4806,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Desert_Bird_02" ID="{2AE548E6-398A-4C83-997F-72279BB0C504}" ShortID="1008570146">
+										<AudioFileSource Name="Amb_Specs_Desert_Bird_02" ID="{2AE548E6-398A-4C83-997F-72279BB0C504}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Desert_Bird\Amb_Specs_Desert_Bird_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1008570146"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4642,9 +4828,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Desert_Bird_03" ID="{B9DF7195-33AA-4CA7-A1B6-41B725C293DB}" ShortID="61290">
+										<AudioFileSource Name="Amb_Specs_Desert_Bird_03" ID="{B9DF7195-33AA-4CA7-A1B6-41B725C293DB}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Desert_Bird\Amb_Specs_Desert_Bird_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="61290"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4713,9 +4902,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Eeerie_Bird_01" ID="{B4462F11-21B4-4648-96C6-D464FA929410}" ShortID="92733587">
+										<AudioFileSource Name="Amb_Specs_Eeerie_Bird_01" ID="{B4462F11-21B4-4648-96C6-D464FA929410}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Eerie_Bird\Amb_Specs_Eeerie_Bird_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="92733587"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4732,9 +4924,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Eeerie_Bird_02" ID="{ED148A45-D2CC-4E26-BB7D-41AF6EE9B0EB}" ShortID="423403361">
+										<AudioFileSource Name="Amb_Specs_Eeerie_Bird_02" ID="{ED148A45-D2CC-4E26-BB7D-41AF6EE9B0EB}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Eerie_Bird\Amb_Specs_Eeerie_Bird_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="423403361"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4803,9 +4998,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Frogs_Chorus_01" ID="{C429495A-42A8-478F-B44D-0E17D4345C51}" ShortID="245949536">
+										<AudioFileSource Name="Amb_Specs_Frogs_Chorus_01" ID="{C429495A-42A8-478F-B44D-0E17D4345C51}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Frogs_Chorus\Amb_Specs_Frogs_Chorus_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="245949536"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4822,9 +5020,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Frogs_Chorus_02" ID="{04FD752D-986B-40C1-BD32-1F660F25F048}" ShortID="1000912641">
+										<AudioFileSource Name="Amb_Specs_Frogs_Chorus_02" ID="{04FD752D-986B-40C1-BD32-1F660F25F048}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Frogs_Chorus\Amb_Specs_Frogs_Chorus_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1000912641"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4841,9 +5042,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Frogs_Chorus_03" ID="{6CD036A7-FE27-4F3A-8170-AD1A0C326477}" ShortID="672279064">
+										<AudioFileSource Name="Amb_Specs_Frogs_Chorus_03" ID="{6CD036A7-FE27-4F3A-8170-AD1A0C326477}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Frogs_Chorus\Amb_Specs_Frogs_Chorus_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="672279064"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4860,9 +5064,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Frogs_Chorus_4" ID="{6C7F5E54-6681-4854-B63E-DE85F79F47F8}" ShortID="812826236">
+										<AudioFileSource Name="Amb_Specs_Frogs_Chorus_4" ID="{6C7F5E54-6681-4854-B63E-DE85F79F47F8}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Frogs_Chorus\Amb_Specs_Frogs_Chorus_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="812826236"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4931,9 +5138,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Frog_Single_01" ID="{9380020D-2E0B-40B7-923F-C91EBA9DEBC5}" ShortID="867288007">
+										<AudioFileSource Name="Amb_Specs_Frog_Single_01" ID="{9380020D-2E0B-40B7-923F-C91EBA9DEBC5}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Frog_Single\Amb_Specs_Frog_Single_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="867288007"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4950,9 +5160,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Frog_Single_02" ID="{77092A3D-4CE0-4A67-867A-AB5549B26ACD}" ShortID="415147389">
+										<AudioFileSource Name="Amb_Specs_Frog_Single_02" ID="{77092A3D-4CE0-4A67-867A-AB5549B26ACD}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Frog_Single\Amb_Specs_Frog_Single_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="415147389"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4969,9 +5182,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Frog_Single_03" ID="{61D8E583-12F2-4656-90EB-69479D0F1860}" ShortID="364179492">
+										<AudioFileSource Name="Amb_Specs_Frog_Single_03" ID="{61D8E583-12F2-4656-90EB-69479D0F1860}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Frog_Single\Amb_Specs_Frog_Single_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="364179492"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4988,9 +5204,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Frog_Single_04" ID="{14A4E153-0EB0-4BFA-8692-82F547427C36}" ShortID="577170700">
+										<AudioFileSource Name="Amb_Specs_Frog_Single_04" ID="{14A4E153-0EB0-4BFA-8692-82F547427C36}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Frog_Single\Amb_Specs_Frog_Single_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="577170700"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5007,9 +5226,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Frog_Single_05" ID="{DB7E5CD3-E2EC-470F-B1FB-2F83962AC596}" ShortID="1020407397">
+										<AudioFileSource Name="Amb_Specs_Frog_Single_05" ID="{DB7E5CD3-E2EC-470F-B1FB-2F83962AC596}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Frog_Single\Amb_Specs_Frog_Single_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1020407397"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5078,9 +5300,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Loon_01" ID="{2655BEA6-69B8-4D94-9998-7DBE86D19E8C}" ShortID="617971947">
+										<AudioFileSource Name="Amb_Specs_Loon_01" ID="{2655BEA6-69B8-4D94-9998-7DBE86D19E8C}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Loon\Amb_Specs_Loon_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="617971947"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5097,9 +5322,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Loon_02" ID="{09AF0434-3340-4D44-BAB0-B16076104729}" ShortID="453999202">
+										<AudioFileSource Name="Amb_Specs_Loon_02" ID="{09AF0434-3340-4D44-BAB0-B16076104729}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Loon\Amb_Specs_Loon_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="453999202"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5116,9 +5344,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Loon_03" ID="{FC758B08-D23D-4191-8023-0ED8EB2C8822}" ShortID="663618669">
+										<AudioFileSource Name="Amb_Specs_Loon_03" ID="{FC758B08-D23D-4191-8023-0ED8EB2C8822}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Loon\Amb_Specs_Loon_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="663618669"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5135,9 +5366,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Loon_04" ID="{D06933EB-303D-4D36-BAF5-B04213B27202}" ShortID="558199302">
+										<AudioFileSource Name="Amb_Specs_Loon_04" ID="{D06933EB-303D-4D36-BAF5-B04213B27202}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Loon\Amb_Specs_Loon_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="558199302"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5154,9 +5388,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Loon_05" ID="{F7905E87-AC2D-4484-8D19-501BB2A81966}" ShortID="506952772">
+										<AudioFileSource Name="Amb_Specs_Loon_05" ID="{F7905E87-AC2D-4484-8D19-501BB2A81966}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Loon\Amb_Specs_Loon_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="506952772"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5225,9 +5462,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Raven_01" ID="{69D7F1A7-6F84-4E67-9E95-41AD56855066}" ShortID="587851283">
+										<AudioFileSource Name="Amb_Specs_Raven_01" ID="{69D7F1A7-6F84-4E67-9E95-41AD56855066}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Raven\Amb_Specs_Raven_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="587851283"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5244,9 +5484,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Raven_02" ID="{48D0400F-6296-4A48-9B24-5978153DFB84}" ShortID="1031924563">
+										<AudioFileSource Name="Amb_Specs_Raven_02" ID="{48D0400F-6296-4A48-9B24-5978153DFB84}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Raven\Amb_Specs_Raven_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1031924563"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5315,9 +5558,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Wolf_01" ID="{CFAF3A84-81A5-4E05-8FA9-12AB910D9312}" ShortID="869019877">
+										<AudioFileSource Name="Amb_Specs_Wolf_01" ID="{CFAF3A84-81A5-4E05-8FA9-12AB910D9312}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Wolf\Amb_Specs_Wolf_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="869019877"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5334,9 +5580,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Wolf_02" ID="{F5A29E13-0494-4BC8-A961-D8C161EF2E9D}" ShortID="114481973">
+										<AudioFileSource Name="Amb_Specs_Wolf_02" ID="{F5A29E13-0494-4BC8-A961-D8C161EF2E9D}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Wolf\Amb_Specs_Wolf_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="114481973"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5353,9 +5602,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Wolf_03" ID="{D28520B3-459D-4F19-AD2E-66EA51DBA235}" ShortID="858720766">
+										<AudioFileSource Name="Amb_Specs_Wolf_03" ID="{D28520B3-459D-4F19-AD2E-66EA51DBA235}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Wolf\Amb_Specs_Wolf_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="858720766"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5372,9 +5624,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Wolf_04" ID="{4A390189-C30F-4097-8608-E4740CD58853}" ShortID="72596592">
+										<AudioFileSource Name="Amb_Specs_Wolf_04" ID="{4A390189-C30F-4097-8608-E4740CD58853}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Wolf\Amb_Specs_Wolf_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="72596592"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5391,9 +5646,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Wolf_05" ID="{D6809A6F-8497-4256-A88E-C233483D11C4}" ShortID="729138005">
+										<AudioFileSource Name="Amb_Specs_Wolf_05" ID="{D6809A6F-8497-4256-A88E-C233483D11C4}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Wolf\Amb_Specs_Wolf_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="729138005"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5410,9 +5668,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Wolf_06" ID="{614E7516-BE67-4E1A-A7E1-C532183983EA}" ShortID="631068449">
+										<AudioFileSource Name="Amb_Specs_Wolf_06" ID="{614E7516-BE67-4E1A-A7E1-C532183983EA}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Wolf\Amb_Specs_Wolf_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="631068449"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5481,9 +5742,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Cicadas_Intense_04" ID="{E01CE981-F52C-4F11-B603-E7F2C5168D12}" ShortID="73064406">
+										<AudioFileSource Name="Amb_Specs_Cicadas_Intense_04" ID="{E01CE981-F52C-4F11-B603-E7F2C5168D12}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Cicadas_Intense\Amb_Specs_Cicadas_Intense_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="73064406"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5500,9 +5764,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Cicadas_Intense_03" ID="{525431CA-C3AA-4319-8D73-3263978F08DA}" ShortID="440463553">
+										<AudioFileSource Name="Amb_Specs_Cicadas_Intense_03" ID="{525431CA-C3AA-4319-8D73-3263978F08DA}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Cicadas_Intense\Amb_Specs_Cicadas_Intense_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="440463553"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5519,9 +5786,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Cicadas_Intense_01" ID="{1E8715A3-B0C9-414D-9C1F-EBDA972B5A0C}" ShortID="528099496">
+										<AudioFileSource Name="Amb_Specs_Cicadas_Intense_01" ID="{1E8715A3-B0C9-414D-9C1F-EBDA972B5A0C}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Cicadas_Intense\Amb_Specs_Cicadas_Intense_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="528099496"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5538,9 +5808,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Amb_Specs_Cicadas_Intense_02" ID="{AC83909D-A8F8-4508-A596-31036B49DA3B}" ShortID="417292017">
+										<AudioFileSource Name="Amb_Specs_Cicadas_Intense_02" ID="{AC83909D-A8F8-4508-A596-31036B49DA3B}">
 											<Language>SFX</Language>
 											<AudioFile>Environments\BG Specs\Cicadas_Intense\Amb_Specs_Cicadas_Intense_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="417292017"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5747,9 +6020,12 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Sfx_Spawn_Portal_01" ID="{87E3A0CC-C7E3-4304-8FE7-FE692BB47C1A}" ShortID="931474576">
+								<AudioFileSource Name="Sfx_Spawn_Portal_01" ID="{87E3A0CC-C7E3-4304-8FE7-FE692BB47C1A}">
 									<Language>SFX</Language>
 									<AudioFile>Environments\Spawn_Portal\Sfx_Spawn_Portal_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="931474576"/>
+									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>

@@ -235,7 +235,7 @@ public partial class AkCommonUserSettings
 		{
 			return potentialPath;
 		}
-		else if(System.IO.File.Exists(System.IO.Path.Combine(potentialPath, architectureName, "AkSoundEngine.dll")))
+		else if(System.IO.File.Exists(System.IO.Path.Combine(potentialPath, System.IO.Path.Combine(architectureName, "AkSoundEngine.dll"))))
 		{
 			return System.IO.Path.Combine(potentialPath, architectureName);
 		}
