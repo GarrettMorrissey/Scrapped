@@ -45,10 +45,9 @@
 						<Effect Name="High_Impact" ID="{2AFD6FB0-C906-4683-A377-FEEEF72967B0}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
 							<PropertyList>
 								<Property Name="AttackTime" Type="Real32" Value="0.04"/>
-								<Property Name="OutputGain" Type="Real32" Value="6"/>
 								<Property Name="Ratio" Type="Real32" Value="12"/>
 								<Property Name="ReleaseTime" Type="Real32" Value="0.5"/>
-								<Property Name="Threshold" Type="Real32" Value="-35"/>
+								<Property Name="Threshold" Type="Real32" Value="-6"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Attack_Remover" ID="{174E7B9A-A16F-4CA7-86D0-530212B5A6AA}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
@@ -129,13 +128,7 @@
 								<Property Name="DelayTime" Type="Real32" Value="1"/>
 							</PropertyList>
 						</Effect>
-						<Effect Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
-							<PropertyList>
-								<Property Name="DelayTime" Type="Real32" Value="0.88"/>
-								<Property Name="Feedback" Type="Real32" Value="29.5"/>
-								<Property Name="WetDryMix" Type="Real32" Value="40"/>
-							</PropertyList>
-						</Effect>
+						<Effect Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3"/>
 						<Effect Name="One_Tap_Half_Second" ID="{B8FE0D3B-7AAB-4344-89FE-177602B7BF19}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3"/>
 						<Effect Name="One_Tap_Quarter_Second" ID="{6BD2D67D-601A-45A6-AD4C-2C089078EBED}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
 							<PropertyList>
@@ -197,7 +190,7 @@
 							<PropertyList>
 								<Property Name="Ratio" Type="Real32" Value="50"/>
 								<Property Name="ReleaseTime" Type="Real32" Value="0.02"/>
-								<Property Name="Threshold" Type="Real32" Value="-6"/>
+								<Property Name="Threshold" Type="Real32" Value="-1"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Brick_Wall_Minus_1dB_Peak_Slow_Release" ID="{9FB8DC2B-7F1C-4E4E-8FA5-50872652D2DD}" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
@@ -227,7 +220,7 @@
 										<Effect Name="Boost_3dB_10KHz" ID="{59632554-9396-4E15-889E-7A2F5458DEC3}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 											<PropertyList>
 												<Property Name="FrequencyBand3" Type="Real32" Value="10000"/>
-												<Property Name="GainBand3" Type="Real32" Value="6"/>
+												<Property Name="GainBand3" Type="Real32" Value="3"/>
 												<Property Name="OnOffBand1" Type="bool" Value="False"/>
 												<Property Name="OnOffBand2" Type="bool" Value="False"/>
 											</PropertyList>
@@ -593,7 +586,7 @@
 								<Effect Name="High_Pass_60Hz" ID="{F9627628-0B10-4272-BC30-D4C20423CB38}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 									<PropertyList>
 										<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
-										<Property Name="FrequencyBand1" Type="Real32" Value="3656"/>
+										<Property Name="FrequencyBand1" Type="Real32" Value="60"/>
 										<Property Name="OnOffBand2" Type="bool" Value="False"/>
 										<Property Name="OnOffBand3" Type="bool" Value="False"/>
 									</PropertyList>
@@ -628,7 +621,7 @@
 									<PropertyList>
 										<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
 										<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
-										<Property Name="FrequencyBand3" Type="Real32" Value="5234"/>
+										<Property Name="FrequencyBand3" Type="Real32" Value="20000"/>
 										<Property Name="OnOffBand1" Type="bool" Value="False"/>
 										<Property Name="OnOffBand2" Type="bool" Value="False"/>
 									</PropertyList>
@@ -665,125 +658,18 @@
 										<Property Name="FilterTypeBand2" Type="int32" Value="3"/>
 										<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
 										<Property Name="FrequencyBand1" Type="Real32" Value="500"/>
-										<Property Name="OnOffBand1" Type="bool">
-											<RTPCList>
-												<RTPC Name="" ID="{67BF33DA-7A38-41B6-A30A-3EBE5E8C8BE8}" ShortID="657766">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Dexter_Health" ID="{4FF430AB-B525-46D3-B253-DB6B86464278}" WorkUnitID="{7BC32310-222F-400A-AF3E-592DBE336D47}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{6BE87609-1B11-4DA2-BE93-9C9D303FFCB0}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="65537"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>1</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>1</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
 										<Property Name="OnOffBand2" Type="bool" Value="False"/>
 									</PropertyList>
 								</Effect>
 								<Effect Name="Dual_Filters_Radio_Comm" ID="{69479ACD-2C87-4007-B83E-55210A3B36B7}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 									<PropertyList>
 										<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
-										<Property Name="FilterTypeBand2" Type="int32" Value="2"/>
 										<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
-										<Property Name="FrequencyBand1" Type="Real32" Value="800">
-											<RTPCList>
-												<RTPC Name="" ID="{FF1D2259-B1C0-49A9-AD87-A74219CE1CF3}" ShortID="74058028">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Dexter_Health" ID="{4FF430AB-B525-46D3-B253-DB6B86464278}" WorkUnitID="{7BC32310-222F-400A-AF3E-592DBE336D47}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{84389B77-FFC0-4091-A026-C491D21DCD28}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="5"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>365.17412</YPos>
-																<Flags>5</Flags>
-																<SegmentShape>Exp2</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>0.34366</XPos>
-																<YPos>270.44968</YPos>
-																<Flags>0</Flags>
-																<SegmentShape>Log2</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>0.4996</XPos>
-																<YPos>20</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>20</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-										<Property Name="FrequencyBand3" Type="Real32" Value="4660">
-											<RTPCList>
-												<RTPC Name="" ID="{2FA04D6F-7960-4617-B7CD-03D4F006C1DB}" ShortID="522215414">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Dexter_Health" ID="{4FF430AB-B525-46D3-B253-DB6B86464278}" WorkUnitID="{7BC32310-222F-400A-AF3E-592DBE336D47}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{97CFBB75-A26F-4D85-BA5A-9CBA339D9BB0}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="5"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>1271.10447</YPos>
-																<Flags>5</Flags>
-																<SegmentShape>Exp2</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>0.33665</XPos>
-																<YPos>1511.55076</YPos>
-																<Flags>0</Flags>
-																<SegmentShape>Log2</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>0.50101</XPos>
-																<YPos>20000</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>20000</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
+										<Property Name="FrequencyBand1" Type="Real32" Value="800"/>
+										<Property Name="FrequencyBand2" Type="Real32" Value="3000"/>
+										<Property Name="FrequencyBand3" Type="Real32" Value="4660"/>
 										<Property Name="GainBand2" Type="Real32" Value="18"/>
-										<Property Name="OnOffBand2" Type="bool" Value="False"/>
-										<Property Name="QFactorBand2" Type="Real32" Value="2"/>
+										<Property Name="OutputLevel" Type="Real32" Value="-12"/>
 									</PropertyList>
 								</Effect>
 							</ChildrenList>
@@ -1293,7 +1179,6 @@
 										<Property Name="DecayTime" Type="Real32" Value="1.3"/>
 										<Property Name="Density" Type="Real32" Value="60"/>
 										<Property Name="Diffusion" Type="Real32" Value="74"/>
-										<Property Name="DryLevel" Type="Real32" Value="-12.3"/>
 										<Property Name="ERLevel" Type="Real32" Value="-18"/>
 										<Property Name="ERPattern" Type="int32" Value="18"/>
 										<Property Name="Filter1Freq" Type="Real32" Value="590"/>
@@ -1622,9 +1507,8 @@
 							<ChildrenList>
 								<Effect Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<PropertyList>
-										<Property Name="DecayTime" Type="Real32" Value="3"/>
+										<Property Name="DecayTime" Type="Real32" Value="1"/>
 										<Property Name="Density" Type="Real32" Value="50"/>
-										<Property Name="DryLevel" Type="Real32" Value="-21.3"/>
 										<Property Name="ERLevel" Type="Real32" Value="-18"/>
 										<Property Name="ERPattern" Type="int32" Value="29"/>
 										<Property Name="Filter1Freq" Type="Real32" Value="210"/>
@@ -1637,8 +1521,8 @@
 										<Property Name="HFDamping" Type="Real32" Value="5.05"/>
 										<Property Name="PreDelay" Type="Real32" Value="145"/>
 										<Property Name="Quality" Type="int32" Value="12"/>
-										<Property Name="ReverbLevel" Type="Real32" Value="-10"/>
-										<Property Name="RoomSize" Type="Real32" Value="27"/>
+										<Property Name="ReverbLevel" Type="Real32" Value="-37"/>
+										<Property Name="RoomSize" Type="Real32" Value="73"/>
 										<Property Name="StereoWidth" Type="Real32" Value="28"/>
 									</PropertyList>
 								</Effect>
@@ -1673,79 +1557,9 @@
 									<PropertyList>
 										<Property Name="DelayTime" Type="Real32" Value="0.5"/>
 										<Property Name="FeedBackLevel" Type="Real32" Value="0.8"/>
-										<Property Name="ModDepth" Type="Real32" Value="53.2"/>
-										<Property Name="ModFrequency" Type="Real32" Value="10">
-											<RTPCList>
-												<RTPC Name="" ID="{AF71DEC6-3048-4859-ABA1-4EDD00829A3C}" ShortID="767881805">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Dexter_Health" ID="{4FF430AB-B525-46D3-B253-DB6B86464278}" WorkUnitID="{7BC32310-222F-400A-AF3E-592DBE336D47}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{5333871C-BDEA-4091-BB3F-6323753018C2}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="5"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>0.03981</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>0.27182</XPos>
-																<YPos>0.00218</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>0.00208</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
+										<Property Name="ModDepth" Type="Real32" Value="70"/>
+										<Property Name="ModFrequency" Type="Real32" Value="2"/>
 										<Property Name="ModPWM" Type="Real32" Value="0"/>
-										<Property Name="ModPhaseOffset" Type="Real32" Value="-87"/>
-										<Property Name="ModPhaseSpread" Type="Real32" Value="119"/>
-										<Property Name="ModSmoothing" Type="Real32" Value="4"/>
-										<Property Name="ModWaveform" Type="int32" Value="2"/>
-										<Property Name="WetDryMix" Type="Real32">
-											<RTPCList>
-												<RTPC Name="" ID="{12049A7D-D997-4EEB-AF11-DAEB65282DB8}" ShortID="863438918">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Dexter_Health" ID="{4FF430AB-B525-46D3-B253-DB6B86464278}" WorkUnitID="{7BC32310-222F-400A-AF3E-592DBE336D47}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{F0D4961F-1780-49F4-9486-FC0B51B7F2B4}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="1"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-31.66629</YPos>
-																<Flags>5</Flags>
-																<SegmentShape>Exp1</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>0.29925</XPos>
-																<YPos>-100</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>-100</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
 									</PropertyList>
 								</Effect>
 								<Effect Name="Bass" ID="{AB3CE4D4-B0DD-4FC2-AC1D-30EB749C5911}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
@@ -1760,105 +1574,12 @@
 								</Effect>
 								<Effect Name="Heavy_Metal" ID="{9104321C-9E54-4879-A29A-EF8D46BE9035}" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
 									<PropertyList>
-										<Property Name="DelayTime" Type="Real32" Value="10"/>
+										<Property Name="DelayTime" Type="Real32" Value="7"/>
 										<Property Name="FeedBackLevel" Type="Real32" Value="0.95"/>
-										<Property Name="ModDepth" Type="Real32" Value="10"/>
-										<Property Name="ModFrequency" Type="Real32" Value="12.98">
-											<RTPCList>
-												<RTPC Name="" ID="{6BBFDE79-151E-478C-BBAE-7D894EB31693}" ShortID="243905088">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Dexter_Health" ID="{4FF430AB-B525-46D3-B253-DB6B86464278}" WorkUnitID="{7BC32310-222F-400A-AF3E-592DBE336D47}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{F5875621-2BF7-46C8-9A6F-79BA24F4778E}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="5"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>11.22024</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>1</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
+										<Property Name="ModDepth" Type="Real32" Value="2"/>
+										<Property Name="ModFrequency" Type="Real32" Value="0.25"/>
 										<Property Name="ModPWM" Type="Real32" Value="0"/>
-										<Property Name="ModSmoothing" Type="Real32" Value="39"/>
-										<Property Name="ModWaveform" Type="int32" Value="3"/>
-										<Property Name="OutputLevel" Type="Real32" Value="3"/>
-										<Property Name="WetDryMix" Type="Real32" Value="65">
-											<RTPCList>
-												<RTPC Name="" ID="{51B783DA-15BC-42BD-825F-5B5BFD10B436}" ShortID="638398190">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Dexter_Health" ID="{4FF430AB-B525-46D3-B253-DB6B86464278}" WorkUnitID="{7BC32310-222F-400A-AF3E-592DBE336D47}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{ECDB6C03-0B3B-41FC-89D1-08A49047C32B}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="1"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-11.66664</YPos>
-																<Flags>5</Flags>
-																<SegmentShape>Exp1</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>0.26685</XPos>
-																<YPos>-100</YPos>
-																<Flags>0</Flags>
-																<SegmentShape>Log2</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>-100</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
 									</PropertyList>
-									<StateInfo>
-										<StatePropertyList>
-											<Property Name="WetDryMix"/>
-										</StatePropertyList>
-										<StateGroupList>
-											<StateGroupInfo>
-												<StateGroupRef Name="Gameplay" ID="{30720D8C-CC8D-4D34-AB10-74223EAF2464}"/>
-											</StateGroupInfo>
-										</StateGroupList>
-										<CustomStateList>
-											<CustomState>
-												<StateRef Name="Intense" ID="{2E35B00C-8914-44D0-BC51-4B7D96CA24F5}"/>
-												<CustomState Name="" ID="{6386B566-73ED-496F-B7A9-B093459C01A6}" ShortID="774148678">
-													<PropertyList>
-														<Property Name="WetDryMix" Type="Real32" Value="12"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Calm" ID="{1DC7901D-D8E6-4831-9BD5-833186329851}"/>
-												<CustomState Name="" ID="{B7CFEC36-16A1-475B-9A50-93235DFBD44C}" ShortID="348686698">
-													<PropertyList>
-														<Property Name="WetDryMix" Type="Real32" Value="-100"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-										</CustomStateList>
-									</StateInfo>
 								</Effect>
 							</ChildrenList>
 						</Folder>
@@ -2137,12 +1858,12 @@
 					<ChildrenList>
 						<Effect Name="Say_what" ID="{E823825D-3114-4F6D-A6A4-7FB673A10A61}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
 							<PropertyList>
-								<Property Name="ModDepth" Type="Real32" Value="22.6"/>
-								<Property Name="ModFrequency" Type="Real32" Value="19"/>
+								<Property Name="ModFrequency" Type="Real32" Value="1.18"/>
 								<Property Name="ModPWM" Type="Real32" Value="27"/>
 								<Property Name="ModPhaseOffset" Type="Real32" Value="-180"/>
 								<Property Name="ModPhaseSpread" Type="Real32" Value="58"/>
 								<Property Name="ModSmoothing" Type="Real32" Value="56"/>
+								<Property Name="ModWaveform" Type="int32" Value="2"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Rhythmic_Talk" ID="{F0F27454-4BCC-4302-A61D-C324E7187DD0}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
@@ -2165,35 +1886,7 @@
 						</Effect>
 						<Effect Name="Boomerang" ID="{65397B72-19EC-43DB-B2D2-EB84437B6BDC}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
 							<PropertyList>
-								<Property Name="ModDepth" Type="Real32" Value="10"/>
-								<Property Name="ModFrequency" Type="Real32" Value="3">
-									<RTPCList>
-										<RTPC Name="" ID="{C0B093CC-4476-45C2-AE49-0D484BDAECF4}" ShortID="467670819">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="Dexter_Health" ID="{4FF430AB-B525-46D3-B253-DB6B86464278}" WorkUnitID="{7BC32310-222F-400A-AF3E-592DBE336D47}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{A3789B1D-8695-4BFF-8011-8262CAA142EC}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="5"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>7.07945</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>1</XPos>
-														<YPos>2.81839</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
-								</Property>
+								<Property Name="ModFrequency" Type="Real32" Value="3"/>
 								<Property Name="ModPWM" Type="Real32" Value="0"/>
 								<Property Name="ModPhaseOffset" Type="Real32" Value="-180"/>
 								<Property Name="ModPhaseSpread" Type="Real32" Value="58"/>
@@ -2212,8 +1905,7 @@
 						</Effect>
 						<Effect Name="Very_Bad_Connection" ID="{0C5A674D-5EC0-45A6-87A7-3885B3196DCD}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
 							<PropertyList>
-								<Property Name="ModDepth" Type="Real32" Value="87.9"/>
-								<Property Name="ModFrequency" Type="Real32" Value="1.4"/>
+								<Property Name="ModFrequency" Type="Real32" Value="1376.52"/>
 								<Property Name="ModPWM" Type="Real32" Value="1"/>
 								<Property Name="ModPhaseOffset" Type="Real32" Value="-180"/>
 								<Property Name="ModSmoothing" Type="Real32" Value="100"/>
@@ -2232,14 +1924,12 @@
 						</Effect>
 						<Effect Name="Fast_LF_Tremolo" ID="{3B09A271-D9D4-4A4E-B545-F681E8313E5F}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
 							<PropertyList>
-								<Property Name="ModDepth" Type="Real32" Value="55.8"/>
-								<Property Name="ModFrequency" Type="Real32" Value="2.78"/>
+								<Property Name="ModFrequency" Type="Real32" Value="19.84"/>
 								<Property Name="ModPWM" Type="Real32" Value="4"/>
 								<Property Name="ModPhaseOffset" Type="Real32" Value="87"/>
 								<Property Name="ModPhaseSpread" Type="Real32" Value="121"/>
 								<Property Name="ModSmoothing" Type="Real32" Value="100"/>
-								<Property Name="ModWaveform" Type="int32" Value="1"/>
-								<Property Name="ProcessLFE" Type="bool" Value="False"/>
+								<Property Name="ModWaveform" Type="int32" Value="3"/>
 							</PropertyList>
 						</Effect>
 						<Effect Name="Fast_LF_Tremolo_No_Smoothing" ID="{D972718E-231C-4DBF-9288-FCAF4BF47B50}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
@@ -2280,86 +1970,8 @@
 								</Effect>
 								<Effect Name="Monsterize" ID="{99F80B38-1C45-42CE-9BCD-E94F3885DCAA}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
 									<PropertyList>
-										<Property Name="DryLevel" Type="Real32" Value="0">
-											<RTPCList>
-												<RTPC Name="" ID="{46BBC39B-21C4-4095-ABDF-3E6C2B21E163}" ShortID="813030732">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Dexter_Health" ID="{4FF430AB-B525-46D3-B253-DB6B86464278}" WorkUnitID="{7BC32310-222F-400A-AF3E-592DBE336D47}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{0C46B1FD-7934-4926-8FBD-268A52DDFE07}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-10.21915</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>0.3602</XPos>
-																<YPos>-6.66427</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>0.59987</XPos>
-																<YPos>0.02612</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
 										<Property Name="FilterFrequency" Type="Real32" Value="2000"/>
 										<Property Name="Pitch" Type="Real32" Value="-1200"/>
-										<Property Name="WetLevel" Type="Real32">
-											<RTPCList>
-												<RTPC Name="" ID="{906F3315-E4F1-4616-A032-B49B0C7A0F91}" ShortID="214900969">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Dexter_Health" ID="{4FF430AB-B525-46D3-B253-DB6B86464278}" WorkUnitID="{7BC32310-222F-400A-AF3E-592DBE336D47}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{455DFE34-824D-41F0-ABC4-12DE7867D520}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>8.91461</YPos>
-																<Flags>5</Flags>
-																<SegmentShape>Exp2</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>0.29359</XPos>
-																<YPos>4.71958</YPos>
-																<Flags>0</Flags>
-																<SegmentShape>Log2</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>0.50076</XPos>
-																<YPos>-120</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>-120</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
 									</PropertyList>
 								</Effect>
 								<Effect Name="Voice_CenterOnly_Lowered" ID="{179558E7-E6DF-4021-9D38-A284DF53B7E5}" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
