@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\sd105garrett\Desktop\Scrapped\WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\sd105garrett\Desktop\Scrapped\WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\sd105garrett\Desktop\Scrapped\WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\sd105chris\Documents\sdgp-scrapped-sd-105\WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\sd105chris\Documents\sdgp-scrapped-sd-105\WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\sd105chris\Documents\sdgp-scrapped-sd-105\WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\sd105garrett\Desktop\Scrapped\WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\sd105chris\Documents\sdgp-scrapped-sd-105\WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3157003241" Language="SFX" Hash="1583504147">
+		<SoundBank Id="3157003241" Language="SFX" Hash="650123221">
 			<ObjectPath>\SoundBanks\TEST\TEST</ObjectPath>
 			<ShortName>TEST</ShortName>
 			<Path>TEST.bnk</Path>
