@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	788884573	Stop			\Default Work Unit\Stop	
+	1281810935	Start			\Default Work Unit\Start	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	378898146	Birds Songs And Calls	C:\Users\sd105garrett\Desktop\Scrapped\WwiseProject\.cache\Windows\SFX\Birds Songs And Calls_10C4C929.wem		\Actor-Mixer Hierarchy\MusicTest\New Virtual Folder\Music\Birds Songs And Calls		21423788
+

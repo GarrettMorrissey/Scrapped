@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5CAACD70-0498-4399-8F5B-D53CC2083405}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{5CAACD70-0498-4399-8F5B-D53CC2083405}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5CAACD70-0498-4399-8F5B-D53CC2083405}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Start" ID="{97E4095E-96EB-44C4-96D2-AD6DA18D042E}">
+					<ChildrenList>
+						<Action Name="" ID="{2C3B169C-68E6-4065-BCEB-B9F23A5F4F48}" ShortID="760043164">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Birds Songs And Calls" ID="{2711F04A-EBE7-415B-A27E-B860C964D1AE}" WorkUnitID="{E472B5D6-912D-4072-BDCA-18EE55BE399C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop" ID="{783F7A88-68EF-4FA5-9AEF-70161E3E4AFE}">
+					<ChildrenList>
+						<Action Name="" ID="{DA451429-7AAD-4229-BD1D-F1F305371658}" ShortID="864994907">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Birds Songs And Calls" ID="{2711F04A-EBE7-415B-A27E-B860C964D1AE}" WorkUnitID="{E472B5D6-912D-4072-BDCA-18EE55BE399C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
