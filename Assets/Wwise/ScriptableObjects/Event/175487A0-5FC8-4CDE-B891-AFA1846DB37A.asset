@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da7310c8a2ef65d42911bcdf236c4ae0, type: 3}
+  m_Name: 175487A0-5FC8-4CDE-B891-AFA1846DB37A
+  m_EditorClassIdentifier: 
+  objectName: Dxter_Bullet_Strong
+  id: 4263402169
+  guid: 175487A0-5FC8-4CDE-B891-AFA1846DB37A

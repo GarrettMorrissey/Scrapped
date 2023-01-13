@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B5C95DE2-792B-4336-A9AE-DC2C77D9F213}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{B5C95DE2-792B-4336-A9AE-DC2C77D9F213}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B5C95DE2-792B-4336-A9AE-DC2C77D9F213}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Dxtr_Gun" ID="{97D81A1C-DFBF-43E3-99DE-B48CD33C0CEB}" ShortID="660088381">
+					<ChildrenList>
+						<Sound Name="DXTR_GUN_04" ID="{0CC66429-C092-4AAC-889F-9E261C8047BE}" ShortID="490518141">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4BD78EDF-32A1-4B74-B63E-7A07637B8B4C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3976C2B3-B7C1-4007-A6F4-DBB86DB2123B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="DXTR_GUN_04" ID="{4C22F80B-DD2D-4CB7-9957-F11C4FD4D88A}">
+									<Language>SFX</Language>
+									<AudioFile>Dxtr_Gun\DXTR_GUN_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="89494287"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="DXTR_GUN_04" ID="{4C22F80B-DD2D-4CB7-9957-F11C4FD4D88A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
