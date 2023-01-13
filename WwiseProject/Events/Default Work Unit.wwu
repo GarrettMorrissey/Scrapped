@@ -28,6 +28,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<WorkUnit Name="Chrish" ID="{195C6A99-DE28-49BD-BA00-7AF6F4DA7BD5}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

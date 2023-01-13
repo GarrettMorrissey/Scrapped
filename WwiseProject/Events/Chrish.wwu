@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{195C6A99-DE28-49BD-BA00-7AF6F4DA7BD5}" SchemaVersion="97" RootDocumentID="{5CAACD70-0498-4399-8F5B-D53CC2083405}">
+	<Events>
+		<WorkUnit Name="Chrish" ID="{195C6A99-DE28-49BD-BA00-7AF6F4DA7BD5}" OwnerID="{5CAACD70-0498-4399-8F5B-D53CC2083405}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Bomber" ID="{DEE1945F-EF1D-4C23-A1AE-21DDBED4BFB1}" ShortID="838919080">
+					<ChildrenList>
+						<Event Name="Sfx_Bomb_Explosion_01" ID="{FE6A6BAA-E91D-493F-933B-52992DEB9C63}">
+							<ChildrenList>
+								<Action Name="" ID="{BFB2300B-7912-4A06-AEC2-9BEB258C89BA}" ShortID="62497609">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enmy_Bomb_Blast" ID="{514A216B-C127-4A33-A4A1-FA09A4C9D9AC}" WorkUnitID="{366413EE-FCAE-4E7F-939E-B3E3F480B3A7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

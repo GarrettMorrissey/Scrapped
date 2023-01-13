@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da7310c8a2ef65d42911bcdf236c4ae0, type: 3}
+  m_Name: FE6A6BAA-E91D-493F-933B-52992DEB9C63
+  m_EditorClassIdentifier: 
+  objectName: Sfx_Bomb_Explosion_01
+  id: 1626713793
+  guid: FE6A6BAA-E91D-493F-933B-52992DEB9C63
