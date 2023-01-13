@@ -1,9 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
 	788884573	Stop			\Default Work Unit\Stop	
 	1281810935	Start			\Default Work Unit\Start	
+	1626713793	Sfx_Bomb_Explosion_01			\Default Work Unit\Chrish\Bomber\Sfx_Bomb_Explosion_01	
 	4263402169	Dxter_Bullet_Strong			\Dxter_Weapon\Dxter_Bullet_Strong	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	89494287	DXTR_GUN_04	C:\Users\sd105garrett\Desktop\Scrapped\WwiseProject\.cache\Mac\SFX\Dxtr_Gun\DXTR_GUN_04_10C4C929.wem		\Actor-Mixer Hierarchy\Dexter_Master\Main_Weapon_Blast\Main_Weapon\DXTR_GUN_04		195196
+	216477538	Sfx_Bomb_Explosion	C:\Users\sd105garrett\Desktop\Scrapped\WwiseProject\.cache\Mac\SFX\Sfx_EnmyBmb_Expld_01_10C4C929.wem		\Actor-Mixer Hierarchy\Chrish\Enemy\Enmy_Bomb_Blast\Sfx_Bomb_Explosion		384064
 	378898146	Birds Songs And Calls	C:\Users\sd105garrett\Desktop\Scrapped\WwiseProject\.cache\Mac\SFX\Birds Songs And Calls_10C4C929.wem		\Actor-Mixer Hierarchy\MusicTest\New Virtual Folder\Music\Birds Songs And Calls		21423788
 
