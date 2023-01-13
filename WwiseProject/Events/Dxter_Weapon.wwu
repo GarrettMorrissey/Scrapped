@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4E19577D-F389-4767-9DBA-64CD805A8D90}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Dxter_Weapon" ID="{4E19577D-F389-4767-9DBA-64CD805A8D90}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Dxter_Bullet_Strong" ID="{175487A0-5FC8-4CDE-B891-AFA1846DB37A}">
+					<ChildrenList>
+						<Action Name="" ID="{D7751273-CF81-44D2-A2A6-9612EBDD730D}" ShortID="274377963">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main_Weapon" ID="{2D02D330-8758-43EB-8C64-148B6FEE3EBD}" WorkUnitID="{5E755F0A-C9DF-4B8A-BA22-B1D09261AA09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

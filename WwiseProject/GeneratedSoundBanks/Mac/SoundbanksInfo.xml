@@ -1,48 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\sd105chrish\Documents\sdgp-scrapped-sd-105\WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\sd105chrish\Documents\sdgp-scrapped-sd-105\WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\sd105chrish\Documents\sdgp-scrapped-sd-105\WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\sd105garrett\Desktop\Scrapped\WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\sd105garrett\Desktop\Scrapped\WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\sd105garrett\Desktop\Scrapped\WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\sd105chrish\Documents\sdgp-scrapped-sd-105\WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\sd105garrett\Desktop\Scrapped\WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="4204904655">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2953616821">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-<<<<<<< HEAD
-		<SoundBank Id="2860040382" Language="SFX" Hash="836655127">
-			<ObjectPath>\SoundBanks\Chrish\Chrish</ObjectPath>
-			<ShortName>Chrish</ShortName>
-			<Path>Chrish.bnk</Path>
-		</SoundBank>
-		<SoundBank Id="3157003241" Language="SFX" Hash="365664294">
-=======
 		<SoundBank Id="3157003241" Language="SFX" Hash="4268398611">
->>>>>>> 45bf0a01ea68d2c67dfa7b245bff43bc5461a36a
 			<ObjectPath>\SoundBanks\TEST\TEST</ObjectPath>
 			<ShortName>TEST</ShortName>
 			<Path>TEST.bnk</Path>
 			<IncludedEvents>
-<<<<<<< HEAD
-				<Event Id="1626713793" Name="Sfx_Bomb_Explosion_01" ObjectPath="\Events\Default Work Unit\Chrish\Bomber\Sfx_Bomb_Explosion_01" DurationType="OneShot" DurationMin="2." DurationMax="2.">
-					<IncludedMemoryFiles>
-						<File Id="216477538" Language="SFX">
-							<ShortName>Sfx_EnmyBmb_Expld_01.wav</ShortName>
-							<Path>SFX\Sfx_EnmyBmb_Expld_01_10C4C929.wem</Path>
-=======
 				<Event Id="4263402169" Name="Dxter_Bullet_Strong" ObjectPath="\Events\Dxter_Weapon\Dxter_Bullet_Strong" DurationType="OneShot" DurationMin="2.032625" DurationMax="2.032625">
 					<IncludedMemoryFiles>
 						<File Id="89494287" Language="SFX">
 							<ShortName>Dxtr_Gun\DXTR_GUN_04.wav</ShortName>
 							<Path>SFX\Dxtr_Gun\DXTR_GUN_04_10C4C929.wem</Path>
->>>>>>> 45bf0a01ea68d2c67dfa7b245bff43bc5461a36a
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
